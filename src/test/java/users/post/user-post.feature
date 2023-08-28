@@ -3,24 +3,32 @@ Feature: Post user to Reqres
   Background:
     * configure logPrettyResponse = true
     * configure logPrettyRequest = true
-    * url "https://reqres.in"
+    * url api.baseUrl
     * path "/api/users/"
     * def req = {  "name": "mauro",  "job": "qa"  }
 
-  Scenario: Post a user
+  @Retry #Intenta 3 veces por defecto con intervalo de 3 segundos
+  Scenario: Post a user with retry
     Given request req
+    And retry until responseStatus != 201
+    When method post
+    Then status 204
+
+  @Retry_with_configuration
+  Scenario: Post a user with retry with configuration
+    * configure retry = { count: 4, interval: 5000 }
+    Given request req
+    And retry until responseStatus != 502 && responseStatus != 504
     When method post
     Then status 201
     And match $.name == 'mauro'
 
-
+  @Outline-variables
   Scenario Outline: Post some users
     Given request  {  "name": "#(varName)",  "job": "<job>"  }
     When method post
     Then status 201
     * print response
-
-
 # -> #(rolesTest.firstRol) extrae objeto definido desde karate-config.js
     Examples:
       | varName | job                   |
@@ -29,6 +37,7 @@ Feature: Post user to Reqres
       | pedro   | developer             |
 
 
+  @Js_functions-fuzzy_matching
   Scenario: Post a user with function js
     * def uuid = function(){ return java.util.UUID.randomUUID() + ""}
     * def generateRandomName =
@@ -49,6 +58,7 @@ Feature: Post user to Reqres
     Then status 201
     And match $.name == '#string'
 
+  @Java_functions-fuzzy_matching
   Scenario: Post a user with function en file JAVA
     * def randomUtils = Java.type('users.utils.NameUtils')
     * def randomName = randomUtils.generateRandomName()
@@ -59,13 +69,6 @@ Feature: Post user to Reqres
 
 
 
-#TODO pendiente Ejecuciones por consola, Tables, Matchers
 
-#  * table data
-#  | user     | account_type     | account_number     | state     |
-#  | '<user>' | '<account_type>' | '<account_number>' | '<state>' |
-#
-#  * def resultList = call read('../listpockets/list_pockets.feature@SnippetListPocket') {data: data, pocket_number: '#(pocket_number)'}
-#
-#  * def dataRequest = { account_type: '#(data.account_type)', account_number:'#(data.account_number)', state: '#(data.state)'}
+
 

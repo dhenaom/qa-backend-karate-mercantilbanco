@@ -2,6 +2,7 @@ function fn() {
     karate.configure('connectTimeout', 7000);
     karate.configure('readTimeout', 7000);
     karate.configure('ssl', true);
+
 //  karate.propetiores definida desde entorno de ejecucion
     let baseUrl = karate.properties['baseUrl'] || 'https://reqres.in'
 
