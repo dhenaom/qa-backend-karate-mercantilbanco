@@ -8,7 +8,7 @@ Proyecto base de karate full.
 En este proyecto base puede encontrar diferentes casos de uso con las diferentes funcionalidades de Karate. Como: Config | Scenarios outline | Variables | Reutilización - Calls | Read | Matchers y fuzzy matching | Retry | Expresiones regulares | tables | JS functions | Java functions | Condicionales | Paralelización | print | Ejecución con Runners | Variables de entorno y ejecución desde consola.
 
 ## Consideraciones
-    - El proyecto usa como servicio base el servicio demo Reqres, el correcto funcionamiento de los casos de uso dependeran de la       disponibilidad del servicio demo en cuestion
+    - El proyecto usa como servicio base el servicio demo Reqres, el correcto funcionamiento de los casos de uso dependeran de la disponibilidad del servicio demo en cuestion
 
 
 ## ✅ Technologies
