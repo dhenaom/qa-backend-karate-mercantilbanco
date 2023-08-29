@@ -106,7 +106,7 @@ If you have ideas for releases in the future, it is a good idea to list them in 
 
 ## Authors and acknowledgment
 
-| [<img src="https://gitlab.com/uploads/-/system/user/avatar/13437423/avatar.png?width=400" width=115><br><sub>Mauro L. Ibarra P.</sub>](https://gitlab.com/mauro.ibarrap) <br/> | [<img src="https://secure.gravatar.com/avatar/4fd1b4dbc11df94113fb462a97f549ab?s=800&d=identicon" width=115><br><sub>V. Manuel Soto</sub>](https://gitlab.com/johan.agudelov) |
+| [<img src="https://gitlab.com/uploads/-/system/user/avatar/13437423/avatar.png?width=400" width=115><br><sub>Mauro L. Ibarra P.</sub>](https://gitlab.com/mauro.ibarrap) <br/> | [<img src="https://secure.gravatar.com/avatar/4fd1b4dbc11df94113fb462a97f549ab?s=800&d=identicon" width=115><br><sub>Johan E. Agudelo</sub>](https://gitlab.com/johan.agudelov) |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 
 ## License
