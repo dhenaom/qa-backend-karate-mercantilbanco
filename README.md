@@ -1,39 +1,68 @@
-# proyecto-base-karate-full
 
 
-## Name
-Proyecto base de karate full.
+<h1 align="center">
+  <br>
+  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://f.hubspotusercontent20.net/hubfs/2829524/Copia%20de%20LOGOTIPO_original-2.png"></a>
+  <br>
+  Pragma
+  <br>
+</h1>
 
-## Description
+<h4 align="center">Proyecto base de <a href="https://github.com/karatelabs/karate" target="_blank">Karate</a> full .</h4>
+
+<p align="center">
+  <a href="https://badge.fury.io/js/electron-markdownify">
+    <img src="https://badge.fury.io/js/electron-markdownify.svg"
+         alt="Gitter">
+  </a>
+  <a href="https://gitter.im/amitmerchant1990/electron-markdownify"><img src="https://badges.gitter.im/amitmerchant1990/electron-markdownify.svg"></a>
+  <a href="https://saythanks.io/to/bullredeyes@gmail.com">
+      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
+  </a>
+  <a href="https://www.paypal.me/AmitMerchant">
+    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
+  </a>
+</p>
+
 En este proyecto base puede encontrar diferentes casos de uso con las diferentes funcionalidades de Karate. Como: Config | Scenarios outline | Variables | Reutilización - Calls | Read | Matchers y fuzzy matching | Retry | Expresiones regulares | tables | JS functions | Java functions | Condicionales | Paralelización | print | Ejecución con Runners | Variables de entorno y ejecución desde consola.
+<p align="center">
+  <a href="#topicos">Topicos</a> •
+  <a href="#instalación-y-ejecución">Instalación y ejecución</a> •
+    <a href="#descarga">Descarga</a> •
+  <a href="#download">Descripción</a> •
+  <a href="#download">Consideraciones</a> •
+  <a href="#download">Tecnologias</a> •
+  <a href="#credits">Autores</a> •
+  <a href="#related">Relacionados</a> •
+  <a href="#roadmap">Roadmap</a>
+</p>
 
-## Consideraciones
-    - El proyecto usa como servicio base el servicio demo Reqres, el correcto funcionamiento de los casos de uso dependeran de la disponibilidad del servicio demo en cuestion
+![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
 
+## Topicos
 
-## ✅ Technologies
-### This project required:
-- [JDK java] 
-- [Karate] 
-- [Gradle] 
+* Karate
+* Java
+* Rest
+* Gherkin
+* Cucumber
 
+## Instalación y ejecución
 
-## Project status
-<h4 align="center"> 🚧 Proyecto en construcción 🚧 </h4> 
+Para clonar y ejecutar está aplicación, necesitas [Git](https://git-scm.com) and [Java JDK](https://nodejs.org/en/download/) instalados en tu equipo. Desde la linea de comando:
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+```bash
+# Clone this repository
+$ git clone https://github.com/amitmerchant1990/electron-markdownify
 
-## 📁 Access to project
+# Go into the repository
+$ cd electron-markdownify
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+# Install dependencies
+$ npm install
 
-```
-cd existing_repo
-git remote add origin https://gitlab.com/calidad_de_software/digital-assests/pruebas-backend/karate/proyecto-base-karate-full.git
-git branch -M develop
-git push -uf origin develop
+# Run the app
+$ npm start
 ```
 
 ### Run con java jar
@@ -78,38 +107,32 @@ java -jar karate-1.4.0.jar -Dkarate.options="--config karate-config.js" ruta_del
  
 ```
 
-## Collaborate with your team
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+## Descarga
 
-## Test and Deploy
+Puedes descargar el proyecto en el enlace [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) 
 
-Use the built-in continuous integration in GitLab.
+## Consideraciones
+El proyecto usa como servicio base el servicio demo Reqres, el correcto funcionamiento de los casos de uso dependeran de la disponibilidad del servicio demo en cuestion
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+## Tecnologias
+-   [JDK java]
+-   [Karate]
+-   [Gradle]
 
-***
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+## Autores
+
+This software uses the following open source packages:
+
+- Mauro L. Ibarra P.
+- Johan E. Agudelo
+
+## Relacionados
+
+- [Proyecto Karate Base](https://github.com/amitmerchant1990/markdownify-web)
+
 
 ## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
 
-## Authors and acknowledgment
-
-| [<img src="https://gitlab.com/uploads/-/system/user/avatar/13437423/avatar.png?width=400" width=115><br><sub>Mauro L. Ibarra P.</sub>](https://gitlab.com/mauro.ibarrap) <br/> | [<img src="https://secure.gravatar.com/avatar/4fd1b4dbc11df94113fb462a97f549ab?s=800&d=identicon" width=115><br><sub>Johan E. Agudelo</sub>](https://gitlab.com/johan.agudelov) |
-|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-
-## License
-Open source project.
-
-
+- [Guia QA](https://github.com/amitmerchant1990/pomolectron) - (En construcción) Una guia de proyectos Orientados a la Calidad de Software
