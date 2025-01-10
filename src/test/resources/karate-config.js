@@ -1,23 +1,25 @@
 function fn() {
-    karate.configure('connectTimeout', 7000);
-    karate.configure('readTimeout', 7000);
-    karate.configure('ssl', true);
-
-//  karate.propetiores definida desde entorno de ejecucion
-    let baseUrl = karate.properties['baseUrl'] || 'https://reqres.in'
-
-//  Las propiedades se pueden definir de manera abierta (segun se necesiten setear desde el entorno de ejecucion), ejemplo
-//  let apicEnv = karate.properties['apicEnv'] || 'testing'
-//  let pathBase = 'api/v1/private-holaMundo/'+ apicEnv +'/v1/operations/products'
-
-    return {
-        api: {
-            baseUrl: baseUrl // + '/' + pathBase
+    var config = {
+        user: 'ctorres_MBSA',
+        badUser: 'badUser',
+        requestChallenge: {
+            urlBase: 'http://localhost:8080/party-authentication/',
+            connectTimeout: 2000, // Tiempo de conexión para este microservicio
+            readTimeout: 2000     // Tiempo de lectura para este microservicio
         },
-        rolesTest: {
-            firstRol: "qa",
-            secondRol: "leader",
-            thirdRol: "developer",
+        userState: {
+            urlBase: 'https://api.bancomercantil.com/user-state',
+            authMethod: 'Basic',
+            connectTimeout: 1000,
+            readTimeout: 1000
+        },
+        validateChallenge: {
+            urlBase: 'https://api.bancomercantil.com/validate-challenge',
+            authMethod: 'API-Key',
+            connectTimeout: 1000,
+            readTimeout: 1000
         }
     };
+
+    return config;
 }
