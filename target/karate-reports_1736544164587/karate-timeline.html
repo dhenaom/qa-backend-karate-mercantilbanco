@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"pool-1-thread-1","id":1},{"content":"pool-1-thread-2","id":2},{"content":"pool-1-thread-3","id":3},{"content":"pool-1-thread-4","id":4}];
+var items = [{"id":1,"group":1,"content":"pa\/com\/bancomercantil.authentication\/karate\/requestchallenge\/features\/requestchallenge_success[1.1:18]","start":1736544111327,"end":1736544112741,"title":"pa\/com\/bancomercantil.authentication\/karate\/requestchallenge\/features\/requestchallenge_success[1.1:18] 16:21:51.327-16:21:52.741 Solicitud exitosa con distintos métodos de autenticación"},{"id":2,"group":2,"content":"pa\/com\/bancomercantil.authentication\/karate\/requestchallenge\/features\/requestchallenge_success[1.2:19]","start":1736544111327,"end":1736544112699,"title":"pa\/com\/bancomercantil.authentication\/karate\/requestchallenge\/features\/requestchallenge_success[1.2:19] 16:21:51.327-16:21:52.699 Solicitud exitosa con distintos métodos de autenticación"},{"id":3,"group":3,"content":"pa\/com\/bancomercantil.authentication\/karate\/requestchallenge\/features\/requestchallenge_success[1.3:20]","start":1736544111327,"end":1736544112488,"title":"pa\/com\/bancomercantil.authentication\/karate\/requestchallenge\/features\/requestchallenge_success[1.3:20] 16:21:51.327-16:21:52.488 Solicitud exitosa con distintos métodos de autenticación","className":"failed"},{"id":4,"group":4,"content":"pa\/com\/bancomercantil.authentication\/karate\/requestchallenge\/features\/requestchallenge_success[1.4:21]","start":1736544111327,"end":1736544112634,"title":"pa\/com\/bancomercantil.authentication\/karate\/requestchallenge\/features\/requestchallenge_success[1.4:21] 16:21:51.327-16:21:52.634 Solicitud exitosa con distintos métodos de autenticación"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
