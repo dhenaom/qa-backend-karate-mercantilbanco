@@ -1,0 +1,1359 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports  - Feature: pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallenge_success.feature</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>Rick and Morty API</td>
+      <td>10 Jan 2025, 17:04</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Feature Report</h2>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table class="stats-table">
+
+
+<thead>
+  <tr class="header dont-sort">
+      <th></th>
+    <th colspan="6">Steps</th>
+    <th colspan="3">Scenarios</th>
+    <th colspan="2">Features</th>
+  </tr>
+  <tr>
+    <th>Feature</th>
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="skipped">Skipped</th>
+    <th class="pending">Pending</th>
+    <th class="undefined">Undefined</th>
+    <th class="total">Total</th>
+
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="total">Total</th>
+
+    <th>Duration</th>
+    <th>Status</th>
+  </tr>
+</thead>
+
+
+        <tbody>
+        <tr>
+          <td class="tagname">pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallenge_success.feature</td>
+          <td      class="passed"    >27</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="total">27</td>
+
+          <td  class="passed"    >3</td>
+          <td >0</td>
+          <td class="total">3</td>
+
+          <td class="duration" data-value="1518820250">1.518</td>
+          <td class="passed">Passed</td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-1 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="feature">
+
+<div class="tags indention">
+</div>
+
+
+<div class="brief passed">
+  <span class="keyword indention">Feature</span>
+  <span class="name">pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallenge_success.feature</span>
+
+
+</div>
+
+        <div class="description indention">Validar autenticaci&oacute;n exitosa con distintos tipos de autenticaci&oacute;n</div>
+
+        <div class="elements inner-level">
+
+<div class="element">
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">0.043</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-1" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def config = call read('classpath:karate-config.js')</span>
+
+  <span class="lead-duration duration">0.024</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.configure('connectTimeout', config.requestChallenge.connectTimeout)</span>
+
+  <span class="lead-duration duration">0.004</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.configure('readTimeout', config.requestChallenge.readTimeout)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def urlBase = config.requestChallenge.urlBase</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def body = karate.read('../jsonRequest/bodyRequestChallenge.json')</span>
+
+  <span class="lead-duration duration">0.013</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">0.744</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-3">
+
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Solicitud exitosa con distintos m&eacute;todos de autenticaci&oacute;n</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-3" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-4">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-4" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">url urlBase + user + '/authenticators/' + 'otp' + '/evaluate'</span>
+
+  <span class="lead-duration duration">0.004</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request body</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method post</span>
+
+  <span class="lead-duration duration">0.738</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-5">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-5" class="collapse collapsable-details">
+        <pre>17:04:48.107 request:
+1 &gt; POST http://localhost:8080/party-authentication/ctorres_MBSA/authenticators/otp/evaluate
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 59
+1 &gt; Host: localhost:8080
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;PartyAuthenticationAssessment&quot;:{&quot;OtpDeliveryType&quot;:&quot;SMS&quot;}}
+
+17:04:48.742 response time in milliseconds: 634
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Date: Fri, 10 Jan 2025 22:04:48 GMT
+1 &lt; Keep-Alive: timeout=60
+1 &lt; Connection: keep-alive
+{&quot;statusCode&quot;:&quot;200&quot;,&quot;status&quot;:&quot;SUCCESS&quot;,&quot;message&quot;:&quot;get.user.challenge.success&quot;,&quot;data&quot;:{&quot;PartyAuthenticationAssessment&quot;:{&quot;PartyReference&quot;:&quot;ctorres_MBSA&quot;},&quot;Password&quot;:{&quot;AuthenticationReferenceDataType&quot;:&quot;OTP&quot;,&quot;AuthenticationPasswordPresentedValue&quot;:&quot;GP5KA8I6qS35cEMaEOn4lsmKkZt5Ha640AepyToRAL14+HHrVaNvOE8sZx3tyyF4q3q1JDcvLgqjZtdZjOTJiwx1lF9oNCTfgc7uedcXJaZyXCH1coQsssIUKYZQX9SRjAoKZI7rWMS5vYgQZC4dJPIhHBO0nA1iUf/bXjFoSRDrawj6mXCbFC43gmVzrjRPvUXJy63JmhlIHAF7cZIE7HzJlxm/ycVOPMkQ0QQ25MLFyQhaLGWiJ7v6FrZo0T0wUoahu79ruW/qO+BPdsjdqIicvo3CBq9XKVGTOJ8YcP015zSv8qNvP6d086OwjrLt5hcdh3SVFhlle6dLmA6ZnGrZwgnxs8nOS28XWQEssVVoYeWftCRXTseXzRG8oF+E+8lbYWDuPs/3h2CjpbmFD1cIXCve3XaCKdIkpS2ZfVxJ90V8U+U+DBxKiCcFdJZKS+aW5d5I8UWnqAsKs3I37hdfUUh5tbqQpo9MZI5nTSwKY00FTbtrkocqCftKK/Mn2m+ItvAQH9LShJnnl918MugYgw2PjDFR5gy5NS9GNFh8uT0meVMoWw3uTSou2AV349oddaa3eMXCu7dpOGapaWHn7BWcwSp6YQtaYWY+pJYvWKQ4S+COFB/WxmoD4iSKfbcbspRPTDTnrYGhEM9dxauZHptxHtiMv2em+/XIoLy3gl7MEjwspB79TKobTkv5re1l6jhCcfzd9XfWe7/v+Se1qeJHnLes85PXeiumU2h0eWJ5+NsFzlNLr9cr2FZ1j9jPcIuiPK1n+vvYjgZok/H9SLI=&quot;,&quot;AuthenticationPasswordExpiresValue&quot;:&quot;1736546988731&quot;}},&quot;timestamp&quot;:&quot;2025-01-10T17:04:48.736922-05:00&quot;,&quot;traceId&quot;:&quot;generated-fallback-transactionId&quot;}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">0.003</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-6">
+
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-6" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-7">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-7" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def config = call read('classpath:karate-config.js')</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.configure('connectTimeout', config.requestChallenge.connectTimeout)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.configure('readTimeout', config.requestChallenge.readTimeout)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def urlBase = config.requestChallenge.urlBase</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def body = karate.read('../jsonRequest/bodyRequestChallenge.json')</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">0.373</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-8">
+
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Solicitud exitosa con distintos m&eacute;todos de autenticaci&oacute;n</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-8" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-9">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-9" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">url urlBase + user + '/authenticators/' + 'token' + '/evaluate'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request body</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method post</span>
+
+  <span class="lead-duration duration">0.372</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-10">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-10" class="collapse collapsable-details">
+        <pre>17:04:48.756 request:
+1 &gt; POST http://localhost:8080/party-authentication/ctorres_MBSA/authenticators/token/evaluate
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 59
+1 &gt; Host: localhost:8080
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;PartyAuthenticationAssessment&quot;:{&quot;OtpDeliveryType&quot;:&quot;SMS&quot;}}
+
+17:04:49.127 response time in milliseconds: 371
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Date: Fri, 10 Jan 2025 22:04:49 GMT
+1 &lt; Keep-Alive: timeout=60
+1 &lt; Connection: keep-alive
+{&quot;statusCode&quot;:&quot;200&quot;,&quot;status&quot;:&quot;SUCCESS&quot;,&quot;message&quot;:&quot;get.user.challenge.success&quot;,&quot;data&quot;:{&quot;PartyAuthenticationAssessment&quot;:{&quot;PartyReference&quot;:&quot;ctorres_MBSA&quot;},&quot;Password&quot;:{&quot;AuthenticationReferenceDataType&quot;:&quot;TOKEN&quot;,&quot;AuthenticationPasswordPresentedValue&quot;:&quot;GIOUQI6/jf2CJYvsLqcY1Mezoi/voE0nCfAiCG69ZGSWe4Ygz9fFypEAJV9L+BLMXp1sHbBhJK3x9NRtUTe41MujIpJvyRxAX+89+Uk7DSdsdZMRajur0B0kZx106qe+jwbMvOcKPbgwQ3Gh5iZaHzeme243fKLlPFTUyXgUEEbvAuW4D1gb3mjwPLmCj9sOlfSvSbK7P4zH6v0DN/FNoBM1mWCpAGmtskD5QmLjxVni5CFX/0eU21lfBmsDQ+/U0oCHwHQHmaZ0b/Mtp4WFC6m7RqMPcewC92MpOD9oa7mT96z06r6nCv2dJaqzEii1xIY82HT50uCbXMXlSp75MzIlS6/6m+ZYv3hT6DH47TbDE0cbtuYl422JebSEBwNXmxjzYfnk/HsUf7BqdaoZJbM0zWE7a/1KsaXgD690gCFsTo6q0SOisuRO531/a6d0FKGhfCLmFm080Vth9v/DoRnnAaRidfq6BBUinlBTHeV+m6RKg6RgV5Hij6BfuOPgi1Qvzx9rr9EgFwnIQkaGm8VM7xsjddh14dDuWzdE5u6jd+zyfjkdLRh1giycDSqisO7qM56BKzNOOEh9BrmyH2ubV30IiCFCFyRX0YsuTKfFLQ+e4na9wXoiqg7bWdEi450f47NgV8N1kOUoTLm5V7mUa+amWm8cRvxaCxl+AeUXyhLtEBg8Bl87CpMbxgmbL6D272o7jgo6uI8PwjjDjvhoYVx82wflRaIkZwduxGXb3vjQlewyU/XxxvcA+UJupF+G1Kg0tkl1N8aZSCTD06sYAT0=&quot;,&quot;AuthenticationPasswordExpiresValue&quot;:&quot;1736546989125&quot;}},&quot;timestamp&quot;:&quot;2025-01-10T17:04:49.124241-05:00&quot;,&quot;traceId&quot;:&quot;generated-fallback-transactionId&quot;}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">0.004</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-11">
+
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-11" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-12">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-12" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def config = call read('classpath:karate-config.js')</span>
+
+  <span class="lead-duration duration">0.002</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.configure('connectTimeout', config.requestChallenge.connectTimeout)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">karate.configure('readTimeout', config.requestChallenge.readTimeout)</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def urlBase = config.requestChallenge.urlBase</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def body = karate.read('../jsonRequest/bodyRequestChallenge.json')</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">0.349</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-13">
+
+<div class="brief passed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Solicitud exitosa con distintos m&eacute;todos de autenticaci&oacute;n</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-13" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-14">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-14" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">url urlBase + user + '/authenticators/' + 'kba' + '/evaluate'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request body</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method post</span>
+
+  <span class="lead-duration duration">0.348</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-15">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-15" class="collapse collapsable-details">
+        <pre>17:04:49.138 request:
+1 &gt; POST http://localhost:8080/party-authentication/ctorres_MBSA/authenticators/kba/evaluate
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 59
+1 &gt; Host: localhost:8080
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;PartyAuthenticationAssessment&quot;:{&quot;OtpDeliveryType&quot;:&quot;SMS&quot;}}
+
+17:04:49.485 response time in milliseconds: 346
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Date: Fri, 10 Jan 2025 22:04:49 GMT
+1 &lt; Keep-Alive: timeout=60
+1 &lt; Connection: keep-alive
+{&quot;statusCode&quot;:&quot;200&quot;,&quot;status&quot;:&quot;SUCCESS&quot;,&quot;message&quot;:&quot;get.user.challenge.success&quot;,&quot;data&quot;:{&quot;PartyAuthenticationAssessment&quot;:{&quot;PartyReference&quot;:&quot;ctorres_MBSA&quot;},&quot;Password&quot;:{&quot;AuthenticationReferenceDataType&quot;:&quot;KBA&quot;,&quot;AuthenticationPasswordPresentedValue&quot;:&quot;GBZFIn1vd5bNfumqgApZoSIGpBetThx4n/9/UIQrwxZxo9sb720Gev6YbyBd4WKE3H8qSuVHOZGwBJPSVJ3v1vCUhXZyzhBgMwes3Fjkx+zbAZ4mfsipUs1tz/VxhdgZtV8VQ4ASQMVdjmnx3azEi5+qFv3bB5nGjewp1ZyhTHGVZyO1wmm+8xnYsiaGSpcdzvNK9Qlt09OzQCx2kBI5p1dUnkCf0WsiL41CaNZ/yjnWyaWTorfhCndZnOQ7RR4B5AnoQS/DEwIQxlMwGflYp9/FSD/v/b4mYxokqFIyG0qkiGSi4scSGn147xRSBbbxdKUHsIxFDAH21jRFk+I9pomAD8ZeimkC9nnjHu6dwop2nWY2U+06e6XAmxTr5BMq2tx6kQf/6olaS/bUOwGaUl3/6wPESlznqktrs6VxuGV4f6qPJKBASPN8np31Xw/puGBipDYJRdZotDD12Ajy0Fas18DP1bGYGNM7+g5/S6oOAm+dxCAyV68+5t3koh7KxliUOxS/QExlQvjqtWh3TAZNqW9tYvVZa7SVXRl1cgeE6lAWgoqZMR9YgwxpWdzEJsrhvp/f36AJ653pIbxQC035AEeFO4fAc2WZDyeuaiZXHuKm56QjCqb7UwWXGwbBOy/9vZ1xLgg1GjzjIlvU7bD2m/A7b6vROQCP0qCgYinQfNfEpf314WU3jdU7ca102R1XsrjHJpy/LSQSBw2lisu4GatkvPhdZzwRi/ZQOkfH+5Iw8/HUbXOGrdi+DWXZvmBSIYhSYwQ9+QNS71uyWi5yh2s=&quot;,&quot;AuthenticationPasswordExpiresValue&quot;:&quot;1736546989485&quot;},&quot;Question&quot;:{&quot;AuthenticationSecretQuestionValue&quot;:{&quot;KbaChallenge&quot;:{&quot;Id&quot;:&quot;1dfd2686-065a-4030-8165-36322402c9e1&quot;,&quot;UserQuestions&quot;:[{&quot;Id&quot;:&quot;da88e17b-1842-4fba-bf90-dadf537fdf4b&quot;,&quot;Question&quot;:&quot;&iquest;A qu&eacute; hora del d&iacute;a naci&oacute; usted?&quot;},{&quot;Id&quot;:&quot;39a0344c-dfe9-4bdf-88e3-e9da4de7dfc1&quot;,&quot;Question&quot;:&quot;&iquest;A qu&eacute; hora del d&iacute;a naci&oacute; su hijo(a) mayor?&quot;}]}}}},&quot;timestamp&quot;:&quot;2025-01-10T17:04:49.483731-05:00&quot;,&quot;traceId&quot;:&quot;generated-fallback-transactionId&quot;}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-1 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+<br/>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
