@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/requestchallenge/runners/RequestChallengePost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallenge_success.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/jsonRequest/bodyRequestChallenge.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pa/com/bancomercantil/authentication/karate/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/users/json/list_of_users.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/users/json/list_of_users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/karate-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/karate-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +86,9 @@
     &quot;Gradle.qa-backend-karate-mercantil [clean].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.qa-backend-karate-mercantil [test].executor&quot;: &quot;Run&quot;,
     &quot;Karate.requestchallenge_success.executor&quot;: &quot;Run&quot;,
+    &quot;Karate.requestchallenge_success.feature.executor&quot;: &quot;Run&quot;,
+    &quot;Karate.requestchallenge_success.feature:9 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Karate.requestchallenge_success.feature:9.executor&quot;: &quot;Run&quot;,
     &quot;Karate.requestchallenge_success:9.executor&quot;: &quot;Run&quot;,
     &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
     &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
@@ -106,7 +99,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/DHM_Pragma/Documents/qa-backend-karate-mercantil/src/test/resources/pa/com/bancomercantil.authentication/karate&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/DHM_Pragma/Documents/Mercantil/qa-backend-karate-mercantilbanco&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
@@ -130,8 +123,8 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Karate.requestchallenge_success:9">
-    <configuration name="ManagementUserTest.testParallel" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.RequestChallengePost">
+    <configuration name="RequestChallengePost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -144,31 +137,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;users.ManagementUserTest.testParallel&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="UserGetRunner.userGet" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;users.get.UserGetRunner.userGet&quot;" />
+            <option value="&quot;pa.com.bancomercantil.authentication.karate.requestchallenge.runners.RequestChallengePost&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -201,29 +170,34 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="requestchallenge_success" type="KarateRunConfiguration" factoryName="KarateRunConfiguration" temporary="true">
-      <option name="karatePath" value="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallenge_success.feature" />
+    <configuration name="requestchallenge_success.feature" type="karateConfigurationType" temporary="true" lineNumber="1" testName="requestchallenge_success.feature" testDescription="Feature:" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallenge_success.feature" preferredTest="WHOLE_FILE" parallelism="5" allInFolderAreFeature="false" relPath="pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallenge_success.feature">
+      <option name="MAIN_CLASS_NAME" value="com.rankweis.uppercut.testrunner.KarateTestRunner" />
       <module name="proyecto-base-karate-primeros-pasos.test" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="requestchallenge_success:9" type="KarateRunConfiguration" factoryName="KarateRunConfiguration" temporary="true">
-      <option name="karatePath" value="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallenge_success.feature:9" />
+    <configuration name="requestchallenge_success.feature:9 (1)" type="karateConfigurationType" temporary="true" lineNumber="9" testName="requestchallenge_success.feature" testDescription="Feature: Validar autenticación exitosa con distintos tipos de autenticacion&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('urlBase', config.requestChallenge.urlBase)&#10;    * karate.configure('connectTimeout', config.requestChallenge.connectTimeout)&#10;    * karate.configure('readTimeout', config.requestChallenge.readTimeout)&#10;    * def body = karate.read('../jsonRequest/bodyRequestChallenge.json')&#10;&#10;  Scenario: Solicitud exitosa con distintos metodos&#10;    * def authenticateType = '&lt;authenticateType&gt;'&#10;    * def urlBase = urlBase + user +'/authenticators/' + authenticateType + '/evaluate'&#10;    Given url urlBase&#10;    When method post&#10;    And request body&#10;    Then status 200" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallenge_success.feature" preferredTest="SINGLE_SCENARIO" parallelism="5" allInFolderAreFeature="false" relPath="pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallenge_success.feature">
+      <option name="MAIN_CLASS_NAME" value="com.rankweis.uppercut.testrunner.KarateTestRunner" />
       <module name="proyecto-base-karate-primeros-pasos.test" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="requestchallenge_success.feature:9" type="karateConfigurationType" temporary="true" lineNumber="9" testName="requestchallenge_success.feature" testDescription="Feature: Validar autenticación exitosa con distintos tipos de autenticacion&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('urlBase', config.requestChallenge.urlBase)&#10;    * karate.configure('connectTimeout', config.requestChallenge.connectTimeout)&#10;    * karate.configure('readTimeout', config.requestChallenge.readTimeout)&#10;    * def body = karate.read('../jsonRequest/bodyRequestChallenge.json')&#10;&#10;  Scenario: Solicitud exitosa con distintos metodos&#10;    * def authenticateType = '&lt;authenticateType&gt;'&#10;    * def urlBase = urlBase + user +'/authenticators/' + authenticateType + '/evaluate'&#10;    Given urlBase&#10;    When method post&#10;    And request body&#10;    Then status 200" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallenge_success.feature" preferredTest="SINGLE_SCENARIO" parallelism="5" allInFolderAreFeature="false" relPath="pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallenge_success.feature">
+      <option name="MAIN_CLASS_NAME" value="com.rankweis.uppercut.testrunner.KarateTestRunner" />
+      <module name="proyecto-base-karate-primeros-pasos.test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Karate.requestchallenge_success:9" />
-        <item itemvalue="Karate.requestchallenge_success" />
+        <item itemvalue="Gradle.RequestChallengePost" />
+        <item itemvalue="Karate.requestchallenge_success.feature" />
+        <item itemvalue="Karate.requestchallenge_success.feature:9 (1)" />
+        <item itemvalue="Karate.requestchallenge_success.feature:9" />
         <item itemvalue="Gradle.qa-backend-karate-mercantil [test]" />
-        <item itemvalue="Gradle.UserGetRunner.userGet" />
-        <item itemvalue="Gradle.ManagementUserTest.testParallel" />
       </list>
     </recent_temporary>
   </component>
@@ -253,14 +227,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/requestchallenge/runners/RequestChallengePost.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/requestchallenge/runners/requestChallengePost.java</url>
           <line>22</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="tzatziki.gherkin.step">
-          <url>file://$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallenge_success.feature</url>
-          <line>14</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
