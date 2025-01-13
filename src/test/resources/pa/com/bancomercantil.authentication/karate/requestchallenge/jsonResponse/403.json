@@ -1,0 +1,16 @@
+{
+  "statusCode": "403",
+  "status": "ERROR",
+  "message": "Ocurrió un error inesperado.",
+  "data": {
+    "errorDetails": {
+      "code": "403",
+      "fields": {
+        "exceptionMessage": "403 Forbidden: \"{\"errorCode\":\"access_denied\",\"errorMessage\":\"AEP001\",\"parameters\":null}\"",
+        "exceptionType": "Forbidden"
+      }
+    }
+  },
+  "timestamp": "2025-01-12T22:39:17.133105-05:00",
+  "traceId": "generated-fallback-transactionId"
+}
