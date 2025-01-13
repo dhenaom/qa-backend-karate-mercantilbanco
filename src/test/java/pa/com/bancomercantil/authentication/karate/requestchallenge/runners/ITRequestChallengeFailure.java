@@ -13,11 +13,11 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-public class requestChallengePost {
+public class ITRequestChallengeFailure {
 
     @Test
-    public void testAll(){
-        Results results = Runner.path("classpath:pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallenge_success.feature")
+    void testAll(){
+        Results results = Runner.path("src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengefailure.feature")
                 .outputCucumberJson(true)
                 .tags()
                 .parallel(1);
