@@ -5,291 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pa/com/bancomercantil/authentication/karate/utils/NameUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/requestchallenge/runners/ITRequestChallengeSuccess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengefailure.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengesuccess.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/jsonResponse/403.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/jsonResponse/404.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/jsonResponse/500.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/jsonResponse/emptyOtpDeliveryType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/jsonResponse/invalidOtpDeliveryType.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/jsonResponse/missingParameters.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/requestchallenge/runners/requestChallengePost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/requestchallenge/runners/ITRequestChallengeFailure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallenge_success.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-failures.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-features.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-steps.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/overview-tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_3936661396.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-html-reports/report-feature_3936661396.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengefailure.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengefailure.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengesuccess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengesuccess.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-summary-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-summary-json.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/karate-reports/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/karate-reports/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.karate-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542288065/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542288065/karate-labs-logo-ring.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542288065/karate-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542288065/karate-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542288065/karate-summary-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542288065/karate-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542288065/karate-tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542288065/karate-timeline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542288065/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542288065/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.karate-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542288065/res/Resemble.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542288065/res/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542288065/res/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542288065/res/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542288065/res/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542288065/res/jquery.tablesorter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542288065/res/karate-report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542288065/res/karate-report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542288065/res/vis.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542288065/res/vis.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542636388/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542636388/karate-labs-logo-ring.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542636388/karate-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542636388/karate-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542636388/karate-summary-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542636388/karate-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542636388/karate-tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542636388/karate-timeline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542636388/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542636388/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.karate-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542636388/res/Resemble.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542636388/res/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542636388/res/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542636388/res/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542636388/res/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542636388/res/jquery.tablesorter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542636388/res/karate-report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542636388/res/karate-report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542636388/res/vis.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542636388/res/vis.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542791924/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542791924/karate-labs-logo-ring.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542791924/karate-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542791924/karate-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542791924/karate-summary-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542791924/karate-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542791924/karate-tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542791924/karate-timeline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542791924/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542791924/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.karate-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542791924/res/Resemble.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542791924/res/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542791924/res/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542791924/res/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542791924/res/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542791924/res/jquery.tablesorter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542791924/res/karate-report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542791924/res/karate-report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542791924/res/vis.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542791924/res/vis.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542969859/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542969859/karate-labs-logo-ring.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542969859/karate-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542969859/karate-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542969859/karate-summary-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542969859/karate-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542969859/karate-tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542969859/karate-timeline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542969859/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542969859/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.karate-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542969859/res/Resemble.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542969859/res/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542969859/res/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542969859/res/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542969859/res/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542969859/res/jquery.tablesorter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542969859/res/karate-report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542969859/res/karate-report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542969859/res/vis.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736542969859/res/vis.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543040025/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543040025/karate-labs-logo-ring.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543040025/karate-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543040025/karate-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543040025/karate-summary-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543040025/karate-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543040025/karate-tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543040025/karate-timeline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543040025/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543040025/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.karate-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543040025/res/Resemble.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543040025/res/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543040025/res/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543040025/res/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543040025/res/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543040025/res/jquery.tablesorter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543040025/res/karate-report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543040025/res/karate-report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543040025/res/vis.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543040025/res/vis.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543226516/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543226516/karate-labs-logo-ring.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543226516/karate-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543226516/karate-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543226516/karate-summary-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543226516/karate-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543226516/karate-tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543226516/karate-timeline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543226516/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543226516/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.karate-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543226516/res/Resemble.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543226516/res/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543226516/res/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543226516/res/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543226516/res/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543226516/res/jquery.tablesorter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543226516/res/karate-report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543226516/res/karate-report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543226516/res/vis.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543226516/res/vis.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543305744/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543305744/karate-labs-logo-ring.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543305744/karate-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543305744/karate-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543305744/karate-summary-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543305744/karate-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543305744/karate-tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543305744/karate-timeline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543305744/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543305744/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.karate-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543305744/res/Resemble.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543305744/res/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543305744/res/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543305744/res/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543305744/res/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543305744/res/jquery.tablesorter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543305744/res/karate-report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543305744/res/karate-report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543305744/res/vis.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543305744/res/vis.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543595643/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543595643/karate-labs-logo-ring.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543595643/karate-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543595643/karate-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543595643/karate-summary-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543595643/karate-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543595643/karate-tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543595643/karate-timeline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543595643/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543595643/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.karate-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543595643/res/Resemble.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543595643/res/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543595643/res/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543595643/res/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543595643/res/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543595643/res/jquery.tablesorter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543595643/res/karate-report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543595643/res/karate-report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543595643/res/vis.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543595643/res/vis.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543680583/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543680583/karate-labs-logo-ring.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543680583/karate-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543680583/karate-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543680583/karate-summary-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543680583/karate-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543680583/karate-tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543680583/karate-timeline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543680583/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543680583/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.karate-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543680583/res/Resemble.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543680583/res/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543680583/res/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543680583/res/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543680583/res/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543680583/res/jquery.tablesorter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543680583/res/karate-report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543680583/res/karate-report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543680583/res/vis.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543680583/res/vis.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543868824/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543868824/karate-labs-logo-ring.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543868824/karate-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543868824/karate-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543868824/karate-summary-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543868824/karate-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543868824/karate-tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543868824/karate-timeline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543868824/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543868824/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.karate-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543868824/res/Resemble.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543868824/res/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543868824/res/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543868824/res/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543868824/res/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543868824/res/jquery.tablesorter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543868824/res/karate-report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543868824/res/karate-report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543868824/res/vis.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736543868824/res/vis.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544066407/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544066407/karate-labs-logo-ring.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544066407/karate-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544066407/karate-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544066407/karate-summary-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544066407/karate-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544066407/karate-tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544066407/karate-timeline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544066407/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544066407/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.karate-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544066407/res/Resemble.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544066407/res/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544066407/res/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544066407/res/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544066407/res/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544066407/res/jquery.tablesorter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544066407/res/karate-report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544066407/res/karate-report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544066407/res/vis.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544066407/res/vis.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544110728/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544110728/karate-labs-logo-ring.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544110728/karate-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544110728/karate-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544110728/karate-summary-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544110728/karate-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544110728/karate-tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544110728/karate-timeline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544110728/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544110728/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.karate-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544110728/res/Resemble.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544110728/res/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544110728/res/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544110728/res/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544110728/res/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544110728/res/jquery.tablesorter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544110728/res/karate-report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544110728/res/karate-report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544110728/res/vis.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544110728/res/vis.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544164587/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544164587/karate-labs-logo-ring.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544164587/karate-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544164587/karate-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544164587/karate-summary-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544164587/karate-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544164587/karate-tags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544164587/karate-timeline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544164587/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544164587/pa.com.bancomercantil.authentication.karate.requestchallenge.features.requestchallenge_success.karate-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544164587/res/Resemble.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544164587/res/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544164587/res/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544164587/res/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544164587/res/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544164587/res/jquery.tablesorter.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544164587/res/karate-report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544164587/res/karate-report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544164587/res/vis.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports_1736544164587/res/vis.min.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -377,6 +102,7 @@
     "Karate.requestchallenge_success.feature:9 (1).executor": "Run",
     "Karate.requestchallenge_success.feature:9.executor": "Run",
     "Karate.requestchallenge_success:9.executor": "Run",
+    "Karate.requestchallengefailure.feature:19.executor": "Run",
     "Karate.requestchallengesuccess.feature.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -415,7 +141,7 @@
       <recent name="pa.com.bancomercantil.authentication.karate.requestchallenge.runners" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.qa-backend-karate-mercantilbanco [clean]">
+  <component name="RunManager" selected="Karate.requestchallengefailure.feature:19">
     <configuration name="ITRequestChallengeFailure" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -430,30 +156,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;pa.com.bancomercantil.authentication.karate.requestchallenge.runners.ITRequestChallengeFailure&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="ITRequestChallengePost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;pa.com.bancomercantil.authentication.karate.requestchallenge.runners.ITRequestChallengePost&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -510,6 +212,13 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="requestchallengefailure.feature:19" type="karateConfigurationType" temporary="true" lineNumber="19" testName="requestchallengefailure.feature" testDescription="'/evaluate'" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengefailure.feature" preferredTest="SINGLE_SCENARIO" parallelism="5" allInFolderAreFeature="false" relPath="pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengefailure.feature">
+      <option name="MAIN_CLASS_NAME" value="com.rankweis.uppercut.testrunner.KarateTestRunner" />
+      <module name="proyecto-base-karate-mercantilbanco.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="requestchallengesuccess.feature" type="karateConfigurationType" temporary="true" lineNumber="1" testName="requestchallengesuccess.feature" testDescription="Feature:" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengesuccess.feature" preferredTest="WHOLE_FILE" parallelism="5" allInFolderAreFeature="false" relPath="pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengesuccess.feature">
       <option name="MAIN_CLASS_NAME" value="com.rankweis.uppercut.testrunner.KarateTestRunner" />
       <module name="proyecto-base-karate-mercantilbanco.test" />
@@ -520,17 +229,17 @@
     <list>
       <item itemvalue="Gradle.ITRequestChallengeFailure" />
       <item itemvalue="Gradle.ITRequestChallengeSuccess" />
-      <item itemvalue="Gradle.ITRequestChallengePost" />
       <item itemvalue="Gradle.qa-backend-karate-mercantilbanco [clean]" />
+      <item itemvalue="Karate.requestchallengefailure.feature:19" />
       <item itemvalue="Karate.requestchallengesuccess.feature" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Karate.requestchallengefailure.feature:19" />
+        <item itemvalue="Karate.requestchallengesuccess.feature" />
         <item itemvalue="Gradle.qa-backend-karate-mercantilbanco [clean]" />
         <item itemvalue="Gradle.ITRequestChallengeFailure" />
         <item itemvalue="Gradle.ITRequestChallengeSuccess" />
-        <item itemvalue="Karate.requestchallengesuccess.feature" />
-        <item itemvalue="Gradle.ITRequestChallengePost" />
       </list>
     </recent_temporary>
   </component>
