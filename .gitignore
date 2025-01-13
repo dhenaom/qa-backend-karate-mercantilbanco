@@ -41,3 +41,10 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+/eval "$(ssh-agent -s)"
+/eval "$(ssh-agent -s)".pub
+/mine
+/mine.pub
+/target/karate-reports/
+/target/cucumber-html-reports/
+/target/
