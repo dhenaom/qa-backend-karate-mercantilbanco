@@ -1,0 +1,16 @@
+{
+  "statusCode": "404",
+  "status": "ERROR",
+  "message": "Ocurrió un error inesperado.",
+  "data": {
+    "errorDetails": {
+      "code": "404",
+      "fields": {
+        "exceptionMessage": "404 Not Found: \"{\"errorCode\":\"user_not_found\",\"errorMessage\":\"User does not exist.\",\"parameters\":null}\"",
+        "exceptionType": "NotFound"
+      }
+    }
+  },
+  "timestamp": "2025-01-12T21:54:18.416141-05:00",
+  "traceId": "generated-fallback-transactionId"
+}
