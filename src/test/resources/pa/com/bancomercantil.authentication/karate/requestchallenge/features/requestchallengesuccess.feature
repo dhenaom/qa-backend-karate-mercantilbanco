@@ -24,4 +24,4 @@ Feature: Validar autenticación exitosa con distintos tipos de autenticación y 
       | OTP              | VOICE        |
       | TOKEN            | SMS          |
       | KBA              | VOICE        |
-#      | PASSWORD         | EMAIL        |
+      | PASSWORD         | EMAIL        |

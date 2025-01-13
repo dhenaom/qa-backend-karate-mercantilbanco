@@ -1,5 +1,4 @@
 Feature: Validar autenticación fallida con distintos tipos de autenticación y delivery type
-
   Background:
     * def config = call read('classpath:karate-config.js')
     * karate.configure('connectTimeout', config.requestChallenge.connectTimeout)
