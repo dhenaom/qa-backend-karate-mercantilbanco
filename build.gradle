@@ -10,22 +10,37 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'io.karatelabs:karate-junit5:1.5.0'
+    testImplementation 'io.karatelabs:karate-junit5:1.5.1'
     testImplementation 'net.masterthought:cucumber-reporting:5.7.5'
     implementation 'ch.qos.logback:logback-core:1.4.6' // O la última versión estable
     implementation 'io.netty:netty-common:4.1.115.Final' // O la última versión estable
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
     implementation 'com.google.guava:guava:32.1.2-jre'
     implementation 'commons-io:commons-io:2.14.0'
     implementation 'org.codehaus.janino:janino:3.1.9'
     implementation 'ch.qos.logback:logback-classic:1.4.12'
 }
 
+
 test{
     useJUnitPlatform()
     systemProperty 'enviroment', System.properties['enviroment']
+    systemProperty 'karate.options', '--parallel 1'
+    systemProperty "karate.options", System.properties.getProperty("karate.options")
+    systemProperty "karate.env", System.properties.getProperty("karate.env")
+    outputs.upToDateWhen { false }
 }
+//serenity {
+//    testRoots = "pa.com.bancomercantil.authentication.karate.runners"
+//    requirementsBaseDir = "src/test/resources/pa/com/bancomercantil.authentication/karate"
+//}
 
 sourceSets {
+    main {
+        resources {
+            srcDir 'src/main/resources'
+        }
+    }
     test{
         resources {
             srcDir file('src/test/java')

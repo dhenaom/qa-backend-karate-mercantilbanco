@@ -1,18 +1,17 @@
-Feature: Validar autenticación exitosa con distintos tipos de autenticación y delivery type
+Feature: Validar solicitud de challenge exitosa con distintos tipos de autenticación y delivery type
 
   Background:
     * def config = call read('classpath:karate-config.js')
     * karate.configure('connectTimeout', config.requestChallenge.connectTimeout)
     * karate.configure('readTimeout', config.requestChallenge.readTimeout)
     * def urlBase = config.requestChallenge.urlBase
-    * def baseBody = karate.read('../jsonRequest/bodyRequestChallenge.json')
+    * def baseBody = karate.read('classpath:pa/com/bancomercantil.authentication/karate/requestchallenge/jsonRequest/bodyRequestChallenge.json')
 
   @HappyPath
   Scenario Outline: Solicitud exitosa con <authenticateType> y <deliveryType>
     Given url urlBase + user + '/authenticators/' + '<authenticateType>' + '/evaluate'
     * def modifiedBody = JSON.parse(JSON.stringify(baseBody))
     * set modifiedBody.PartyAuthenticationAssessment.OtpDeliveryType = '<deliveryType>'
-    * print modifiedBody
     And request modifiedBody
     When method post
     Then status 200
@@ -25,3 +24,43 @@ Feature: Validar autenticación exitosa con distintos tipos de autenticación y 
       | TOKEN            | SMS          |
       | KBA              | VOICE        |
       | PASSWORD         | EMAIL        |
+
+  @HappyPathOTP
+  Scenario: Solicitud exitosa con OTP y EMAIL
+    Given url urlBase + user + '/authenticators/' + 'OTP' + '/evaluate'
+    * def modifiedBody = JSON.parse(JSON.stringify(baseBody))
+    * set modifiedBody.PartyAuthenticationAssessment.OtpDeliveryType = 'EMAIL'
+    And request modifiedBody
+    When method post
+    Then status 200
+
+  @HappyPathToken
+  Scenario: Solicitud exitosa con TOKEN y EMAIL
+    Given url urlBase + user + '/authenticators/' + 'TOKEN' + '/evaluate'
+    * def modifiedBody = JSON.parse(JSON.stringify(baseBody))
+    * set modifiedBody.PartyAuthenticationAssessment.OtpDeliveryType = 'EMAIL'
+    And request modifiedBody
+    When method post
+    Then status 200
+    And def tokenR = response.data.Password.AuthenticationPasswordPresentedValue
+
+  @HappyPathKBA
+  Scenario: Solicitud exitosa con KBA y EMAIL
+    Given url urlBase + user + '/authenticators/' + 'KBA' + '/evaluate'
+    * def modifiedBody = JSON.parse(JSON.stringify(baseBody))
+    * set modifiedBody.PartyAuthenticationAssessment.OtpDeliveryType = 'EMAIL'
+    And request modifiedBody
+    When method post
+    Then status 200
+    And def resp = response.data.Password.AuthenticationPasswordPresentedValue
+
+  @HappyPathPassword
+  Scenario: Solicitud exitosa con PASSWORD y EMAIL
+    Given url urlBase + user + '/authenticators/' + 'PASSWORD' + '/evaluate'
+    * def modifiedBody = JSON.parse(JSON.stringify(baseBody))
+    * set modifiedBody.PartyAuthenticationAssessment.OtpDeliveryType = 'EMAIL'
+    * print modifiedBody
+    And request modifiedBody
+    When method post
+    Then status 200
+    And def tokenR = response.data.Password.AuthenticationPasswordPresentedValue
