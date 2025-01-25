@@ -1,0 +1,28 @@
+{
+  "PartyAuthenticationAssessment": {
+    "CustomerReference": "dhenao_pragma",
+    "AuthenticationType": "KBA",
+    "AppicationIdentification": {
+      "Text": "123456"
+    }
+  },
+  "Question": {
+    "AuthenticationSecretQuestionValue": {
+      "KbaChallenge": {
+        "Id": "b56a1cd2-b4dc-4be3-bb14-e34e06ba1a13",
+        "UserQuestions": [
+          {
+            "Answer": "050036",
+            "Id": "457c0f79-4d48-40ca-8249-9a2c4f8843ad",
+            "Question": "¿En qué sector/urb. vivía su mejor amigo(a) de bachillerato?"
+          },
+          {
+            "Answer": "0106",
+            "Id": "3cc03aec-28ea-4a4e-bded-5d273da3dd7b",
+            "Question": "¿Cuándo es el aniversario de boda de sus padres?"
+          }
+        ]
+      }
+    }
+  }
+}
