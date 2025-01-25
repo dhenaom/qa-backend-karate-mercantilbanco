@@ -11,15 +11,14 @@ Feature: Validar autenticación fallida con distintos tipos de autenticación y 
     * def responseBody4 = karate.read('../jsonResponse/500.json')
     * def responseBody5 = karate.read('../jsonResponse/404.json')
     * def responseBody6 = karate.read('../jsonResponse/403.json')
-    * def NameUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.NameUtils')
-    * def randomName = NameUtils.generateRandomName(6)
+    * def NameUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')
+    * def randomName = NameUtils.generateRandomUtil(6,"")
 
   @InvalidOtpDeliveryType
   Scenario: Intento de autenticación OTP con otpdeliveryType no válido
     Given url urlBase + user + '/authenticators/' + 'OTP' + '/evaluate'
     * def modifiedBody = JSON.parse(JSON.stringify(baseBody))
     * set modifiedBody.PartyAuthenticationAssessment.OtpDeliveryType = randomName
-    * print modifiedBody
     And request modifiedBody
     When method post
     Then status 400
@@ -30,35 +29,26 @@ Feature: Validar autenticación fallida con distintos tipos de autenticación y 
     Given url urlBase + user + '/authenticators/' + 'OTP' + '/evaluate'
     * def modifiedBody = JSON.parse(JSON.stringify(baseBody))
     * set modifiedBody.PartyAuthenticationAssessment.OtpDeliveryType = ""
-    * print modifiedBody
     And request modifiedBody
     When method post
     Then status 400
     And match response.message == responseBody2.message
 
   @MissingParameters
-  Scenario Outline: Intento de autenticación <authenticateType> con parametros faltantes
+  Scenario  Intento de autenticación OTP con parametros faltantes
     Given url urlBase + user + '/authenticators/' + '<authenticateType>' + '/evaluate'
     * def modifiedBody = JSON.parse(JSON.stringify(baseBody))
     * set modifiedBody.PartyAuthenticationAssessment = {}
-    * print modifiedBody
     And request modifiedBody
     When method post
     Then status 400
     And match response.message == responseBody3.message
-
-    Examples:
-      | authenticateType |
-      | OTP              |
-      | TOKEN            |
-      | KBA              |
 
   @UserIDEmpty
   Scenario Outline: Intento de autenticación <authenticateType> con userID vacio
     Given url urlBase + '//' + '/authenticators/' + '<authenticateType>' + '/evaluate'
     * def modifiedBody = JSON.parse(JSON.stringify(baseBody))
     * set modifiedBody.PartyAuthenticationAssessment = {}
-    * print modifiedBody
     And request modifiedBody
     When method post
     Then status 500
@@ -69,6 +59,7 @@ Feature: Validar autenticación fallida con distintos tipos de autenticación y 
       | OTP              |
       | TOKEN            |
       | KBA              |
+      | PASSWORD         |
 
   @InvalidUserID
   Scenario Outline: Intento de autenticación <authenticateType> con userID invalido
@@ -84,9 +75,10 @@ Feature: Validar autenticación fallida con distintos tipos de autenticación y 
       | OTP              |
       | TOKEN            |
       | KBA              |
+      | PASSWORD         |
 
   @AuthenticationTypeEmpty
-  Scenario: Intento de autenticación OTP con otpdeliveryType null
+  Scenario: Intento de autenticación con AuthenticationType nulo o vacio
     Given url urlBase + user + '/authenticators/' + '' + '/evaluate'
     * def modifiedBody = JSON.parse(JSON.stringify(baseBody))
     And request modifiedBody
@@ -95,7 +87,7 @@ Feature: Validar autenticación fallida con distintos tipos de autenticación y 
     And match response.message == responseBody4.message
 
   @InvalidAuthenticationType
-  Scenario: Intento de autenticación OTP con otpdeliveryType null
+  Scenario: Intento de autenticación con AuthenticationType Invalido
     Given url urlBase + user + '/authenticators/' + randomName + '/evaluate'
     * def modifiedBody = JSON.parse(JSON.stringify(baseBody))
     And request modifiedBody
