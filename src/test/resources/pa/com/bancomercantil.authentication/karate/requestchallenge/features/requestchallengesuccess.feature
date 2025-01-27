@@ -59,7 +59,6 @@ Feature: Validar solicitud de challenge exitosa con distintos tipos de autentica
     Given url urlBase + user + '/authenticators/' + 'PASSWORD' + '/evaluate'
     * def modifiedBody = JSON.parse(JSON.stringify(baseBody))
     * set modifiedBody.PartyAuthenticationAssessment.OtpDeliveryType = 'EMAIL'
-    * print modifiedBody
     And request modifiedBody
     When method post
     Then status 200
