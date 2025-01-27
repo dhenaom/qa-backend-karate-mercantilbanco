@@ -10,6 +10,7 @@ Feature: Validar autenticación fallida con distintos tipos de autenticación y 
     * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')
     * def randomNumber = randomUtils.generateRandomUtil(8,"number")
     * def randomPassword = randomUtils.generateRandomUtil(9,"password")
+    * def randomToken = randomUtils.generateRandomUtil(796,"password")
 
   @FailedOTPValidation
   Scenario: Validar Challenge fallido con OTP
@@ -65,4 +66,27 @@ Feature: Validar autenticación fallida con distintos tipos de autenticación y 
     And def extractedJson = exceptionMessage.substring(16)
     And def parsedJson = karate.fromString(extractedJson)
     And match parsedJson.errorCode == 'invalid_user_response'
+
+  @Unauthorized
+  Scenario Outline: Validar Challenge de <authenticateType> Con token de autenticación invalido
+    * def passwordResponse = karate.call('classpath:pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengesuccess.feature@HappyPathPassword')
+    * def tokenChallenge = randomToken
+    * def otp = '<response>'
+    * def modifiedBody = JSON.parse(JSON.stringify(body1))
+    * set modifiedBody.Password.AuthenticationPasswordPresentedValue = ""+otp+""
+    * set modifiedBody.PartyAuthenticationAssessment.AuthenticationType = '<authenticateType>'
+    Given url urlBase + user + '/password/evaluate'
+    And header Authorization = tokenChallenge
+    And request modifiedBody
+    When method post
+    Then status 401
+    And def exceptionMessage = response.data.errorDetails.fields.exceptionType
+    And match exceptionMessage == 'Unauthorized'
+
+    Examples:
+      | authenticateType | response     |
+      | OTP              | 12345678     |
+      | TOKEN            | 12345678     |
+      | PASSWORD         | Asdf156df    |
+
 

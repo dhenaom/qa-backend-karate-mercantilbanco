@@ -33,7 +33,7 @@ Feature: Obtener preguntas y respuestas de KBA challenge
   @getAnswers
   Scenario: obtener preguntas KBA
     Given url urlBase + user + '/question/retrieve'
-    And header Authorization = tokenChallenge
+#    And header Authorization = tokenChallenge
     When method get
     Then status 200
     And def body = response.data.Question
