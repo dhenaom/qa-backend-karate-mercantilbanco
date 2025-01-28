@@ -11,6 +11,7 @@ repositories {
 
 dependencies {
     testImplementation 'io.karatelabs:karate-junit5:1.5.1'
+    testImplementation 'io.karatelabs:karate-core:1.5.1'
     testImplementation 'net.masterthought:cucumber-reporting:5.7.5'
     implementation 'ch.qos.logback:logback-core:1.4.6' // O la última versión estable
     implementation 'io.netty:netty-common:4.1.115.Final' // O la última versión estable
@@ -20,14 +21,21 @@ dependencies {
     implementation 'org.codehaus.janino:janino:3.1.9'
     implementation 'ch.qos.logback:logback-classic:1.4.12'
 }
+tasks.register('karateExecute', JavaExec) {
+    mainClass = 'com.intuit.karate.Main' // Cambia a com.intuit.karate.Main
+    classpath = sourceSets.test.runtimeClasspath
+    args = [
+            '-t', '@regression',
+            '--report-dir', 'target/karate-reports',
+            'classpath:features'
+    ]
+}
 
 
 test{
     useJUnitPlatform()
-    systemProperty 'enviroment', System.properties['enviroment']
-    systemProperty 'karate.options', '--parallel 1'
-    systemProperty "karate.options", System.properties.getProperty("karate.options")
-    systemProperty "karate.env", System.properties.getProperty("karate.env")
+    systemProperty 'karate.env', System.getProperty('karate.env', 'dev') // Ajusta el entorno por defecto
+    systemProperty 'karate.options', System.getProperty('karate.options', '')
     outputs.upToDateWhen { false }
 }
 //serenity {
