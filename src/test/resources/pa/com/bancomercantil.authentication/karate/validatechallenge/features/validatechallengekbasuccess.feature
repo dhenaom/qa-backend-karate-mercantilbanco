@@ -13,12 +13,9 @@ Feature: Validar autenticación exitosa con distintos tipos de autenticación y 
 
   @QuestionAndAnswer
   Scenario: Evaluar valides de las respuestas de KBA
-    * print tokenChallenge
-    * print body2
     Given url urlBase + user + '/question/evaluate'
     And header Authorization = tokenChallenge
     And request body2
     When method post
     Then status 200
-    And print response
 

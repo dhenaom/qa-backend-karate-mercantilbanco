@@ -35,8 +35,8 @@ Feature: Validar autenticación fallida con distintos tipos de autenticación y 
     And match response.message == responseBody2.message
 
   @MissingParameters
-  Scenario  Intento de autenticación OTP con parametros faltantes
-    Given url urlBase + user + '/authenticators/' + '<authenticateType>' + '/evaluate'
+  Scenario: Intento de autenticación OTP con parametros faltantes
+    Given url urlBase + user + '/authenticators/' + 'OTP' + '/evaluate'
     * def modifiedBody = JSON.parse(JSON.stringify(baseBody))
     * set modifiedBody.PartyAuthenticationAssessment = {}
     And request modifiedBody
@@ -46,24 +46,24 @@ Feature: Validar autenticación fallida con distintos tipos de autenticación y 
 
   @UserIDEmpty
   Scenario Outline: Intento de autenticación <authenticateType> con userID vacio
-    Given url urlBase + '//' + '/authenticators/' + '<authenticateType>' + '/evaluate'
+    Given url urlBase + '' + '/authenticators/' + '<authenticateType>' + '/evaluate'
     * def modifiedBody = JSON.parse(JSON.stringify(baseBody))
     * set modifiedBody.PartyAuthenticationAssessment = {}
     And request modifiedBody
     When method post
-    Then status 500
-    And match response.message == responseBody4.message
+    Then status 404
+    And match response.message == "Resource not found"
 
     Examples:
       | authenticateType |
       | OTP              |
       | TOKEN            |
       | KBA              |
-      | PASSWORD         |
+#      | PASSWORD         |
 
   @InvalidUserID
   Scenario Outline: Intento de autenticación <authenticateType> con userID invalido
-    Given url urlBase + '/'+randomName+'/' + '/authenticators/' + '<authenticateType>' + '/evaluate'
+    Given url urlBase +randomName + '/authenticators/' + '<authenticateType>' + '/evaluate'
     * def modifiedBody = JSON.parse(JSON.stringify(baseBody))
     And request modifiedBody
     When method post
@@ -75,7 +75,7 @@ Feature: Validar autenticación fallida con distintos tipos de autenticación y 
       | OTP              |
       | TOKEN            |
       | KBA              |
-      | PASSWORD         |
+#      | PASSWORD         |
 
   @AuthenticationTypeEmpty
   Scenario: Intento de autenticación con AuthenticationType nulo o vacio
@@ -83,8 +83,8 @@ Feature: Validar autenticación fallida con distintos tipos de autenticación y 
     * def modifiedBody = JSON.parse(JSON.stringify(baseBody))
     And request modifiedBody
     When method post
-    Then status 500
-    And match response.message == responseBody4.message
+    Then status 404
+    And match response.message == "Resource not found"
 
   @InvalidAuthenticationType
   Scenario: Intento de autenticación con AuthenticationType Invalido

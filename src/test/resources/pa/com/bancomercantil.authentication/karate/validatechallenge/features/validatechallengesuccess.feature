@@ -8,10 +8,6 @@ Feature: Validar autenticación exitosa con distintos tipos de autenticación y 
     * def body1 = karate.read('../jsonRequest/body1ValidateChallenge.json')
     * def body2 = karate.read('../jsonRequest/body2ValidateChallenge.json')
 
-#    * def otpResponse = karate.call('classpath:pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengesuccess.feature@HappyPathOTP')
-#    * def tokenResponse = karate.call('classpath:pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengesuccess.feature@HappyPathToken')
-#    * def passwordResponse = karate.call('classpath:pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengesuccess.feature@HappyPathPassword')
-
   @ValidateOTP
   Scenario: Validar Challenge exitoso Con OTP
     * def otpResponse = karate.call('classpath:pa/com/bancomercantil.authentication/karate/utils/features/otpgenerator.feature@OTPGenerator')
@@ -24,7 +20,6 @@ Feature: Validar autenticación exitosa con distintos tipos de autenticación y 
     And request modifiedBody
     When method post
     Then status 200
-    And print response
 
   @ValidateToken
   Scenario: Validar Challenge exitoso Con Token
@@ -41,7 +36,6 @@ Feature: Validar autenticación exitosa con distintos tipos de autenticación y 
     And request modifiedBody
     When method post
     Then status 200
-    And print response
 
   @ValidatePassword
   Scenario: Validar Challenge exitoso Con Password
@@ -57,5 +51,4 @@ Feature: Validar autenticación exitosa con distintos tipos de autenticación y 
     And request modifiedBody
     When method post
     Then status 200
-    And print response
 
