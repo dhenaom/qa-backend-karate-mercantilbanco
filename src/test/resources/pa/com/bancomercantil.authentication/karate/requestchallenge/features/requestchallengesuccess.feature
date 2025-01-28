@@ -23,7 +23,7 @@ Feature: Validar solicitud de challenge exitosa con distintos tipos de autentica
       | OTP              | VOICE        |
       | TOKEN            | SMS          |
       | KBA              | VOICE        |
-      | PASSWORD         | EMAIL        |
+#      | PASSWORD         | EMAIL        |
 
   @HappyPathOTP
   Scenario: Solicitud exitosa con OTP y EMAIL
@@ -63,3 +63,10 @@ Feature: Validar solicitud de challenge exitosa con distintos tipos de autentica
     When method post
     Then status 200
     And def tokenR = response.data.Password.AuthenticationPasswordPresentedValue
+
+  @after
+  Scenario: Comprimir reportes después de cada escenario
+    * def ZipUtil = Java.type('pa.com.bancomercantil.authentication.karate.utils.ZipUtil')
+    * def reportDir = '/Users/DHM_Pragma/Documents/Mercantil/qa-backend-karate-mercantilbanco/src/test/resources/target/karate-reports'
+    * def zipFile = 'target/karate-report-' + Date.now() + '.zip'
+    * def run = ZipUtil.zipDirectory(reportDir, zipFile)

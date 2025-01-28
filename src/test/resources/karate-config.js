@@ -26,6 +26,10 @@ function fn() {
     };
     karate.configure('logPrettyRequest', false);
     karate.configure('logPrettyResponse', false);
+    karate.configure('report', {
+            type: 'json',
+            dir: 'target/karate-reports' // Carpeta de salida donde se guardarán los informes JSON
+        });
 
     return config;
 }
