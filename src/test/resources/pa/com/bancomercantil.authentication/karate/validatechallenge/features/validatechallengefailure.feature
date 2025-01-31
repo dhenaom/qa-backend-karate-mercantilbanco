@@ -37,7 +37,6 @@ Feature: Validar autenticación fallida con distintos tipos de autenticación y 
     * def modifiedBody = JSON.parse(JSON.stringify(body1))
     * set modifiedBody.Password.AuthenticationPasswordPresentedValue = ""+otp+""
     * set modifiedBody.PartyAuthenticationAssessment.AuthenticationType = 'TOKEN'
-    * print modifiedBody
     Given url urlBase + user + '/password/evaluate'
     And header Authorization = 'Bearer ' + tokenChallenge
     And request modifiedBody
@@ -56,7 +55,6 @@ Feature: Validar autenticación fallida con distintos tipos de autenticación y 
     * def modifiedBody = JSON.parse(JSON.stringify(body1))
     * set modifiedBody.Password.AuthenticationPasswordPresentedValue = ""+otp+""
     * set modifiedBody.PartyAuthenticationAssessment.AuthenticationType = 'PASSWORD'
-    * print modifiedBody
     Given url urlBase + user + '/password/evaluate'
     And header Authorization = 'Bearer ' + tokenChallenge
     And request modifiedBody

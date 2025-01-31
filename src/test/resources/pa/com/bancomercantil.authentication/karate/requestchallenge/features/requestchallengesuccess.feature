@@ -23,8 +23,7 @@ Feature: Validar solicitud de challenge exitosa con distintos tipos de autentica
       | OTP              | VOICE        |
       | TOKEN            | SMS          |
       | KBA              | VOICE        |
-#      | PASSWORD         | EMAIL        |
-
+      | PASSWORD         | EMAIL        |
   @HappyPathOTP
   Scenario: Solicitud exitosa con OTP y EMAIL
     Given url urlBase + user + '/authenticators/' + 'OTP' + '/evaluate'

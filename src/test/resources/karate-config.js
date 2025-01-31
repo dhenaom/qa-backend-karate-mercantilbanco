@@ -3,7 +3,7 @@ function fn() {
         user: 'dhenao_pragma',
         badUser: 'badUser',
         requestChallenge: {
-            urlBase: 'http://qa-nova-gw.mercantilbanco.com.pa/party-authentication/',
+            urlBase: 'http://dev-nova-gw.mercantilbanco.com.pa/party-authentication/',
             connectTimeout: 3000, // Tiempo de conexión para este microservicio
             readTimeout: 3000     // Tiempo de lectura para este microservicio
         },
@@ -14,7 +14,7 @@ function fn() {
             readTimeout: 3000
         },
         validateChallenge: {
-            urlBase: 'http://qa-nova-gw.mercantilbanco.com.pa/party-authentication/',
+            urlBase: 'http://dev-nova-gw.mercantilbanco.com.pa/party-authentication/',
             connectTimeout: 2000,
             readTimeout: 2000
         },
