@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="Add zip compression">
-      <change beforePath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/requestchallenge/runners/ITRequestChallengeSuccess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/validatechallenge/ITKBAQuestionEvaluateFailureRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/validatechallenge/ITKBAQuestionEvaluateFailureRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengefailure.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengefailure.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengesuccess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengesuccess.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/validatechallenge/features/validatechallengefailure.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/validatechallenge/features/validatechallengefailure.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/validatechallenge/features/validatechallengesuccess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/validatechallenge/features/validatechallengesuccess.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,9 +104,11 @@
     "Gradle.ITAuthenticationEvaluateRunner.authenticationEvaluateTest.executor": "Run",
     "Gradle.ITAuthenticationEvaluateRunner.executor": "Run",
     "Gradle.ITAuthenticationEvaluateSuccessRunner.authenticationEvaluateSuccessTest.executor": "Run",
+    "Gradle.ITKBAGetQuestionFailureRunner.kbaQuestionEvaluateSuccessTest.executor": "Run",
     "Gradle.ITKBAQuestionEvaluateFailureRunner.kbaQuestionEvaluateFailureTest.executor": "Run",
     "Gradle.ITKBAQuestionEvaluateRunner.kbaQuestionEvaluateTest.executor": "Run",
     "Gradle.ITKBAQuestionEvaluateSuccessRunner.executor": "Run",
+    "Gradle.ITKBAQuestionEvaluateSuccessRunner.kbaQuestionEvaluateSuccessTest.executor": "Run",
     "Gradle.ITRequestChallengeFailure.executor": "Run",
     "Gradle.ITRequestChallengeFailureRunner.challengeFailureTest.executor": "Run",
     "Gradle.ITRequestChallengePost.executor": "Run",
@@ -237,31 +244,7 @@
       <recent name="pa.com.bancomercantil.authentication.karate.requestchallenge.runners" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ITRequestChallengeSuccessRunner.challengeSuccessTest">
-    <configuration name="ITAuthenticationEvaluateFailureRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;pa.com.bancomercantil.authentication.karate.runners.validatechallenge.ITAuthenticationEvaluateFailureRunner&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.ITRequestChallengeFailureRunner.challengeFailureTest">
     <configuration name="ITAuthenticationEvaluateFailureRunner.authenticationEvaluateFailureTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -286,7 +269,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ITAuthenticationEvaluateSuccessRunner.authenticationEvaluateSuccessTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ITKBAGetQuestionFailureRunner.kbaQuestionEvaluateSuccessTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -299,7 +282,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pa.com.bancomercantil.authentication.karate.runners.validatechallenge.ITAuthenticationEvaluateSuccessRunner.authenticationEvaluateSuccessTest&quot;" />
+            <option value="&quot;pa.com.bancomercantil.authentication.karate.runners.validatechallenge.ITKBAGetQuestionFailureRunner.kbaQuestionEvaluateSuccessTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -310,7 +293,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ITRequestChallengeSuccessRunner.challengeSuccessTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ITKBAQuestionEvaluateFailureRunner.kbaQuestionEvaluateFailureTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -323,7 +306,55 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pa.com.bancomercantil.authentication.karate.runners.requestchallenge.ITRequestChallengeSuccessRunner.challengeSuccessTest&quot;" />
+            <option value="&quot;pa.com.bancomercantil.authentication.karate.runners.validatechallenge.ITKBAQuestionEvaluateFailureRunner.kbaQuestionEvaluateFailureTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ITKBAQuestionEvaluateSuccessRunner.kbaQuestionEvaluateSuccessTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;pa.com.bancomercantil.authentication.karate.runners.validatechallenge.ITKBAQuestionEvaluateSuccessRunner.kbaQuestionEvaluateSuccessTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ITRequestChallengeFailureRunner.challengeFailureTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;pa.com.bancomercantil.authentication.karate.runners.requestchallenge.ITRequestChallengeFailureRunner.challengeFailureTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -354,42 +385,20 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="qa-backend-karate-mercantilbanco [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Gradle.ITRequestChallengeSuccessRunner.challengeSuccessTest" />
-      <item itemvalue="Gradle.ITAuthenticationEvaluateFailureRunner" />
+      <item itemvalue="Gradle.ITKBAGetQuestionFailureRunner.kbaQuestionEvaluateSuccessTest" />
+      <item itemvalue="Gradle.ITKBAQuestionEvaluateSuccessRunner.kbaQuestionEvaluateSuccessTest" />
+      <item itemvalue="Gradle.ITRequestChallengeFailureRunner.challengeFailureTest" />
       <item itemvalue="Gradle.ITAuthenticationEvaluateFailureRunner.authenticationEvaluateFailureTest" />
-      <item itemvalue="Gradle.ITAuthenticationEvaluateSuccessRunner.authenticationEvaluateSuccessTest" />
-      <item itemvalue="Gradle.qa-backend-karate-mercantilbanco [clean]" />
+      <item itemvalue="Gradle.ITKBAQuestionEvaluateFailureRunner.kbaQuestionEvaluateFailureTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ITRequestChallengeSuccessRunner.challengeSuccessTest" />
-        <item itemvalue="Gradle.qa-backend-karate-mercantilbanco [clean]" />
-        <item itemvalue="Gradle.ITAuthenticationEvaluateFailureRunner" />
+        <item itemvalue="Gradle.ITRequestChallengeFailureRunner.challengeFailureTest" />
+        <item itemvalue="Gradle.ITKBAGetQuestionFailureRunner.kbaQuestionEvaluateSuccessTest" />
+        <item itemvalue="Gradle.ITKBAQuestionEvaluateFailureRunner.kbaQuestionEvaluateFailureTest" />
         <item itemvalue="Gradle.ITAuthenticationEvaluateFailureRunner.authenticationEvaluateFailureTest" />
-        <item itemvalue="Gradle.ITAuthenticationEvaluateSuccessRunner.authenticationEvaluateSuccessTest" />
+        <item itemvalue="Gradle.ITKBAQuestionEvaluateSuccessRunner.kbaQuestionEvaluateSuccessTest" />
       </list>
     </recent_temporary>
   </component>
@@ -418,7 +427,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738088853148</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add zip compression">
+      <option name="closed" value="true" />
+      <created>1738089353066</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738089353066</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add zip compression">
+      <option name="closed" value="true" />
+      <created>1738089405266</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738089405266</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">

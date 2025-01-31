@@ -26,7 +26,7 @@ Feature: Validar autenticación exitosa con distintos tipos de autenticación y 
     * def tokenResponse = karate.call('classpath:pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengesuccess.feature@HappyPathToken')
     * def tokenChallenge = tokenResponse.tokenR
     # Remplazar con el valor entregado por la app de softToken
-    * def otp = '38040007'
+    * def otp = '97363463'
     * def modifiedBody = JSON.parse(JSON.stringify(body1))
     * set modifiedBody.Password.AuthenticationPasswordPresentedValue = ""+otp+""
     * set modifiedBody.PartyAuthenticationAssessment.AuthenticationType = 'TOKEN'
