@@ -1,0 +1,12 @@
+{
+  "statusCode": "200",
+  "status": "SUCCESS",
+  "message": "Token generado.",
+  "data": {
+    "authToken": "#string",
+    "expirationTime": "#string",
+    "creationTime": "#string"
+  },
+  "timestamp": "#string",
+  "transactionId": "#string"
+}

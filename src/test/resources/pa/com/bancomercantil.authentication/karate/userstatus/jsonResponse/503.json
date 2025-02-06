@@ -1,0 +1,7 @@
+{
+  "statusCode": "503",
+  "status": "ERROR",
+  "message": "Servicio no disponible. Intente nuevamente más tarde",
+  "timestamp": "#string",
+  "transactionId": "#string"
+}
