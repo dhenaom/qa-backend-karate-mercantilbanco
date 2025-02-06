@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-01-30T10:00:00Z",
+  "status": 401,
+  "error": "Unauthorized",
+  "message": "Token expirado o inválido",
+  "path": "/v1/entrust-authentication/authenticate/provide",
+  "errorCode": "INVALID_TOKEN",
+  "details": [
+    "El token ha expirado",
+    "Se requiere una nueva autenticación"
+  ],
+  "newTokenRequired": true
+}
