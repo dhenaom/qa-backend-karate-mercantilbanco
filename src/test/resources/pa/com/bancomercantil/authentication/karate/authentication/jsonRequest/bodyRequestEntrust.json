@@ -1,0 +1,5 @@
+{
+  "applicationId": "NOVA_APP",
+  "sharedSecret": "your-shared-secret",
+  "credentialId": "user-credential-id"
+}

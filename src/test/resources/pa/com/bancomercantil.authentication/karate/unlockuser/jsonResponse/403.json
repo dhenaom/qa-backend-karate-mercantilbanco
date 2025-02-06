@@ -1,0 +1,9 @@
+{
+"error_403_invalid_token": {
+"statusCode": "403",
+"status": "ERROR",
+"message": "Token inválido o expirado",
+"timestamp": "#string",
+"transactionId": "#string"
+}
+}

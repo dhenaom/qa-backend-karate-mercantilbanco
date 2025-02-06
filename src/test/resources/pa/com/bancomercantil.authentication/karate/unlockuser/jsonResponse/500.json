@@ -1,0 +1,9 @@
+{
+  "error_500": {
+    "statusCode": "500",
+    "status": "ERROR",
+    "message": "Error en el desbloqueo del usuario. Consulte la documentación de manejo de errores.",
+    "timestamp": "#string",
+    "transactionId": "#string"
+  }
+}

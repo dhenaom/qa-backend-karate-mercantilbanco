@@ -1,0 +1,27 @@
+{
+  "valid_request": {
+    "AuthenticationType": "string",
+    "PartyAuthenticationAssessment": {
+      "PartyReferenceStatus": "ACTIVE"
+    }
+  },
+  "invalid_status_request": {
+    "AuthenticationType": "string",
+    "PartyAuthenticationAssessment": {
+      "PartyReferenceStatus": "ACTIVATEDDDDDDDDD"
+    }
+  }
+,
+  "empty_status_request": {
+    "AuthenticationType": "string",
+    "PartyAuthenticationAssessment": {
+      "PartyReferenceStatus": ""
+    }
+  },
+  "null_status_request": {
+    "AuthenticationType": "string",
+    "PartyAuthenticationAssessment": {
+      "PartyReferenceStatus": null
+    }
+  }
+}
