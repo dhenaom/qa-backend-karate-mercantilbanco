@@ -12,7 +12,7 @@ public class ITRequestChallengeSuccessRunner {
             Karate challengeSuccessTest() throws IOException {
                 String timestamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
                 String path = "target/karate-reports-"+timestamp;
-                Karate result = Karate.run("classpath:pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengesuccess.feature@HappyPath")
+                Karate result = Karate.run("classpath:pa/com/bancomercantil/authentication/karate/requestchallenge/features/requestchallengesuccess.feature@HappyPath")
                         .relativeTo(getClass()).backupReportDir(true).outputCucumberJson(true);
                 ZipUtil.zipDirectory("target/karate-reports", path + ".zip");
                 return result;

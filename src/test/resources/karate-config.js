@@ -2,21 +2,14 @@ function fn() {
     var config = {
         user: 'dhenao_pragma',
         badUser: 'badUser',
-        requestChallenge: {
-            urlBase: 'http://dev-nova-gw.mercantilbanco.com.pa/party-authentication/',
-            connectTimeout: 3000, // Tiempo de conexión para este microservicio
-            readTimeout: 3000     // Tiempo de lectura para este microservicio
-        },
+        urlBase: 'http://qa-nova-gw.mercantilbanco.com.pa',
+        connectTimeout: 3000,
+        readTimeout: 3000,
         userState: {
             urlBase: 'http://api.bancomercantil.com/user-state',
             authMethod: 'Basic',
             connectTimeout: 3000,
             readTimeout: 3000
-        },
-        validateChallenge: {
-            urlBase: 'http://dev-nova-gw.mercantilbanco.com.pa/party-authentication/',
-            connectTimeout: 2000,
-            readTimeout: 2000
         },
         entrust: {
                     urlBase: 'https://mercantilbanpadesa.us.trustedauth.com/api/web/v1/',

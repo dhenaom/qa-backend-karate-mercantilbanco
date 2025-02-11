@@ -4,13 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="Add zip compression">
+    <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="Correct failed cases 106 and 114">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/dataproauthentication/ITRequestTokenFailureRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/dataproauthentication/ITRequestTokenSuccessRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/dataproauthentication/features/dataproauthenticationfailure.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/dataproauthentication/features/dataproauthenticationsuccess.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/utils/jsonRequest/bodyapiauthenticate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/utils/jsonRequest/bodygenerateotp.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/requestchallenge/ITRequestChallengeFailureRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/requestchallenge/ITRequestChallengeFailureRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/requestchallenge/ITRequestChallengeSuccessRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/requestchallenge/ITRequestChallengeSuccessRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/validatechallenge/ITAuthenticationEvaluateFailureRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/validatechallenge/ITAuthenticationEvaluateFailureRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/validatechallenge/ITAuthenticationEvaluateSuccessRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/validatechallenge/ITAuthenticationEvaluateSuccessRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/validatechallenge/ITKBAGetQuestionFailureRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/validatechallenge/ITKBAGetQuestionFailureRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/validatechallenge/ITKBAGetQuestionSuccessRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/validatechallenge/ITKBAGetQuestionSuccessRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/validatechallenge/ITKBAQuestionEvaluateFailureRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/validatechallenge/ITKBAQuestionEvaluateFailureRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengefailure.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengefailure.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengesuccess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengesuccess.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/validatechallenge/features/validatechallengefailure.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/validatechallenge/features/validatechallengefailure.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/validatechallenge/features/validatechallengesuccess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/validatechallenge/features/validatechallengesuccess.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/validatechallenge/ITKBAQuestionEvaluateSuccessRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/validatechallenge/ITKBAQuestionEvaluateSuccessRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/karate-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/karate-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/authentication/jsonRequest/bodyRequestChallenge.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/authentication/jsonRequest/bodyRequestChallenge.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/authentication/jsonResponse/403.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/authentication/jsonResponse/403.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/authentication/jsonResponse/404.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/authentication/jsonResponse/404.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/authentication/jsonResponse/500.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/authentication/jsonResponse/500.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/authentication/jsonResponse/emptyOtpDeliveryType.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/authentication/jsonResponse/emptyOtpDeliveryType.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/authentication/jsonResponse/invalidOtpDeliveryType.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/authentication/jsonResponse/invalidOtpDeliveryType.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/authentication/jsonResponse/missingParameters.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/authentication/jsonResponse/missingParameters.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengefailure.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/requestchallenge/features/requestchallengefailure.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengesuccess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/requestchallenge/features/requestchallengesuccess.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/jsonRequest/bodyRequestChallenge.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/requestchallenge/jsonRequest/bodyRequestChallenge.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/jsonResponse/403.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/requestchallenge/jsonResponse/403.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/jsonResponse/404.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/requestchallenge/jsonResponse/404.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/jsonResponse/500.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/requestchallenge/jsonResponse/500.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/jsonResponse/emptyOtpDeliveryType.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/requestchallenge/jsonResponse/emptyOtpDeliveryType.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/jsonResponse/invalidOtpDeliveryType.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/requestchallenge/jsonResponse/invalidOtpDeliveryType.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/requestchallenge/jsonResponse/missingParameters.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/requestchallenge/jsonResponse/missingParameters.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/utils/features/apiaauthenticate.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/utils/features/apiaauthenticate.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/utils/features/otpgenerator.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/utils/features/otpgenerator.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/utils/jsonRequest/bodyapiauthenticate.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/dataproauthentication/jsonRequest/bodyapiauthenticate.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/utils/jsonRequest/bodygenerateotp.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/dataproauthentication/jsonRequest/bodygenerateotp.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/validatechallenge/features/getquestionsandanswers.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/validatechallenge/features/getquestionsandanswers.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/validatechallenge/features/getquestionsandanswersfailure.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/validatechallenge/features/getquestionsandanswersfailure.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/validatechallenge/features/validatechallengefailure.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/validatechallenge/features/validatechallengefailure.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/validatechallenge/features/validatechallengekbafailure.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/validatechallenge/features/validatechallengekbafailure.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/validatechallenge/features/validatechallengekbasuccess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/validatechallenge/features/validatechallengekbasuccess.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/validatechallenge/features/validatechallengesuccess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/validatechallenge/features/validatechallengesuccess.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/validatechallenge/jsonRequest/body1ValidateChallenge.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/validatechallenge/jsonRequest/body1ValidateChallenge.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/validatechallenge/jsonRequest/body2ValidateChallenge.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/validatechallenge/jsonRequest/body2ValidateChallenge.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-summary-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-summary-json.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +148,7 @@
     "Gradle.ITAuthenticationEvaluateRunner.executor": "Run",
     "Gradle.ITAuthenticationEvaluateSuccessRunner.authenticationEvaluateSuccessTest.executor": "Run",
     "Gradle.ITKBAGetQuestionFailureRunner.kbaQuestionEvaluateSuccessTest.executor": "Run",
+    "Gradle.ITKBAGetQuestionSuccessRunner.kbaQuestionEvaluateSuccessTest.executor": "Run",
     "Gradle.ITKBAQuestionEvaluateFailureRunner.kbaQuestionEvaluateFailureTest.executor": "Run",
     "Gradle.ITKBAQuestionEvaluateRunner.kbaQuestionEvaluateTest.executor": "Run",
     "Gradle.ITKBAQuestionEvaluateSuccessRunner.executor": "Run",
@@ -117,6 +161,8 @@
     "Gradle.ITRequestChallengeSuccess.succesChalenge.executor": "Run",
     "Gradle.ITRequestChallengeSuccessRunner.challengeSuccessTest.executor": "Run",
     "Gradle.ITRequestChallengeSuccessRunner.challengeTest.executor": "Run",
+    "Gradle.ITRequestTokenFailureRunner.challengeFailureTest.executor": "Run",
+    "Gradle.ITRequestTokenSuccessRunner.challengeSuccessTest.executor": "Run",
     "Gradle.RequestChallengePost.executor": "Run",
     "Gradle.RequestChallengePost.testAll.executor": "Debug",
     "Gradle.Upgrade Gradle wrapper.executor": "Run",
@@ -128,15 +174,56 @@
     "Gradle.qa-backend-karate-mercantilbanco [clean].executor": "Run",
     "Gradle.qa-backend-karate-mercantilbanco [test].executor": "Run",
     "Karate.@APIAuthenticate.executor": "Run",
+    "Karate.@Consistency.executor": "Run",
     "Karate.@HappyPathKBA.executor": "Run",
     "Karate.apiaauthenticate.feature.executor": "Run",
     "Karate.apiaauthenticate.feature:11 (1).executor": "Run",
     "Karate.apiaauthenticate.feature:11.executor": "Run",
     "Karate.apiauthenticate.feature.executor": "Run",
     "Karate.apiauthenticate.feature:11.executor": "Run",
+    "Karate.dataproauthenticationfailure.feature.executor": "Run",
+    "Karate.dataproauthenticationfailure.feature:12.executor": "Run",
+    "Karate.dataproauthenticationfailure.feature:13.executor": "Run",
+    "Karate.dataproauthenticationfailure.feature:21 (1).executor": "Run",
+    "Karate.dataproauthenticationfailure.feature:21 (2).executor": "Run",
+    "Karate.dataproauthenticationfailure.feature:21.executor": "Run",
+    "Karate.dataproauthenticationfailure.feature:29 (1).executor": "Run",
+    "Karate.dataproauthenticationfailure.feature:29.executor": "Run",
+    "Karate.dataproauthenticationfailure.feature:39.executor": "Run",
+    "Karate.dataproauthenticationfailure.feature:47.executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:11.executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:12 (1).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:12 (2).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:12 (3).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:12 (4).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:12 (5).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:12.executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:21.executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:24 (1).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:24 (2).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:24 (3).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:24 (4).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:24 (5).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:24.executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:25 (1).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:25.executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:26.executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:41 (1).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:41 (2).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:41 (3).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:41 (4).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:41 (5).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:41.executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:42 (1).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:42 (2).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:42 (3).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:42 (4).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:42 (5).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:42.executor": "Run",
     "Karate.getquestions.feature:16.executor": "Run",
     "Karate.getquestions.feature:36.executor": "Run",
     "Karate.getquestionsandanswers.feature.executor": "Run",
+    "Karate.getquestionsandanswers.feature:34.executor": "Run",
     "Karate.otpgenerator.feature.executor": "Run",
     "Karate.otpgenerator.feature:11 (1).executor": "Run",
     "Karate.otpgenerator.feature:11 (2).executor": "Run",
@@ -158,6 +245,8 @@
     "Karate.requestchallengesuccess.feature:40 (2).executor": "Run",
     "Karate.requestchallengesuccess.feature:40 (3).executor": "Run",
     "Karate.requestchallengesuccess.feature:40.executor": "Run",
+    "Karate.requestchallengesuccess.feature:47 (1).executor": "Run",
+    "Karate.requestchallengesuccess.feature:47.executor": "Run",
     "Karate.requestchallengesuccess.feature:48.executor": "Run",
     "Karate.requestchallengesuccess.feature:50 (1).executor": "Run",
     "Karate.requestchallengesuccess.feature:50 (2).executor": "Run",
@@ -165,6 +254,12 @@
     "Karate.requestchallengesuccess.feature:50.executor": "Run",
     "Karate.requestchallengesuccess.feature:51.executor": "Run",
     "Karate.requestchallengesuccess:11.executor": "Run",
+    "Karate.validatechallengekbafailure.feature:53.executor": "Run",
+    "Karate.validatechallengekbafailure.feature:65 (1).executor": "Run",
+    "Karate.validatechallengekbafailure.feature:65 (2).executor": "Run",
+    "Karate.validatechallengekbafailure.feature:65 (3).executor": "Run",
+    "Karate.validatechallengekbafailure.feature:65 (4).executor": "Run",
+    "Karate.validatechallengekbafailure.feature:65.executor": "Run",
     "Karate.validatechallengekbasuccess.feature.executor": "Run",
     "Karate.validatechallengekbasuccess.feature:16 (1).executor": "Run",
     "Karate.validatechallengekbasuccess.feature:16 (2).executor": "Run",
@@ -213,11 +308,11 @@
     "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/DHM_Pragma/Documents/Mercantil/qa-backend-karate-mercantilbanco/src/test/resources/pa/com/bancomercantil.authentication/karate/validatechallenge/features",
+    "last_opened_file_path": "/Users/DHM_Pragma/Documents/Mercantil/qa-backend-karate-mercantilbanco/src/test/resources/pa/com/bancomercantil/account/karate/valanceaccounts",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.ChangelistConflict"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -225,27 +320,28 @@
       <recent name="pa.com.bancomercantil.authentication.karate.requestchallenge.runners" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/valanceaccounts" />
+      <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getsavingaccounts" />
+      <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/dataproauthentication/features" />
+      <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/dataproauthentication" />
       <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/validatechallenge/features" />
-      <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/utils/jsonRequest" />
-      <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/validatechallenge/jsonRequest" />
-      <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/authentication/jsonResponse" />
-      <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/authentication/jsonRequest" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/karate" />
+      <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication" />
+      <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil" />
       <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/utils/" />
       <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/utils/features" />
-      <recent name="$PROJECT_DIR$/src/test/java" />
-      <recent name="$PROJECT_DIR$/src/test/java/users/utils" />
-      <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pa.com.bancomercantil.authentication.karate.runners.dataproauthentication" />
       <recent name="pa.com.bancomercantil.authentication.karate.runners.validatechallenge" />
       <recent name="pa.com.bancomercantil.authentication.karate.utils" />
       <recent name="pa.com.bancomercantil.authentication.karate.requestchallenge.runners" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ITRequestChallengeFailureRunner.challengeFailureTest">
-    <configuration name="ITAuthenticationEvaluateFailureRunner.authenticationEvaluateFailureTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ITKBAQuestionEvaluateSuccessRunner.kbaQuestionEvaluateSuccessTest">
+    <configuration name="ITAuthenticationEvaluateSuccessRunner.authenticationEvaluateSuccessTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -258,7 +354,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pa.com.bancomercantil.authentication.karate.runners.validatechallenge.ITAuthenticationEvaluateFailureRunner.authenticationEvaluateFailureTest&quot;" />
+            <option value="&quot;pa.com.bancomercantil.authentication.karate.runners.validatechallenge.ITAuthenticationEvaluateSuccessRunner.authenticationEvaluateSuccessTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -283,6 +379,30 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;pa.com.bancomercantil.authentication.karate.runners.validatechallenge.ITKBAGetQuestionFailureRunner.kbaQuestionEvaluateSuccessTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ITKBAGetQuestionSuccessRunner.kbaQuestionEvaluateSuccessTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;pa.com.bancomercantil.authentication.karate.runners.validatechallenge.ITKBAGetQuestionSuccessRunner.kbaQuestionEvaluateSuccessTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -341,30 +461,6 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ITRequestChallengeFailureRunner.challengeFailureTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;pa.com.bancomercantil.authentication.karate.runners.requestchallenge.ITRequestChallengeFailureRunner.challengeFailureTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -385,20 +481,13 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Gradle.ITKBAGetQuestionFailureRunner.kbaQuestionEvaluateSuccessTest" />
-      <item itemvalue="Gradle.ITKBAQuestionEvaluateSuccessRunner.kbaQuestionEvaluateSuccessTest" />
-      <item itemvalue="Gradle.ITRequestChallengeFailureRunner.challengeFailureTest" />
-      <item itemvalue="Gradle.ITAuthenticationEvaluateFailureRunner.authenticationEvaluateFailureTest" />
-      <item itemvalue="Gradle.ITKBAQuestionEvaluateFailureRunner.kbaQuestionEvaluateFailureTest" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ITRequestChallengeFailureRunner.challengeFailureTest" />
-        <item itemvalue="Gradle.ITKBAGetQuestionFailureRunner.kbaQuestionEvaluateSuccessTest" />
-        <item itemvalue="Gradle.ITKBAQuestionEvaluateFailureRunner.kbaQuestionEvaluateFailureTest" />
-        <item itemvalue="Gradle.ITAuthenticationEvaluateFailureRunner.authenticationEvaluateFailureTest" />
         <item itemvalue="Gradle.ITKBAQuestionEvaluateSuccessRunner.kbaQuestionEvaluateSuccessTest" />
+        <item itemvalue="Gradle.ITKBAQuestionEvaluateFailureRunner.kbaQuestionEvaluateFailureTest" />
+        <item itemvalue="Gradle.ITKBAGetQuestionSuccessRunner.kbaQuestionEvaluateSuccessTest" />
+        <item itemvalue="Gradle.ITKBAGetQuestionFailureRunner.kbaQuestionEvaluateSuccessTest" />
+        <item itemvalue="Gradle.ITAuthenticationEvaluateSuccessRunner.authenticationEvaluateSuccessTest" />
       </list>
     </recent_temporary>
   </component>
@@ -443,7 +532,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738089405266</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Correct failed cases 106 and 114">
+      <option name="closed" value="true" />
+      <created>1738353894639</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738353894639</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -466,6 +563,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add features to validate functionality for HUT 114" />
     <MESSAGE value="Add zip compression" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add zip compression" />
+    <MESSAGE value="Correct failed cases 106 and 114" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correct failed cases 106 and 114" />
   </component>
 </project>

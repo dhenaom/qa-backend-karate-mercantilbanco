@@ -5,7 +5,7 @@ Feature: Generar token para autenticacion de la API de entrust
      * karate.configure('connectTimeout', config.entrust.connectTimeout)
      * karate.configure('readTimeout', config.entrust.readTimeout)
      * def urlBase = config.entrust.urlBase
-     * def baseBody = karate.read('classpath:pa/com/bancomercantil.authentication/karate/utils/jsonRequest/bodyapiauthenticate.json')
+     * def baseBody = karate.read('classpath:pa/com/bancomercantil/authentication/karate/utils/jsonRequest/bodyapiauthenticate.json')
 
       @APIAuthenticate
       Scenario: Autenticacion exitosa de la API de entrust
