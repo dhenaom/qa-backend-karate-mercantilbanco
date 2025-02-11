@@ -13,7 +13,7 @@ public class ITKBAGetQuestionFailureRunner {
     Karate kbaQuestionEvaluateSuccessTest() throws IOException {
         String timestamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
         String path = "target/karate-reports-"+timestamp;
-        Karate result = Karate.run("classpath:pa/com/bancomercantil.authentication/karate/validatechallenge/features/getquestionsandanswersfailure.feature")
+        Karate result = Karate.run("classpath:pa/com/bancomercantil/authentication/karate/validatechallenge/features/getquestionsandanswersfailure.feature")
                 .relativeTo(getClass()).reportDir(path).outputCucumberJson(true);
         ZipUtil.zipDirectory("target/karate-reports", path + ".zip");
         return result;

@@ -1,9 +1,9 @@
 Feature: Validar autenticación fallida con distintos tipos de autenticación y delivery type
   Background:
     * def config = call read('classpath:karate-config.js')
-    * karate.configure('connectTimeout', config.requestChallenge.connectTimeout)
-    * karate.configure('readTimeout', config.requestChallenge.readTimeout)
-    * def urlBase = config.requestChallenge.urlBase
+    * karate.configure('connectTimeout', config.connectTimeout)
+    * karate.configure('readTimeout', config.readTimeout)
+    * def urlBase = config.urlBase
     * def baseBody = karate.read('../jsonRequest/bodyRequestChallenge.json')
     * def responseBody1 = karate.read('../jsonResponse/invalidOtpDeliveryType.json')
     * def responseBody2 = karate.read('../jsonResponse/emptyOtpDeliveryType.json')
@@ -16,7 +16,7 @@ Feature: Validar autenticación fallida con distintos tipos de autenticación y 
 
   @InvalidOtpDeliveryType
   Scenario: Intento de autenticación OTP con otpdeliveryType no válido
-    Given url urlBase + user + '/authenticators/' + 'OTP' + '/evaluate'
+    Given url urlBase + '/party-authentication/' + user + '/authenticators/' + 'OTP' + '/evaluate'
     * def modifiedBody = JSON.parse(JSON.stringify(baseBody))
     * set modifiedBody.PartyAuthenticationAssessment.OtpDeliveryType = randomName
     And request modifiedBody
@@ -26,7 +26,7 @@ Feature: Validar autenticación fallida con distintos tipos de autenticación y 
 
   @EmptyOtpDeliveryType
   Scenario: Intento de autenticación OTP con otpdeliveryType null
-    Given url urlBase + user + '/authenticators/' + 'OTP' + '/evaluate'
+    Given url urlBase + '/party-authentication/' + user + '/authenticators/' + 'OTP' + '/evaluate'
     * def modifiedBody = JSON.parse(JSON.stringify(baseBody))
     * set modifiedBody.PartyAuthenticationAssessment.OtpDeliveryType = ""
     And request modifiedBody
@@ -36,7 +36,7 @@ Feature: Validar autenticación fallida con distintos tipos de autenticación y 
 
   @MissingParameters
   Scenario: Intento de autenticación OTP con parametros faltantes
-    Given url urlBase + user + '/authenticators/' + 'OTP' + '/evaluate'
+    Given url urlBase + '/party-authentication/' + user + '/authenticators/' + 'OTP' + '/evaluate'
     * def modifiedBody = JSON.parse(JSON.stringify(baseBody))
     * set modifiedBody.PartyAuthenticationAssessment = {}
     And request modifiedBody
@@ -46,7 +46,7 @@ Feature: Validar autenticación fallida con distintos tipos de autenticación y 
 
   @UserIDEmpty
   Scenario Outline: Intento de autenticación <authenticateType> con userID vacio
-    Given url urlBase + '' + '/authenticators/' + '<authenticateType>' + '/evaluate'
+    Given url urlBase + '/party-authentication/' + '' + '/authenticators/' + '<authenticateType>' + '/evaluate'
     * def modifiedBody = JSON.parse(JSON.stringify(baseBody))
     * set modifiedBody.PartyAuthenticationAssessment = {}
     And request modifiedBody
@@ -63,7 +63,7 @@ Feature: Validar autenticación fallida con distintos tipos de autenticación y 
 
   @InvalidUserID
   Scenario Outline: Intento de autenticación <authenticateType> con userID invalido
-    Given url urlBase +randomName + '/authenticators/' + '<authenticateType>' + '/evaluate'
+    Given url urlBase + '/party-authentication/' +randomName + '/authenticators/' + '<authenticateType>' + '/evaluate'
     * def modifiedBody = JSON.parse(JSON.stringify(baseBody))
     And request modifiedBody
     When method post
@@ -79,7 +79,7 @@ Feature: Validar autenticación fallida con distintos tipos de autenticación y 
 
   @AuthenticationTypeEmpty
   Scenario: Intento de autenticación con AuthenticationType nulo o vacio
-    Given url urlBase + user + '/authenticators/' + '' + '/evaluate'
+    Given url urlBase + '/party-authentication/' + user + '/authenticators/' + '' + '/evaluate'
     * def modifiedBody = JSON.parse(JSON.stringify(baseBody))
     And request modifiedBody
     When method post
@@ -88,7 +88,7 @@ Feature: Validar autenticación fallida con distintos tipos de autenticación y 
 
   @InvalidAuthenticationType
   Scenario: Intento de autenticación con AuthenticationType Invalido
-    Given url urlBase + user + '/authenticators/' + randomName + '/evaluate'
+    Given url urlBase + '/party-authentication/' + user + '/authenticators/' + randomName + '/evaluate'
     * def modifiedBody = JSON.parse(JSON.stringify(baseBody))
     And request modifiedBody
     When method post

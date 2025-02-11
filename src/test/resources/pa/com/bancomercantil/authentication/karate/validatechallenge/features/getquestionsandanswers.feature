@@ -1,10 +1,10 @@
 Feature: Obtener preguntas y respuestas de KBA challenge
   Background:
     * def config = call read('classpath:karate-config.js')
-    * karate.configure('connectTimeout', config.validateChallenge.connectTimeout)
-    * karate.configure('readTimeout', config.validateChallenge.readTimeout)
-    * def urlBase = config.validateChallenge.urlBase
-    * def kbaResponse = karate.call('classpath:pa/com/bancomercantil.authentication/karate/requestchallenge/features/requestchallengesuccess.feature@HappyPathKBA')
+    * karate.configure('connectTimeout', config.connectTimeout)
+    * karate.configure('readTimeout', config.readTimeout)
+    * def urlBase = config.urlBase
+    * def kbaResponse = karate.call('classpath:pa/com/bancomercantil/authentication/karate/requestchallenge/features/requestchallengesuccess.feature@HappyPathKBA')
     * def tokenChallenge = kbaResponse.resp
     * def question1 = {Question:''}
     * def question1 = {Question:''}
@@ -32,7 +32,7 @@ Feature: Obtener preguntas y respuestas de KBA challenge
     """
   @getAnswers
   Scenario: obtener preguntas KBA
-    Given url urlBase + user + '/question/retrieve'
+    Given url urlBase +'/party-authentication/' + user + '/question/retrieve'
 #    And header Authorization = tokenChallenge
     When method get
     Then status 200
