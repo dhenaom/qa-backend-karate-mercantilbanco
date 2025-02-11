@@ -1,0 +1,47 @@
+{
+  "error_400_invalid_status": {
+    "statusCode": "400",
+    "status": "ERROR",
+    "message": "La Solicitud Fallo en una de las Validaciones.",
+    "data": {
+      "errorDetails": {
+        "code": "BREX400-02",
+        "fields": {
+          "PartyReferenceStatus": "El valor ingreso es invalido, este solo puede ser ACTIVE o INACTIVE"
+        }
+      }
+    },
+    "timestamp": "#string",
+    "transactionId": "#string"
+  },
+  "error_400_empty_status": {
+    "statusCode": "400",
+    "status": "ERROR",
+    "message": "La Solicitud Fallo en una de las Validaciones.",
+    "data": {
+      "errorDetails": {
+        "code": "BREX400-02",
+        "fields": {
+          "PartyReferenceStatus": "El campo no puede ser nulo ni estar vacio"
+        }
+      }
+    },
+    "timestamp": "#string",
+    "transactionId": "#string"
+  },
+  "error_400_null_status": {
+    "statusCode": "400",
+    "status": "ERROR",
+    "message": "La Solicitud Fallo en una de las Validaciones.",
+    "data": {
+      "errorDetails": {
+        "code": "BREX400-02",
+        "fields": {
+          "PartyReferenceStatus": "El campo no puede ser nulo ni estar vacio"
+        }
+      }
+    },
+    "timestamp": "#string",
+    "transactionId": "#string"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unlock_success_response": {
+    "statusCode": "200",
+    "status": "SUCCESS",
+    "message": "Usuario Desbloqueado Exitosamente",
+    "data": {
+      "unlock": true,
+      "message": "Successful"
+    },
+    "timestamp": "#string",
+    "transactionId": "#string"
+  },
+  "already_unlocked_response": {
+    "statusCode": "200",
+    "status": "SUCCESS",
+    "message": "El usuario ya estaba desbloqueado",
+    "data": {
+      "unlock": true,
+      "message": "Successful"
+    },
+    "timestamp": "#string",
+    "transactionId": "#string"
+  }
+}
