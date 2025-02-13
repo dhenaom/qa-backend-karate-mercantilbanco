@@ -1,9 +1,0 @@
-{
-  "error_503": {
-    "statusCode": "503",
-    "status": "ERROR",
-    "message": "Error en la actualización del estado del usuario. Consulte la documentación de manejo de errores.",
-    "timestamp": "2025-02-03T18:32:39.592171524-05:00",
-    "transactionId": "generated-fallback-transactionId"
-  }
-}
