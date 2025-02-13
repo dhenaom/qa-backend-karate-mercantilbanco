@@ -1,0 +1,23 @@
+{
+  "dataTypeAlias": "TYPE_BD_01",
+  "objectType": "ENTITY_01",
+  "entity": {
+    "transactionType": "Prueba de persistencia de datos",
+    "status": "COMPLETED",
+    "userId": "dhenao_pragma",
+    "serviceName": "TestCreate",
+    "correlationId": "123456789",
+    "operationUri": "/api/web/v1/test/test",
+    "httpMethod": "POST",
+    "transactionId": "123456789",
+    "details": {
+      "AuthenticationType": "UUID",
+      "PartyAuthenticationAssessment": {
+        "PartyReferenceStatus": "ACTIVE",
+        "uuid": "uuid"
+      }
+    },
+    "createdAt": "2024-11-29T12:34:56",
+    "completedAt": "2024-11-29T12:34:56"
+  }
+}
