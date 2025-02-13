@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="Corrects karate-config.js and related features">
     <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="Add zip compression">
       <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/gettokenentrust/ITAuthenticateTokenEntrust.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/unlockuser/ITUserUnlock.java" afterDir="false" />
@@ -30,6 +31,11 @@
       <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/userstatus/jsonResponse/404.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/userstatus/jsonResponse/503.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-summary-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-summary-json.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/authentication/jsonRequest/bodyRequestChallenge.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/authentication/jsonResponse/403.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/authentication/jsonResponse/404.json" beforeDir="false" />
@@ -132,6 +138,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -163,6 +170,188 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.Build qa-backend-karate-mercantil.executor": "Run",
+    "Gradle.Build qa-backend-karate-mercantilbanco.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.ITAuthenticationEvaluateFailureRunner.authenticationEvaluateFailureTest.executor": "Run",
+    "Gradle.ITAuthenticationEvaluateFailureRunner.executor": "Run",
+    "Gradle.ITAuthenticationEvaluateRunner.authenticationEvaluateTest.executor": "Run",
+    "Gradle.ITAuthenticationEvaluateRunner.executor": "Run",
+    "Gradle.ITAuthenticationEvaluateSuccessRunner.authenticationEvaluateSuccessTest.executor": "Run",
+    "Gradle.ITKBAGetQuestionFailureRunner.kbaQuestionEvaluateSuccessTest.executor": "Run",
+    "Gradle.ITKBAGetQuestionSuccessRunner.kbaQuestionEvaluateSuccessTest.executor": "Run",
+    "Gradle.ITKBAQuestionEvaluateFailureRunner.kbaQuestionEvaluateFailureTest.executor": "Run",
+    "Gradle.ITKBAQuestionEvaluateRunner.kbaQuestionEvaluateTest.executor": "Run",
+    "Gradle.ITKBAQuestionEvaluateSuccessRunner.executor": "Run",
+    "Gradle.ITKBAQuestionEvaluateSuccessRunner.kbaQuestionEvaluateSuccessTest.executor": "Run",
+    "Gradle.ITRequestChallengeFailure.executor": "Run",
+    "Gradle.ITRequestChallengeFailureRunner.challengeFailureTest.executor": "Run",
+    "Gradle.ITRequestChallengePost.executor": "Run",
+    "Gradle.ITRequestChallengeSuccess.challengeTest.executor": "Run",
+    "Gradle.ITRequestChallengeSuccess.executor": "Run",
+    "Gradle.ITRequestChallengeSuccess.succesChalenge.executor": "Run",
+    "Gradle.ITRequestChallengeSuccessRunner.challengeSuccessTest.executor": "Run",
+    "Gradle.ITRequestChallengeSuccessRunner.challengeTest.executor": "Run",
+    "Gradle.ITRequestTokenFailureRunner.challengeFailureTest.executor": "Run",
+    "Gradle.ITRequestTokenSuccessRunner.challengeSuccessTest.executor": "Run",
+    "Gradle.RequestChallengePost.executor": "Run",
+    "Gradle.RequestChallengePost.testAll.executor": "Debug",
+    "Gradle.Upgrade Gradle wrapper.executor": "Run",
+    "Gradle.UserGetRunner.executor": "Run",
+    "Gradle.UserGetRunner.userGet.executor": "Run",
+    "Gradle.qa-backend-karate-mercantil [clean].executor": "Run",
+    "Gradle.qa-backend-karate-mercantil [test].executor": "Run",
+    "Gradle.qa-backend-karate-mercantilbanco [build].executor": "Run",
+    "Gradle.qa-backend-karate-mercantilbanco [clean].executor": "Run",
+    "Gradle.qa-backend-karate-mercantilbanco [test].executor": "Run",
+    "Karate.@APIAuthenticate.executor": "Run",
+    "Karate.@Consistency.executor": "Run",
+    "Karate.@HappyPathKBA.executor": "Run",
+    "Karate.apiaauthenticate.feature.executor": "Run",
+    "Karate.apiaauthenticate.feature:11 (1).executor": "Run",
+    "Karate.apiaauthenticate.feature:11.executor": "Run",
+    "Karate.apiauthenticate.feature.executor": "Run",
+    "Karate.apiauthenticate.feature:11.executor": "Run",
+    "Karate.dataproauthenticationfailure.feature.executor": "Run",
+    "Karate.dataproauthenticationfailure.feature:12.executor": "Run",
+    "Karate.dataproauthenticationfailure.feature:13.executor": "Run",
+    "Karate.dataproauthenticationfailure.feature:21 (1).executor": "Run",
+    "Karate.dataproauthenticationfailure.feature:21 (2).executor": "Run",
+    "Karate.dataproauthenticationfailure.feature:21.executor": "Run",
+    "Karate.dataproauthenticationfailure.feature:29 (1).executor": "Run",
+    "Karate.dataproauthenticationfailure.feature:29.executor": "Run",
+    "Karate.dataproauthenticationfailure.feature:39.executor": "Run",
+    "Karate.dataproauthenticationfailure.feature:47.executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:11.executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:12 (1).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:12 (2).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:12 (3).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:12 (4).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:12 (5).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:12.executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:21.executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:24 (1).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:24 (2).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:24 (3).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:24 (4).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:24 (5).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:24.executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:25 (1).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:25.executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:26.executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:41 (1).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:41 (2).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:41 (3).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:41 (4).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:41 (5).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:41.executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:42 (1).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:42 (2).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:42 (3).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:42 (4).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:42 (5).executor": "Run",
+    "Karate.dataproauthenticationsuccess.feature:42.executor": "Run",
+    "Karate.getcurrentaccountssuccess.feature:12 (1).executor": "Run",
+    "Karate.getcurrentaccountssuccess.feature:12 (2).executor": "Run",
+    "Karate.getcurrentaccountssuccess.feature:12 (3).executor": "Run",
+    "Karate.getcurrentaccountssuccess.feature:12 (4).executor": "Run",
+    "Karate.getcurrentaccountssuccess.feature:12.executor": "Run",
+    "Karate.getquestions.feature:16.executor": "Run",
+    "Karate.getquestions.feature:36.executor": "Run",
+    "Karate.getquestionsandanswers.feature.executor": "Run",
+    "Karate.getquestionsandanswers.feature:34.executor": "Run",
+    "Karate.otpgenerator.feature.executor": "Run",
+    "Karate.otpgenerator.feature:11 (1).executor": "Run",
+    "Karate.otpgenerator.feature:11 (2).executor": "Run",
+    "Karate.otpgenerator.feature:11 (3).executor": "Run",
+    "Karate.otpgenerator.feature:11.executor": "Run",
+    "Karate.requestchallenge_success.executor": "Run",
+    "Karate.requestchallenge_success.feature.executor": "Run",
+    "Karate.requestchallenge_success.feature:9 (1).executor": "Run",
+    "Karate.requestchallenge_success.feature:9.executor": "Run",
+    "Karate.requestchallenge_success:9.executor": "Run",
+    "Karate.requestchallengefailure.feature.executor": "Run",
+    "Karate.requestchallengefailure.feature:19.executor": "Run",
+    "Karate.requestchallengesuccess.executor": "Run",
+    "Karate.requestchallengesuccess.feature.executor": "Run",
+    "Karate.requestchallengesuccess.feature:11 (1).executor": "Run",
+    "Karate.requestchallengesuccess.feature:11.executor": "Run",
+    "Karate.requestchallengesuccess.feature:30.executor": "Run",
+    "Karate.requestchallengesuccess.feature:40 (1).executor": "Run",
+    "Karate.requestchallengesuccess.feature:40 (2).executor": "Run",
+    "Karate.requestchallengesuccess.feature:40 (3).executor": "Run",
+    "Karate.requestchallengesuccess.feature:40.executor": "Run",
+    "Karate.requestchallengesuccess.feature:47 (1).executor": "Run",
+    "Karate.requestchallengesuccess.feature:47.executor": "Run",
+    "Karate.requestchallengesuccess.feature:48.executor": "Run",
+    "Karate.requestchallengesuccess.feature:50 (1).executor": "Run",
+    "Karate.requestchallengesuccess.feature:50 (2).executor": "Run",
+    "Karate.requestchallengesuccess.feature:50 (3).executor": "Run",
+    "Karate.requestchallengesuccess.feature:50.executor": "Run",
+    "Karate.requestchallengesuccess.feature:51.executor": "Run",
+    "Karate.requestchallengesuccess:11.executor": "Run",
+    "Karate.validatechallengekbafailure.feature:53.executor": "Run",
+    "Karate.validatechallengekbafailure.feature:65 (1).executor": "Run",
+    "Karate.validatechallengekbafailure.feature:65 (2).executor": "Run",
+    "Karate.validatechallengekbafailure.feature:65 (3).executor": "Run",
+    "Karate.validatechallengekbafailure.feature:65 (4).executor": "Run",
+    "Karate.validatechallengekbafailure.feature:65.executor": "Run",
+    "Karate.validatechallengekbasuccess.feature.executor": "Run",
+    "Karate.validatechallengekbasuccess.feature:16 (1).executor": "Run",
+    "Karate.validatechallengekbasuccess.feature:16 (2).executor": "Run",
+    "Karate.validatechallengekbasuccess.feature:16 (3).executor": "Run",
+    "Karate.validatechallengekbasuccess.feature:16 (4).executor": "Run",
+    "Karate.validatechallengekbasuccess.feature:16 (5).executor": "Run",
+    "Karate.validatechallengekbasuccess.feature:16.executor": "Run",
+    "Karate.validatechallengekbasuccess.feature:17 (1).executor": "Run",
+    "Karate.validatechallengekbasuccess.feature:17 (2).executor": "Run",
+    "Karate.validatechallengekbasuccess.feature:17.executor": "Run",
+    "Karate.validatechallengekbasuccess.feature:18 (1).executor": "Run",
+    "Karate.validatechallengekbasuccess.feature:18 (2).executor": "Run",
+    "Karate.validatechallengekbasuccess.feature:18 (3).executor": "Run",
+    "Karate.validatechallengekbasuccess.feature:18.executor": "Run",
+    "Karate.validatechallengekbasuccess.feature:29 (1).executor": "Run",
+    "Karate.validatechallengekbasuccess.feature:29 (2).executor": "Run",
+    "Karate.validatechallengekbasuccess.feature:29 (3).executor": "Run",
+    "Karate.validatechallengekbasuccess.feature:29 (4).executor": "Run",
+    "Karate.validatechallengekbasuccess.feature:29.executor": "Run",
+    "Karate.validatechallengekbasuccess.feature:34.executor": "Run",
+    "Karate.validatechallengesuccess.feature.executor": "Run",
+    "Karate.validatechallengesuccess.feature:12 (1).executor": "Run",
+    "Karate.validatechallengesuccess.feature:12.executor": "Run",
+    "Karate.validatechallengesuccess.feature:16 (1).executor": "Run",
+    "Karate.validatechallengesuccess.feature:16 (2).executor": "Run",
+    "Karate.validatechallengesuccess.feature:16 (3).executor": "Run",
+    "Karate.validatechallengesuccess.feature:16 (4).executor": "Run",
+    "Karate.validatechallengesuccess.feature:16 (5).executor": "Run",
+    "Karate.validatechallengesuccess.feature:16.executor": "Run",
+    "Karate.validatechallengesuccess.feature:30 (1).executor": "Run",
+    "Karate.validatechallengesuccess.feature:30 (2).executor": "Run",
+    "Karate.validatechallengesuccess.feature:30 (3).executor": "Run",
+    "Karate.validatechallengesuccess.feature:30 (4).executor": "Run",
+    "Karate.validatechallengesuccess.feature:30 (5).executor": "Run",
+    "Karate.validatechallengesuccess.feature:30.executor": "Run",
+    "Karate.validatechallengesuccess.feature:47 (1).executor": "Run",
+    "Karate.validatechallengesuccess.feature:47.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/DHM_Pragma/Documents/Mercantil/qa-backend-karate-mercantilbanco/src/test/resources/pa/com/bancomercantil/account/karate/valanceaccounts",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
@@ -326,6 +515,8 @@
   </component>
   <component name="RunManager" selected="Gradle.ITAuthenticateTokenEntrust">
     <configuration name="ITAuthenticateTokenEntrust" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Karate.getcurrentaccountssuccess.feature:12 (4)">
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -367,12 +558,18 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="getcurrentaccountssuccess.feature:12 (1)" type="karateConfigurationType" temporary="true" lineNumber="12" testName="getcurrentaccountssuccess.feature" testDescription="Feature: Solicitud exitosa cuentas corriente&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;&#10;&#10;  @getcurrentaccountssuccess&#10;    Scenario: Consulta de cuentas corriente exitosa&#10;        Given url urlBase + '/v1/current-account/'+'118067'&#10;        And header page = 1&#10;        And header pageLimit = 10&#10;        And header transactionId = randomNumber&#10;        And params status = 'ALL'&#10;        When method get&#10;        Then status 200&#10;&#10;&#10;&#10;&#10;&#10;" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature">
+      <option name="MAIN_CLASS_NAME" value="com.rankweis.uppercut.testrunner.KarateTestRunner" />
+      <module name="proyecto-base-karate-mercantilbanco.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     <configuration name="ITUserUnlock" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -397,6 +594,19 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="getcurrentaccountssuccess.feature:12 (2)" type="karateConfigurationType" temporary="true" lineNumber="12" testName="getcurrentaccountssuccess.feature" testDescription="Feature: Solicitud exitosa cuentas corriente&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;&#10;&#10;  @getcurrentaccountssuccess&#10;    Scenario: Consulta de cuentas corriente exitosa&#10;        Given url urlBase + '/v1/current-account/'+'118067'&#10;        And header page = 1&#10;        And header pageLimit = 10&#10;        And header transactionId = randomNumber&#10;        And param status = 'ALL'&#10;        When method get&#10;        Then status 200&#10;&#10;&#10;&#10;&#10;&#10;" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature">
+      <option name="MAIN_CLASS_NAME" value="com.rankweis.uppercut.testrunner.KarateTestRunner" />
+      <module name="proyecto-base-karate-mercantilbanco.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="getcurrentaccountssuccess.feature:12 (3)" type="karateConfigurationType" temporary="true" lineNumber="12" testName="getcurrentaccountssuccess.feature" testDescription="Feature: Solicitud exitosa cuentas corriente&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;&#10;&#10;  @getcurrentaccountssuccess&#10;    Scenario: Consulta de cuentas corriente exitosa&#10;        Given url urlBase + '/v1/current-account/'+'118067/'&#10;        And header page = 1&#10;        And header pageLimit = 10&#10;        And header transactionId = randomNumber&#10;        And param status = 'ALL'&#10;        When method get&#10;        Then status 200&#10;&#10;&#10;&#10;&#10;&#10;" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature">
+      <option name="MAIN_CLASS_NAME" value="com.rankweis.uppercut.testrunner.KarateTestRunner" />
+      <module name="proyecto-base-karate-mercantilbanco.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     <configuration name="ITUserUnlock.userStatus" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -421,25 +631,19 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
+    <configuration name="getcurrentaccountssuccess.feature:12 (4)" type="karateConfigurationType" temporary="true" lineNumber="12" testName="getcurrentaccountssuccess.feature" testDescription="Feature: Solicitud exitosa cuentas corriente&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;&#10;&#10;  @getcurrentaccountssuccess&#10;    Scenario: Consulta de cuentas corriente exitosa&#10;        Given url urlBase + '/v1/current-account/'+'118067' + '/detail/retrieve'&#10;        And header page = 1&#10;        And header pageLimit = 10&#10;        And header transactionId = randomNumber&#10;        And param status = 'ALL'&#10;        When method get&#10;        Then status 200&#10;&#10;&#10;&#10;&#10;&#10;" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature">
+      <option name="MAIN_CLASS_NAME" value="com.rankweis.uppercut.testrunner.KarateTestRunner" />
+      <module name="proyecto-base-karate-mercantilbanco.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="getcurrentaccountssuccess.feature:12" type="karateConfigurationType" temporary="true" lineNumber="12" testName="getcurrentaccountssuccess.feature" testDescription="Feature: Solicitud exitosa cuentas corriente&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;&#10;&#10;  @getcurrentaccountssuccess&#10;    Scenario: Consulta de cuentas corriente exitosa&#10;        Given url urlBase + '/v1/current-account/'+'&lt;cif&gt;'&#10;        And header page = 1&#10;        And header pageLimit = 10&#10;        And header transactionId = randomNumber&#10;        And params status = 'ALL'&#10;        When method get&#10;        Then status 200&#10;&#10;&#10;&#10;&#10;&#10;" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature">
+      <option name="MAIN_CLASS_NAME" value="com.rankweis.uppercut.testrunner.KarateTestRunner" />
+      <module name="proyecto-base-karate-mercantilbanco.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="unlockuser.feature" type="karateConfigurationType" temporary="true" lineNumber="1" testName="unlockuser.feature" testDescription="Feature" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil.authentication/karate/unlockuser/features/unlockuser.feature" preferredTest="WHOLE_FILE" parallelism="5" allInFolderAreFeature="false" relPath="pa/com/bancomercantil.authentication/karate/unlockuser/features/unlockuser.feature">
       <option name="MAIN_CLASS_NAME" value="com.rankweis.uppercut.testrunner.KarateTestRunner" />
@@ -457,6 +661,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Karate.getcurrentaccountssuccess.feature:12 (4)" />
+        <item itemvalue="Karate.getcurrentaccountssuccess.feature:12 (3)" />
+        <item itemvalue="Karate.getcurrentaccountssuccess.feature:12 (2)" />
+        <item itemvalue="Karate.getcurrentaccountssuccess.feature:12 (1)" />
+        <item itemvalue="Karate.getcurrentaccountssuccess.feature:12" />
         <item itemvalue="Gradle.ITAuthenticateTokenEntrust" />
         <item itemvalue="Gradle.ITUserUnlock.userStatus" />
         <item itemvalue="Karate.unlockuser.feature" />
@@ -507,6 +716,23 @@
       <updated>1738089405266</updated>
     </task>
     <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Correct failed cases 106 and 114">
+      <option name="closed" value="true" />
+      <created>1738353894639</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738353894639</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Corrects karate-config.js and related features">
+      <option name="closed" value="true" />
+      <created>1739309115564</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739309115564</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -530,5 +756,8 @@
     <MESSAGE value="Add features to validate functionality for HUT 114" />
     <MESSAGE value="Add zip compression" />
     <option name="LAST_COMMIT_MESSAGE" value="Add zip compression" />
+    <MESSAGE value="Correct failed cases 106 and 114" />
+    <MESSAGE value="Corrects karate-config.js and related features" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrects karate-config.js and related features" />
   </component>
 </project>

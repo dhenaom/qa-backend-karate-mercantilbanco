@@ -9,7 +9,7 @@ import java.util.Date;
 
 public class ITKBAGetQuestionSuccessRunner {
     @Karate.Test
-    Karate kbaQuestionEvaluateSuccessTest() throws IOException {
+Karate kbaGetQuestionSuccessTest() throws IOException {
         String timestamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
         String path = "target/karate-reports-"+timestamp;
         Karate result = Karate.run("classpath:pa/com/bancomercantil/authentication/karate/validatechallenge/features/getquestionsandanswers.feature")

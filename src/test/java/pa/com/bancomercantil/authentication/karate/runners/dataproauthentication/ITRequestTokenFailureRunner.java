@@ -8,7 +8,7 @@ import java.util.Date;
 
 public class ITRequestTokenFailureRunner {
     @Karate.Test
-    Karate challengeFailureTest() throws IOException {
+    Karate requestTokenFailureTest() throws IOException {
         String timestamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
         String path = "target/karate-reports-"+timestamp;
         Karate result = Karate.run("classpath:pa/com/bancomercantil/authentication/karate/dataproauthentication/features/dataproauthenticationfailure.feature")
