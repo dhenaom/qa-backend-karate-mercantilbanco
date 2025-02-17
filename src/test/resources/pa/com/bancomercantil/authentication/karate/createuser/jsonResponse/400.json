@@ -1,0 +1,63 @@
+{
+  "error_400_invalid_state": {
+    "statusCode": "400",
+    "status": "ERROR",
+    "message": "Ocurrió un error inesperado.",
+    "data": {
+      "errorDetails": {
+        "code": "400",
+        "fields": {
+          "exceptionType": "BadRequest",
+          "exceptionMessage": "#string"
+        }
+      }
+    },
+    "timestamp": "#string",
+    "transactionId": "#string"
+  },
+  "error_400_invalid_email": {
+    "statusCode": "400",
+    "status": "ERROR",
+    "message": "Ocurrió un error inesperado.",
+    "data": {
+      "errorDetails": {
+        "code": "400",
+        "fields": {
+          "exceptionType": "BadRequest",
+          "exceptionMessage": "#string"
+        }
+      }
+    },
+    "timestamp": "#string",
+    "transactionId": "#string"
+  },
+  "error_400_invalid_language": {
+    "statusCode": "400",
+    "status": "ERROR",
+    "message": "Ocurrió un error inesperado.",
+    "data": {
+      "errorDetails": {
+        "code": "400",
+        "fields": {
+          "exceptionType": "BadRequest",
+          "exceptionMessage": "#string"
+        }
+      }
+    },
+    "timestamp": "#string",
+    "transactionId": "#string"
+  },
+  "error_400_invalid_mobile": {
+  "statusCode": "400",
+  "status": "ERROR",
+  "message": "Ocurrieron errores de validación",
+  "data": {
+    "errorDetails": {
+      "code": "BAD_REQUEST",
+      "fields": {
+        "customerReference.partyReference.customerMobileNumber": "Formato de teléfono móvil invalido"
+      }
+    }
+  }
+}
+}

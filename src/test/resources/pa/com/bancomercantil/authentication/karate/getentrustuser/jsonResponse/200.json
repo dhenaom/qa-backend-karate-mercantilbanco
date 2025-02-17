@@ -1,0 +1,50 @@
+{
+  "success_response": {
+    "statusCode": "200",
+    "status": "SUCCESS",
+    "message": "Successfully processed.",
+    "data": {
+      "id": "#string",
+      "userId": "#string",
+      "firstName": "#string",
+      "lastName": "#string",
+      "email": "#string",
+      "mobile": "#string",
+      "state": "#string",
+      "lastAuthTime": "#string",
+      "locked": "#boolean",
+      "lockedAuthenticators": "#array",
+      "lockedAuthenticatorTypes": "#array",
+      "grids": "#array",
+      "tokens": "#array",
+      "smartCredentials": "#array",
+      "fidoTokens": "#array",
+      "userAttributeValues": "#array",
+      "userAliases": "#array",
+      "userExtraAttributes": "#array",
+      "groups": "#array",
+      "oauthRoles": "#array",
+      "type": "#string",
+      "registrationRequired": "#boolean",
+      "registrationEnabled": "#boolean",
+      "magicLinkEnabled": "#boolean",
+      "verificationRequired": "#boolean",
+      "verificationEnabled": "#boolean",
+      "authenticatorLockoutStatus": "#array",
+      "preferredOtpDeliveryContactAttributes": {
+        "OTP_EMAIL": "#string",
+        "OTP_SMS": "#string",
+        "OTP_VOICE": "#string"
+      },
+      "preferredOtpDelivery": "#string",
+      "showNotification": "#boolean",
+      "frozen": "#boolean",
+      "userCreationTime": "#string",
+      "alternateEmails": "#array",
+      "lastModified": "#string",
+      "organizations": "#array"
+    },
+    "timestamp": "#string",
+    "transactionId": "#string"
+  }
+}

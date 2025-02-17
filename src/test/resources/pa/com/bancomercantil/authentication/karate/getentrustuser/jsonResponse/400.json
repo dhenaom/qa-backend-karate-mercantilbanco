@@ -1,0 +1,23 @@
+{
+  "error_400_null_user": {
+    "statusCode": "400",
+    "status": "ERROR",
+    "message": "El campo usuario no puede ser nulo",
+    "timestamp": "#string",
+    "transactionId": "#string"
+  },
+  "error_400_empty_user": {
+    "statusCode": "400",
+    "status": "ERROR",
+    "message": "El campo usuario no puede estar vacío",
+    "timestamp": "#string",
+    "transactionId": "#string"
+  },
+  "error_400_invalid_user": {
+    "statusCode": "400",
+    "status": "ERROR",
+    "message": "Formato inválido para el campo usuario",
+    "timestamp": "#string",
+    "transactionId": "#string"
+  }
+}

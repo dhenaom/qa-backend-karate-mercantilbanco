@@ -1,0 +1,9 @@
+{
+  "error_401_no_auth": {
+    "statusCode": "401",
+    "status": "ERROR",
+    "message": "No autorizado. Se requiere un token válido.",
+    "timestamp": "#string",
+    "transactionId": "#string"
+  }
+}

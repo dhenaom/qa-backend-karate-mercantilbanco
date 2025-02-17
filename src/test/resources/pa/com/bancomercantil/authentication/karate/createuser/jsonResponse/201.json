@@ -1,0 +1,28 @@
+{
+  "created_response": {
+    "statusCode": "201",
+    "status": "SUCCESS",
+    "message": "infrastructure.controller.CustomerAccessEntitlementController.createUser",
+    "data": {
+      "CustomerReference": {
+        "PartyReference": {
+          "CustomerEmail": "#string",
+          "PartyIdentification": {
+            "PartyIdentification": {
+              "ExternalCustomerId": "#string",
+              "UserIdentifier": "#string"
+            }
+          },
+          "PartyName": {
+            "FirstName": "#string",
+            "LastName": "#string",
+            "UserPrincipalName": "#string"
+          },
+          "CustomerMobileNumber": "#string"
+        }
+      }
+    },
+    "timestamp": "#string",
+    "transactionId": "#string"
+  }
+}
