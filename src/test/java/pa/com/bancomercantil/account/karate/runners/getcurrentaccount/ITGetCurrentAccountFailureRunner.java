@@ -13,7 +13,7 @@ public class ITGetCurrentAccountFailureRunner {
             Karate getCurrentAccountFailureTest() throws IOException {
                 String timestamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
                 String path = "target/karate-reports-"+timestamp;
-                Karate result = Karate.run("classpath:pa/com/bancomercantil/account/karate/datapersistence/features/datapersistencefailure.feature")
+                Karate result = Karate.run("classpath:pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountsfailure.feature")
                         .relativeTo(getClass()).backupReportDir(true).outputCucumberJson(true);
                 ZipUtil.zipDirectory("target/karate-reports", path + ".zip");
                 return result;
