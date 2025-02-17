@@ -1,0 +1,19 @@
+{
+  "error_404_user_not_found": {
+    "statusCode": "404",
+    "status": "ERROR",
+    "message": "User not found with userId.",
+    "data": {
+      "errorDetails": {
+        "code": "user_not_found_response"
+      }
+    },
+    "timestamp": "#string",
+    "transactionId": "#string"
+  }
+,
+  "error_404_resource_not_found": {
+    "statusCode": 404,
+    "message": "Resource not found"
+  }
+}

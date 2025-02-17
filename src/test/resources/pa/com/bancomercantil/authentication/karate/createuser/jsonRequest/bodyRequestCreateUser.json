@@ -1,0 +1,39 @@
+{
+  "CustomerReference": {
+    "PartyReference": {
+      "CustomerEmail": "testcorreo61212@example.com",
+      "PartyIdentification": {
+        "PartyIdentification": {
+          "ExternalCustomerId": "123456712111",
+          "UserIdentifier": "987654328911"
+        }
+      },
+      "PartyName": {
+        "FirstName": "John",
+        "LastName": "Doe",
+        "UserPrincipalName": "testcorreo61212@example.com"
+      },
+      "CustomerMobileNumber": "+5078422364"
+    }
+  },
+  "CustomerChannelAccessProfileRecord": {
+    "ChannelAccessArrangement": {
+      "ChannelAccessSource": "Identificado"
+    }
+  },
+  "CustomerAccessAgreementSignaturesResponsibleParties": {
+    "InvolvementType": {
+      "UserAccessGroups": [
+        "392c547e-fa31-47d7-af83-5ae3cde651c7"
+      ]
+    }
+  },
+  "CustomerAccessAgreement": {
+    "LocaleConfiguration": {
+      "Language": "es"
+    }
+  },
+  "CustomerAuthenticationAssessmentUser": {
+    "UserAuthenticationState": "ACTIVE"
+  }
+}

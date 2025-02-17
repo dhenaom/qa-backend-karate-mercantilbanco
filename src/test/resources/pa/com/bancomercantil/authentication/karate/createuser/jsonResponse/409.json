@@ -1,0 +1,14 @@
+{
+  "error_409_user_exists": {
+    "statusCode": "409",
+    "status": "ERROR",
+    "message": "No es posible realizar la creación del usuario",
+    "data": {
+      "errorDetails": {
+        "code": "409"
+      }
+    },
+    "timestamp": "#string",
+    "transactionId": "#string"
+  }
+}
