@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="update project" />
     <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="merge test">
       <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountsfailure.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getsavingaccounts/features/getsavingsaccountsfailure.feature" afterDir="false" />
@@ -167,7 +168,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;git@github.com:dhenaom/qa-backend-karate-mercantilbanco.git&quot;,
-    &quot;accountId&quot;: &quot;78989907-063b-40a3-86ec-1b39f3bd87ad&quot;
+    &quot;accountId&quot;: &quot;3490390b-a034-4334-877c-066d15c57cbc&quot;
   }
 }</component>
   <component name="MarkdownSettingsMigration">
@@ -962,7 +963,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739478113938</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update project">
+      <option name="closed" value="true" />
+      <created>1739828161203</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739828161203</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -990,6 +999,7 @@
     <MESSAGE value="Corrects karate-config.js and related features" />
     <MESSAGE value="put tests data persistence" />
     <MESSAGE value="merge test" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge test" />
+    <MESSAGE value="update project" />
+    <option name="LAST_COMMIT_MESSAGE" value="update project" />
   </component>
 </project>
