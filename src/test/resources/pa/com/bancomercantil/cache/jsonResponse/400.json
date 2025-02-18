@@ -1,0 +1,53 @@
+{
+  "valueNotObjet": {
+    "status": "ERROR",
+    "statusCode": 400,
+    "data": [
+      {
+        "property": "value",
+        "constraints": { "isObject": "Debe ser un objeto" }
+      }
+    ],
+    "timestamp": "2025-02-18T13:15:42.159Z",
+    "transactionId": "0119957814"
+  },
+  "notTransactionId": {
+    "status": "ERROR",
+    "statusCode": 400,
+    "data": {
+      "transactionId": "Header transactionId is requerido"
+    },
+    "timestamp": "2025-02-18T13:18:01.208Z",
+    "transactionId": "N/A"
+  },
+  "notCacheKey": {
+    "status": "ERROR",
+    "statusCode": 400,
+    "data": [
+      {
+        "property": "cacheKey",
+        "constraints": {
+          "isString": "El valor debe ser string",
+          "isNotEmpty": "El valor no puede ir vacío"
+        }
+      }
+    ],
+    "timestamp": "2025-02-18T13:21:08.273Z",
+    "transactionId": "3025384472"
+  },
+  "notValue": {
+    "status": "ERROR",
+    "statusCode": 400,
+    "data": [
+      {
+        "property": "value",
+        "constraints": {
+          "isObject": "Debe ser un objeto",
+          "isNotEmpty": "El valor no puede ir vacío"
+        }
+      }
+    ],
+    "timestamp": "2025-02-18T13:21:33.122Z",
+    "transactionId": "0369546196"
+  }
+}
