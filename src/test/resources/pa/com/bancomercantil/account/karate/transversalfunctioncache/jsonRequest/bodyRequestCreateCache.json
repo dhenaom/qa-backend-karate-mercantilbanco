@@ -27,5 +27,17 @@
   "withOutValue": {
     "cacheKey": "user:preferences",
     "ttl": 100
+  },
+  "withOutTtl": {
+    "cacheKey": "user:preferences",
+    "value": {
+      "entity": {
+        "loanId": "LN-001",
+        "amount": 1500,
+        "currency": "USD",
+        "customerId": "CUST-123",
+        "loanDate": "2024-11-29"
+      }
+    }
   }
 }

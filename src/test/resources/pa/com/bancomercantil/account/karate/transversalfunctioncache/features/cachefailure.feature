@@ -6,11 +6,12 @@ Feature: validar casos failure servicios cache
     * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')
     * def randomNumber = randomUtils.generateRandomUtil(8,"number")
     * def urlBase = config.urlBase
-    * def readBody = karate.read('classpath:pa/com/bancomercantil/cache/jsonRequest/bodyRequestCreateCache.json')
+    * def readBody = karate.read('classpath:pa/com/bancomercantil/account/karate/transversalfunctioncache/jsonRequest/bodyRequestCreateCache.json')
     * def pathcreate = '/api/v1/fn/cache-management/create'
     * def pathget = '/api/v1/fn/cache-management/retrieve/'
-    * def formatresponse404 = karate.read('classpath:pa/com/bancomercantil/cache/jsonResponse/404.json')
+    * def formatresponse404 = karate.read('classpath:pa/com/bancomercantil/account/karate/transversalfunctioncache/jsonResponse/404.json')
     * def messageerror = 'Datos de entrada inválidos.'
+    * def isoformat = '#regex ^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$'
 
     @CreateFailureTransactionIdNull
     Scenario: Solicitud de creacion fallida transactionId nulo
@@ -25,7 +26,7 @@ Feature: validar casos failure servicios cache
       And match response.message == messageerror
       And match response.status == 'ERROR'
       And match response.transactionId == "N/A"
-      And match response.timestamp == '#regex ^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$'
+      And match response.timestamp == isoformat
 
 
     @CreateFailureWithOutTransactionIdHeader
@@ -40,7 +41,7 @@ Feature: validar casos failure servicios cache
       And match response.message == messageerror
       And match response.status == 'ERROR'
       And match response.transactionId == "N/A"
-      And match response.timestamp == '#regex ^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$'
+      And match response.timestamp == isoformat
 
     @CreateFailureWithOutCacheKey
     Scenario: Solicitud de creacion fallida sin campo cacheKey
@@ -54,7 +55,7 @@ Feature: validar casos failure servicios cache
       And match response.message == messageerror
       And match response.status == 'ERROR'
       And match response.transactionId == randomNumber
-      And match response.timestamp == '#regex ^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$'
+      And match response.timestamp == isoformat
 
     @CreateFailureCacheKey
     Scenario: Solicitud de creacion fallida error campo cacheKey
@@ -69,7 +70,7 @@ Feature: validar casos failure servicios cache
       And match response.message == messageerror
       And match response.status == 'ERROR'
       And match response.transactionId == randomNumber
-      And match response.timestamp == '#regex ^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$'
+      And match response.timestamp == isoformat
 
     @CreateWithOutValue
     Scenario: Solicitud de creacion fallida sin value
@@ -84,7 +85,7 @@ Feature: validar casos failure servicios cache
       And match response.message == messageerror
       And match response.status == 'ERROR'
       And match response.transactionId == randomNumber
-      And match response.timestamp == '#regex ^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$'
+      And match response.timestamp == isoformat
 
     @CreateFailureValue
     Scenario: Solicitud de creacion error value
@@ -100,7 +101,7 @@ Feature: validar casos failure servicios cache
       And match response.message == messageerror
       And match response.status == 'ERROR'
       And match response.transactionId == randomNumber
-      And match response.timestamp == '#regex ^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$'
+      And match response.timestamp == isoformat
 
     @GetFailureTransactionIdNull
     Scenario: Solicitud de obtener transactionId nulo
@@ -111,7 +112,7 @@ Feature: validar casos failure servicios cache
       Then status 400
       And match response.message == messageerror
       And match response.transactionId == "N/A"
-      And match response.timestamp == '#regex ^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$'
+      And match response.timestamp == isoformat
 
     @GetFailureTransactionId
     Scenario: Solicitud de obtener error transactionId
@@ -122,7 +123,7 @@ Feature: validar casos failure servicios cache
       Then status 400
       And match response.message == messageerror
       And match response.transactionId == "N/A"
-      And match response.timestamp == '#regex ^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$'
+      And match response.timestamp == isoformat
 
     @GetFailureWithOutTransactionId
     Scenario: Solicitud de obtener sin transactionId en header
@@ -132,7 +133,7 @@ Feature: validar casos failure servicios cache
       Then status 400
       And match response.message == messageerror
       And match response.transactionId == "N/A"
-      And match response.timestamp == '#regex ^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$'
+      And match response.timestamp == isoformat
 
     @GetFailureCacheKeyNull
       Scenario: Solicitud de obtener cacheKey nulo
@@ -151,7 +152,7 @@ Feature: validar casos failure servicios cache
       Then status 404
       And match response.message == 'Dato no encontrado.'
       And match response.transactionId == randomNumber
-      And match response.timestamp == '#regex ^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$'
+      And match response.timestamp == isoformat
 
     @GetFailureWithOutCacheKey
     Scenario: Solicitud de obtener sin cacheKey
@@ -160,3 +161,22 @@ Feature: validar casos failure servicios cache
       When method GET
       Then status 404
       And match response.message == 'Resource not found'
+
+    @GetTtlExpired
+    Scenario: Solicitud get ttl vencido
+      * def baseBody = readBody.bodyOk
+      * set baseBody.cacheKey = 'testCache'
+      * set baseBody.ttl = '1'
+      Given url urlBase + pathcreate
+      And header transactionId = randomNumber
+      And request baseBody
+      When method POST
+      Then status 201
+      * eval java.lang.Thread.sleep(1000)
+      Given url urlBase + pathget + baseBody.cacheKey
+      And header transactionId = randomNumber
+      When method GET
+      Then status 404
+      And match response.message == 'Dato no encontrado.'
+      And match response.transactionId == randomNumber
+      And match response.timestamp == isoformat
