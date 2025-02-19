@@ -6,34 +6,82 @@ Feature: Solicitud fallidas cuentas corriente
     * def urlBase = config.urlBase
     * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')
     * def randomNumber = randomUtils.generateRandomUtil(8,"number")
+    * def randomNumber2 = randomUtils.generateRandomUtil(8,"number")
+    * def randomNumber3 = randomUtils.generateRandomUtil(8,"number")
     * def randomString = randomUtils.generateRandomUtil(8,"s")
 
 
-  @getCurrentAccountsSuccessNullTransactionId
-  Scenario: Consulta fallida de cuentas corriente del cliente transactionId vacio
-    Given url urlBase + '/v1/current-account/'+'118067' + '/detail/retrieve'
+  @withOutAccountNumber
+  Scenario: Solicitud fallida de estado de cuenta corriente sin numero de cuenta
+    Given url urlBase + '/v1/current-account/'+randomNumber + '/status/retrieve'
     And header page = 1
     And header pageLimit = 10
-    And header transactionId = null
-    And param status = 'ALL'
+    And header transactionId = randomNumber2
     When method get
     Then status 400
+    And match response.data.errorDetails.code == '400'
+    And match response.data.errorDetails.fields.exceptionMessage == "Required request parameter 'accountNumber' for method parameter type String is not present"
+    And match response.data..errorDetails.fields.exceptionType contains "MissingServletRequestParameterException"
 
-  @getCurrentAccountsSuccessWithOutHeaderTransactionId
-  Scenario: Consulta fallida de cuentas corriente del cliente sin header de transactionId
-    Given url urlBase + '/v1/current-account/'+'118067' + '/detail/retrieve'
+  @unknownAccountNumber
+  Scenario: Solicitud fallida de estado de cuenta corriente con numero de cuenta desconocido
+    Given url urlBase + '/v1/current-account/'+randomNumber + '/status/retrieve'
     And header page = 1
     And header pageLimit = 10
-    And param status = 'ALL'
+    And header transactionId = randomNumber2
+    And param accountNumber = randomNumber3
     When method get
-    Then status 400
+    Then status 404
+    And match response.data.errorDetails.code == '404'
+    And match response.data.errorDetails.fields.exceptionMessage contains "Numero de Referencia no Existe"
+    And match response.data.errorDetails.fields.exceptionType contains "NotFound"
 
-  @getCurrentAccountsSuccessUnknowParamStatus
-  Scenario: Consulta fallida de cuentas corriente del cliente con parametro status desconocido
-    Given url urlBase + '/v1/current-account/'+'118067' + '/detail/retrieve'
+  @stringAccountNumber
+  Scenario: Solicitud fallida de estado de cuenta corriente con numero de cuenta de tipo string
+    Given url urlBase + '/v1/current-account/'+randomNumber + '/status/retrieve'
     And header page = 1
     And header pageLimit = 10
-    And param status = randomString
+    And header transactionId = randomNumber2
+    And param accountNumber = randomString
     When method get
     Then status 400
+    And match response.data.errorDetails.code == '400'
+    And match response.data.errorDetails.fields.exceptionMessage == '400 : \"{\"status_code\":\"400\",\"status\":\"BAD_REQUEST\",\"message\":\"For input string: \\\"'+randomString+'\\\"\"}\"'
+    And match response.data.errorDetails.fields.exceptionType contains "BadRequest"
 
+  @withOutTransactionIdHeader
+  Scenario: Solicitud fallida de estado de cuenta corriente sin header transactionId
+    Given url urlBase + '/v1/current-account/'+randomNumber + '/status/retrieve'
+    And header page = 1
+    And header pageLimit = 10
+    And param accountNumber = randomNumber3
+    When method get
+    Then status 400
+    And match response.data.errorDetails.code == '400'
+    And match response.data.errorDetails.fields.exceptionMessage == "Required request header 'transactionId' for method parameter type String is not present"
+    And match response.data.errorDetails.fields.exceptionType contains "MissingRequestHeaderException"
+
+  @emptyTransactionIdHeader
+  Scenario: Solicitud fallida de estado de cuenta corriente con header transactionId vacio
+    Given url urlBase + '/v1/current-account/'+randomNumber + '/status/retrieve'
+    And header page = 1
+    And header pageLimit = 10
+    And header transactionId = ''
+    And param accountNumber = randomNumber3
+    When method get
+    Then status 400
+    And match response.data.errorDetails.code == '400 BAD_REQUEST'
+    And match response.data.errorDetails.fields.message == "El header transaction id no puede ir vacio"
+
+  @savingsAccountInCurrentAccount
+  Scenario: Solicitud fallida de estado de cuenta corriente con numero de cuenta de ahorros
+    Given url urlBase + '/v1/current-account/'+randomNumber + '/status/retrieve'
+    And header page = 1
+    And header pageLimit = 10
+    And header transactionId = randomNumber2
+    And param accountNumber = randomNumber3
+    When method get
+    Then status 404
+    And match response.data.errorDetails.code == '404'
+    And match response.data.errorDetails.fields.exceptionMessage contains "Numero de Referencia no Existe"
+    And match response.data.errorDetails.fields.exceptionType contains "NotFound"
