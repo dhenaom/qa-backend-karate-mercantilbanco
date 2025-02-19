@@ -50,3 +50,4 @@ bin/
 /target/
 /target/
 target/karate-reports/
+/src/test/resources/target/karate-reports/
