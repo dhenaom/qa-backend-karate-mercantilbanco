@@ -1,0 +1,24 @@
+{
+
+  "error_400_missing_transaction_id": {
+    "statusCode": "400",
+    "status": "ERROR",
+    "message": "Autenticación requerida",
+    "timestamp": "#string",
+    "transactionId": "#string"
+  },
+  "error_400_invalid_format": {
+    "statusCode": "400",
+    "status": "ERROR",
+    "message": "Formato de contraseña no permitido",
+    "timestamp": "#string",
+    "transactionId": "#string"
+  },
+  "error_400_invalid_reference": {
+    "statusCode": "400",
+    "status": "ERROR",
+    "message": "El campo ReturnPasswordReference debe ser true o false",
+    "timestamp": "#string",
+    "transactionId": "#string"
+  }
+}
