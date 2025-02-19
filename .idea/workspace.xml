@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="update project" />
+    <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="update project">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/account/karate/runners/getaccountbalance/ITGetAccountBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/client/karate/runner/getnaturalclient/ITGetNaturalClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pa.com.bancomercantil/client.karate/getnaturalclient/features/getnaturalclien.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pa.com.bancomercantil/client.karate/getnaturalclient/jsonResponse/client_responses.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getaccountbalance/features/getaccountcurrentbalance.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getaccountbalance/jsonResponse/current_responses.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getaccountbalance/jsonResponse/savings_responses.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-summary-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-summary-json.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,12 +77,12 @@
     &quot;assignee&quot;: &quot;dhenaom&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/dhenaom/qa-backend-karate-mercantilbanco.git",
-    "accountId": "78989907-063b-40a3-86ec-1b39f3bd87ad"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:dhenaom/qa-backend-karate-mercantilbanco.git&quot;,
+    &quot;accountId&quot;: &quot;78989907-063b-40a3-86ec-1b39f3bd87ad&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -106,8 +119,12 @@
     "Gradle.ITDataPersistenceSuccessRunner.dataPersistenceSuccessTest.executor": "Run",
     "Gradle.ITEventManager.executor": "Run",
     "Gradle.ITEventManager.getCurrentAccountFailureTest.executor": "Run",
+    "Gradle.ITGetAccountBalance.executor": "Run",
+    "Gradle.ITGetAccountBalance.get.executor": "Run",
     "Gradle.ITGetCurrentAccountFailureRunner.getCurrentAccountFailureTest.executor": "Run",
     "Gradle.ITGetCurrentAccountSuccessRunner.getCurrentAccountSuccessTest.executor": "Run",
+    "Gradle.ITGetNaturalClient.executor": "Run",
+    "Gradle.ITGetNaturalClient.get.executor": "Run",
     "Gradle.ITGetSavingAccountFailureRunner.getSavingAccountFailureTest.executor": "Run",
     "Gradle.ITGetSavingAccountSuccessRunner.getSavingAccountSuccessTest.executor": "Run",
     "Gradle.ITKBAGetQuestionFailureRunner.kbaQuestionEvaluateSuccessTest.executor": "Run",
@@ -238,6 +255,8 @@
     "Karate.dataproauthenticationsuccess.feature:42 (5).executor": "Run",
     "Karate.dataproauthenticationsuccess.feature:42.executor": "Run",
     "Karate.evenmanager.feature.executor": "Run",
+    "Karate.getaccountcurrentbalance.feature.executor": "Run",
+    "Karate.getcurrentaccountsfailure.feature.executor": "Run",
     "Karate.getcurrentaccountsfailure.feature:22.executor": "Run",
     "Karate.getcurrentaccountsfailure.feature:31.executor": "Run",
     "Karate.getcurrentaccountssuccess.feature.executor": "Run",
@@ -261,6 +280,7 @@
     "Karate.getcurrentaccountssuccess.feature:69.executor": "Run",
     "Karate.getcurrentaccountssuccess.feature:72.executor": "Run",
     "Karate.getcurrentaccountssuccess.feature:88.executor": "Run",
+    "Karate.getnaturalclien.feature.executor": "Run",
     "Karate.getquestions.feature:16.executor": "Run",
     "Karate.getquestions.feature:36.executor": "Run",
     "Karate.getquestionsandanswers.feature.executor": "Run",
@@ -366,7 +386,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -395,8 +415,8 @@
       <recent name="pa.com.bancomercantil.authentication.karate.requestchallenge.runners" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ITManagerPassword.userGet">
-    <configuration name="ITCreateuser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ITGetNaturalClient">
+    <configuration name="ITGetAccountBalance" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -409,7 +429,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pa.com.bancomercantil.authentication.karate.runners.createuser.ITCreateuser&quot;" />
+            <option value="&quot;pa.com.bancomercantil.account.karate.runners.getaccountbalance.ITGetAccountBalance&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -420,7 +440,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ITEventManager" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ITGetAccountBalance.get" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -433,7 +453,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pa.com.bancomercantil.account.karate.runners.eventmanager.ITEventManager&quot;" />
+            <option value="&quot;pa.com.bancomercantil.account.karate.runners.getaccountbalance.ITGetAccountBalance.get&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -444,7 +464,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ITEventManager.getCurrentAccountFailureTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ITGetNaturalClient" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -457,7 +477,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pa.com.bancomercantil.account.karate.runners.eventmanager.ITEventManager.getCurrentAccountFailureTest&quot;" />
+            <option value="&quot;pa.com.bancomercantil.client.karate.runner.getnaturalclient.ITGetNaturalClient&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -468,7 +488,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ITManagerPassword.userGet" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ITGetNaturalClient.get" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -481,7 +501,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pa.com.bancomercantil.authentication.karate.runners.managerpassword.ITManagerPassword.userGet&quot;" />
+            <option value="&quot;pa.com.bancomercantil.client.karate.runner.getnaturalclient.ITGetNaturalClient.get&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -512,7 +532,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="evenmanager.feature" type="karateConfigurationType" temporary="true" lineNumber="1" testName="evenmanager.feature" testDescription="Feature" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/eventmaganer/features/evenmanager.feature" preferredTest="WHOLE_FILE" parallelism="5" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/eventmaganer/features/evenmanager.feature">
+    <configuration name="getnaturalclien.feature" type="karateConfigurationType" temporary="true" lineNumber="10" testName="getnaturalclien.feature" testDescription="match response == clientResponses.detailVenezuelaSuccess" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa.com.bancomercantil/client.karate/getnaturalclient/features/getnaturalclien.feature" preferredTest="WHOLE_FILE" parallelism="5" allInFolderAreFeature="false" relPath="pa.com.bancomercantil/client.karate/getnaturalclient/features/getnaturalclien.feature">
       <option name="MAIN_CLASS_NAME" value="com.rankweis.uppercut.testrunner.KarateTestRunner" />
       <module name="proyecto-base-karate-mercantilbanco.test" />
       <method v="2">
@@ -521,15 +541,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ITManagerPassword.userGet" />
-        <item itemvalue="Gradle.ITEventManager.getCurrentAccountFailureTest" />
-        <item itemvalue="Gradle.ITEventManager" />
-        <item itemvalue="Karate.evenmanager.feature" />
-        <item itemvalue="Gradle.ITCreateuser" />
+        <item itemvalue="Gradle.ITGetNaturalClient" />
+        <item itemvalue="Karate.getnaturalclien.feature" />
+        <item itemvalue="Gradle.ITGetNaturalClient.get" />
+        <item itemvalue="Gradle.ITGetAccountBalance" />
+        <item itemvalue="Gradle.ITGetAccountBalance.get" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="" />
