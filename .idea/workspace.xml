@@ -4,7 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="update project" />
+    <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="update project">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/account/karate/runners/eventmanager/ITEventManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/createuser/ITCreateuser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/managerpassword/ITManagerPassword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/eventmaganer/features/evenmanager.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/eventmaganer/jsonRequest/bodyRequestEventManager.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/eventmaganer/jsonResponse/200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/eventmaganer/jsonResponse/400.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/managerPassword/dsfs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/managerPassword/features/managerpassword.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/managerPassword/jsonRequest/bodyRequestPassword.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/managerPassword/jsonResponse/200.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/managerPassword/jsonResponse/400.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/managerPassword/jsonResponse/404.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/gettokenentrust/ITAuthenticateTokenEntrust.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/gettokenentrust/ITAuthenticateTokenEntrust.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/unlockuser/ITUserUnlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/unlockuser/ITUserUnlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/userstatus/ITUserStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/userstatus/ITUserStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/createuser/jsonResponse/400.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/createuser/jsonResponse/400.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-summary-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-summary-json.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" afterDir="false" />
+    </list>
     <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="merge test">
       <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountsfailure.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getsavingaccounts/features/getsavingsaccountsfailure.feature" afterDir="false" />
@@ -628,8 +651,8 @@
   </component>
   <component name="RunManager" selected="Gradle.ITAuthenticateTokenEntrust">
     <configuration name="ITAuthenticateTokenEntrust" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-  <component name="RunManager" selected="Gradle.ITGetCurrentAccountFailureRunner.getCurrentAccountFailureTest">
-    <configuration name="ITGetCurrentAccountFailureRunner.getCurrentAccountFailureTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ITManagerPassword.userGet">
+    <configuration name="ITCreateuser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -642,7 +665,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pa.com.bancomercantil.account.karate.runners.getcurrentaccount.ITGetCurrentAccountFailureRunner.getCurrentAccountFailureTest&quot;" />
+            <option value="&quot;pa.com.bancomercantil.authentication.karate.runners.createuser.ITCreateuser&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -653,7 +676,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ITGetCurrentAccountSuccessRunner.getCurrentAccountSuccessTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ITEventManager" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -666,7 +689,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pa.com.bancomercantil.account.karate.runners.getcurrentaccount.ITGetCurrentAccountSuccessRunner.getCurrentAccountSuccessTest&quot;" />
+            <option value="&quot;pa.com.bancomercantil.account.karate.runners.eventmanager.ITEventManager&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -677,7 +700,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ITGetSavingAccountFailureRunner.getSavingAccountFailureTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ITEventManager.getCurrentAccountFailureTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -690,7 +713,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pa.com.bancomercantil.account.karate.runners.getsavingaccounts.ITGetSavingAccountFailureRunner.getSavingAccountFailureTest&quot;" />
+            <option value="&quot;pa.com.bancomercantil.account.karate.runners.eventmanager.ITEventManager.getCurrentAccountFailureTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -701,7 +724,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ITGetSavingAccountSuccessRunner.getSavingAccountSuccessTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ITManagerPassword.userGet" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -714,7 +737,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pa.com.bancomercantil.account.karate.runners.getsavingaccounts.ITGetSavingAccountSuccessRunner.getSavingAccountSuccessTest&quot;" />
+            <option value="&quot;pa.com.bancomercantil.authentication.karate.runners.managerpassword.ITManagerPassword.userGet&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -773,6 +796,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="evenmanager.feature" type="karateConfigurationType" temporary="true" lineNumber="1" testName="evenmanager.feature" testDescription="Feature" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/eventmaganer/features/evenmanager.feature" preferredTest="WHOLE_FILE" parallelism="5" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/eventmaganer/features/evenmanager.feature">
     <configuration name="getcurrentaccountssuccess.feature:12 (1)" type="karateConfigurationType" temporary="true" lineNumber="12" testName="getcurrentaccountssuccess.feature" testDescription="Feature: Solicitud exitosa cuentas corriente&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;&#10;&#10;  @getcurrentaccountssuccess&#10;    Scenario: Consulta de cuentas corriente exitosa&#10;        Given url urlBase + '/v1/current-account/'+'118067'&#10;        And header page = 1&#10;        And header pageLimit = 10&#10;        And header transactionId = randomNumber&#10;        And params status = 'ALL'&#10;        When method get&#10;        Then status 200&#10;&#10;&#10;&#10;&#10;&#10;" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature">
       <option name="MAIN_CLASS_NAME" value="com.rankweis.uppercut.testrunner.KarateTestRunner" />
       <module name="proyecto-base-karate-mercantilbanco.test" />
@@ -871,6 +895,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ITManagerPassword.userGet" />
+        <item itemvalue="Gradle.ITEventManager.getCurrentAccountFailureTest" />
+        <item itemvalue="Gradle.ITEventManager" />
+        <item itemvalue="Karate.evenmanager.feature" />
+        <item itemvalue="Gradle.ITCreateuser" />
         <item itemvalue="Gradle.ITGetCurrentAccountFailureRunner.getCurrentAccountFailureTest" />
         <item itemvalue="Gradle.ITGetCurrentAccountSuccessRunner.getCurrentAccountSuccessTest" />
         <item itemvalue="Gradle.ITGetSavingAccountFailureRunner.getSavingAccountFailureTest" />

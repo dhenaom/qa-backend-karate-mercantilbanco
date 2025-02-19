@@ -1,0 +1,8 @@
+{"success_response": {
+"statusCode": "200",
+"status": "SUCCESS",
+"message": "Contraseña actualizada exitosamente",
+"timestamp": "#string",
+"transactionId": "#string"
+}
+}
