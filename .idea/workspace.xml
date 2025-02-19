@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="update project">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/account/karate/runners/eventmanager/ITEventManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/createuser/ITCreateuser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/managerpassword/ITManagerPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/eventmaganer/features/evenmanager.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/eventmaganer/jsonRequest/bodyRequestEventManager.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/eventmaganer/jsonResponse/200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/eventmaganer/jsonResponse/400.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/managerPassword/dsfs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/managerPassword/features/managerpassword.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/managerPassword/jsonRequest/bodyRequestPassword.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/managerPassword/jsonResponse/200.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/managerPassword/jsonResponse/400.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/managerPassword/jsonResponse/404.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/gettokenentrust/ITAuthenticateTokenEntrust.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/gettokenentrust/ITAuthenticateTokenEntrust.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/unlockuser/ITUserUnlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/unlockuser/ITUserUnlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/userstatus/ITUserStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/userstatus/ITUserStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/createuser/jsonResponse/400.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/createuser/jsonResponse/400.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-summary-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-summary-json.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" afterDir="false" />
-    </list>
+    <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="update project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -383,7 +360,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "teo-features-carryover",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/DHM_Pragma/Documents/Mercantil/qa-backend-karate-mercantilbanco/src/test/resources/pa/com/bancomercantil/account/karate/getsavingaccounts/features",
     "project.structure.last.edited": "Project",
