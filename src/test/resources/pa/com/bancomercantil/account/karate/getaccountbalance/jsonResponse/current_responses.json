@@ -1,0 +1,98 @@
+{
+  "success": {
+    "statusCode": "200",
+    "status": "SUCCESS",
+    "message": "Consulta Generada Exitosamente.",
+    "data": {
+      "CurrentsAccount": {
+        "CurrentAccountNumber": {
+          "AccountIdentificationType": "DDA",
+          "AccountIdentification": {
+            "IdentifierValue": {
+              "Value": "300000530"
+            }
+          }
+        },
+        "AccountBalance": [
+          {
+            "BalanceAmount": {"AmountValue": {"Value": "16957.85"}},
+            "BalanceType": "availableBalance"
+          },
+          {
+            "BalanceAmount": {"AmountValue": {"Value": "16957.85"}},
+            "BalanceType": "bookBalance"
+          },
+          {
+            "BalanceAmount": {"AmountValue": {"Value": "0.00"}},
+            "BalanceType": "deferredBalance"
+          },
+          {
+            "BalanceAmount": {"AmountValue": {"Value": "16957.85"}},
+            "BalanceType": "netBalance"
+          },
+          {
+            "BalanceAmount": {"AmountValue": {"Value": "0.00"}},
+            "BalanceType": "blockedBalance"
+          },
+          {
+            "BalanceAmount": {"AmountValue": {"Value": "16957.85"}},
+            "BalanceType": "averageLedgerBalance"
+          },
+          {
+            "BalanceAmount": {"AmountValue": {"Value": "16957.85"}},
+            "BalanceType": "averageNetBalance"
+          },
+          {
+            "BalanceAmount": {"AmountValue": {"Value": "16957.85"}},
+            "BalanceType": "startOfDayBalance"
+          },
+          {
+            "BalanceAmount": {"AmountValue": {"Value": "16957.85"}},
+            "BalanceType": "cycleStartBalance"
+          },
+          {
+            "BalanceAmount": {"AmountValue": {"Value": "16957.85"}},
+            "BalanceType": "yearStartBalance"
+          },
+          {
+            "BalanceAmount": {"AmountValue": {"Value": "0.00"}},
+            "BalanceType": "passbookBalance"
+          }
+        ]
+      }
+    },
+    "timestamp": "#string",
+    "transactionId": "2323"
+  },
+  "invalidAccount": {
+    "statusCode": "404",
+    "status": "ERROR",
+    "message": "Ocurrió un error en servicio externo",
+    "data": {
+      "errorDetails": {
+        "code": "404",
+        "fields": {
+          "exceptionMessage": "404 : \"{\"status_code\":\"404\",\"status\":\"NOT_FOUND\",\"message\":\"0009 : Numero de Referencia no Existe.\"}\"",
+          "exceptionType": "NotFound"
+        }
+      }
+    },
+    "timestamp": "#string",
+    "transactionId": "2323"
+  },
+  "missingTransactionId": {
+    "statusCode": "400",
+    "status": "ERROR",
+    "message": "El transactionId no puede estar vacio.",
+    "data": {
+      "errorDetails": {
+        "code": "400 BAD_REQUEST",
+        "fields": {
+          "message": "El header transaction id no puede ir vacio"
+        }
+      }
+    },
+    "timestamp": "#string",
+    "transactionId": "generated-fallback-transactionId"
+  }
+}
