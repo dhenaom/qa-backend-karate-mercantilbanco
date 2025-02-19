@@ -1,0 +1,8 @@
+{"error_404_user_not_found": {
+"statusCode": "404",
+"status": "ERROR",
+"message": "El usuario no existe en el sistema",
+"timestamp": "#string",
+"transactionId": "#string"
+}
+}
