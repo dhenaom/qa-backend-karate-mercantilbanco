@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="update gitignore">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/account/karate/runners/statusaccount/ITGetStatusCurrentAccountFailureRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/account/karate/runners/statusaccount/ITGetStatusCurrentAccountSuccessRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/account/karate/runners/statusaccount/ITGetStatusSavingAccountFailureRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/account/karate/runners/statusaccount/ITGetStatusSavingAccountSuccessRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getstatusaccount/features/statuscurrentaccountfailure.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getstatusaccount/features/statuscurrentaccountfailure.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getstatusaccount/features/statuscurrentaccountsuccess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getstatusaccount/features/statuscurrentaccountsuccess.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getstatusaccount/features/statussavingsaccountfailure.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getstatusaccount/features/statussavingsaccountfailure.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getstatusaccount/features/statussavingsaccountsuccess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getstatusaccount/features/statussavingsaccountsuccess.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-summary-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-summary-json.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,48 +80,48 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GitHubPullRequestState"><![CDATA[{
-  "prStates": [
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
     {
-      "id": {
-        "id": "PR_kwDONor4sc6LxQlV",
-        "number": 1
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONor4sc6LxQlV&quot;,
+        &quot;number&quot;: 1
       },
-      "lastSeen": 1739981574353
+      &quot;lastSeen&quot;: 1739981574353
     },
     {
-      "id": {
-        "id": "PR_kwDONor4sc6LxSI2",
-        "number": 2
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONor4sc6LxSI2&quot;,
+        &quot;number&quot;: 2
       },
-      "lastSeen": 1739981599376
+      &quot;lastSeen&quot;: 1739981599376
     },
     {
-      "id": {
-        "id": "PR_kwDONor4sc6LxUDm",
-        "number": 3
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONor4sc6LxUDm&quot;,
+        &quot;number&quot;: 3
       },
-      "lastSeen": 1739981600298
+      &quot;lastSeen&quot;: 1739981600298
     }
   ]
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:dhenaom/qa-backend-karate-mercantilbanco.git",
-    "accountId": "3490390b-a034-4334-877c-066d15c57cbc"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:dhenaom/qa-backend-karate-mercantilbanco.git&quot;,
+    &quot;accountId&quot;: &quot;3490390b-a034-4334-877c-066d15c57cbc&quot;
   },
-  "recentNewPullRequestHead": {
-    "server": {
-      "useHttp": false,
-      "host": "github.com",
-      "port": null,
-      "suffix": null
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
     },
-    "owner": "dhenaom",
-    "repository": "qa-backend-karate-mercantilbanco"
+    &quot;owner&quot;: &quot;dhenaom&quot;,
+    &quot;repository&quot;: &quot;qa-backend-karate-mercantilbanco&quot;
   },
-  "editorReviewEnabled": false
-}]]></component>
+  &quot;editorReviewEnabled&quot;: false
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -151,6 +162,8 @@
     "Gradle.ITGetCurrentAccountSuccessRunner.getCurrentAccountSuccessTest.executor": "Run",
     "Gradle.ITGetSavingAccountFailureRunner.getSavingAccountFailureTest.executor": "Run",
     "Gradle.ITGetSavingAccountSuccessRunner.getSavingAccountSuccessTest.executor": "Run",
+    "Gradle.ITGetStatusSavingAccountFailureRunner.getStatusSavingAccountFailureTest.executor": "Run",
+    "Gradle.ITGetStatusSavingAccountSuccessRunner.getStatusSavingAccountSuccessTest.executor": "Run",
     "Gradle.ITKBAGetQuestionFailureRunner.kbaQuestionEvaluateSuccessTest.executor": "Run",
     "Gradle.ITKBAGetQuestionSuccessRunner.kbaQuestionEvaluateSuccessTest.executor": "Run",
     "Gradle.ITKBAQuestionEvaluateFailureRunner.kbaQuestionEvaluateFailureTest.executor": "Run",
@@ -349,6 +362,41 @@
     "Karate.requestchallengesuccess.feature:50.executor": "Run",
     "Karate.requestchallengesuccess.feature:51.executor": "Run",
     "Karate.requestchallengesuccess:11.executor": "Run",
+    "Karate.statuscurrentaccountfailure.feature:13.executor": "Run",
+    "Karate.statuscurrentaccountfailure.feature:15.executor": "Run",
+    "Karate.statuscurrentaccountfailure.feature:27.executor": "Run",
+    "Karate.statuscurrentaccountfailure.feature:40.executor": "Run",
+    "Karate.statuscurrentaccountfailure.feature:52.executor": "Run",
+    "Karate.statuscurrentaccountfailure.feature:64 (1).executor": "Run",
+    "Karate.statuscurrentaccountfailure.feature:64.executor": "Run",
+    "Karate.statuscurrentaccountsuccess.feature:11 (1).executor": "Run",
+    "Karate.statuscurrentaccountsuccess.feature:11 (2).executor": "Run",
+    "Karate.statuscurrentaccountsuccess.feature:11 (3).executor": "Run",
+    "Karate.statuscurrentaccountsuccess.feature:11 (4).executor": "Run",
+    "Karate.statuscurrentaccountsuccess.feature:11 (5).executor": "Run",
+    "Karate.statuscurrentaccountsuccess.feature:11.executor": "Run",
+    "Karate.statussavingsaccountfailure.feature:11 (1).executor": "Run",
+    "Karate.statussavingsaccountfailure.feature:11 (2).executor": "Run",
+    "Karate.statussavingsaccountfailure.feature:11 (3).executor": "Run",
+    "Karate.statussavingsaccountfailure.feature:11 (4).executor": "Run",
+    "Karate.statussavingsaccountfailure.feature:11 (5).executor": "Run",
+    "Karate.statussavingsaccountfailure.feature:11.executor": "Run",
+    "Karate.statussavingsaccountfailure.feature:26 (1).executor": "Run",
+    "Karate.statussavingsaccountfailure.feature:26 (2).executor": "Run",
+    "Karate.statussavingsaccountfailure.feature:26.executor": "Run",
+    "Karate.statussavingsaccountfailure.feature:39 (1).executor": "Run",
+    "Karate.statussavingsaccountfailure.feature:39 (2).executor": "Run",
+    "Karate.statussavingsaccountfailure.feature:39.executor": "Run",
+    "Karate.statussavingsaccountfailure.feature:51.executor": "Run",
+    "Karate.statussavingsaccountfailure.feature:63 (1).executor": "Run",
+    "Karate.statussavingsaccountfailure.feature:63.executor": "Run",
+    "Karate.statussavingsaccountsuccess.feature.executor": "Run",
+    "Karate.statussavingsaccountsuccess.feature:11 (1).executor": "Run",
+    "Karate.statussavingsaccountsuccess.feature:11 (2).executor": "Run",
+    "Karate.statussavingsaccountsuccess.feature:11 (3).executor": "Run",
+    "Karate.statussavingsaccountsuccess.feature:11 (4).executor": "Run",
+    "Karate.statussavingsaccountsuccess.feature:11 (5).executor": "Run",
+    "Karate.statussavingsaccountsuccess.feature:11.executor": "Run",
     "Karate.validatechallengekbafailure.feature:53.executor": "Run",
     "Karate.validatechallengekbafailure.feature:65 (1).executor": "Run",
     "Karate.validatechallengekbafailure.feature:65 (2).executor": "Run",
@@ -401,9 +449,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "#4 on dhenao",
+    "git-widget-placeholder": "dhenao",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/DHM_Pragma/Documents/Mercantil/qa-backend-karate-mercantilbanco/src/test/resources/pa/com/bancomercantil/account/karate/getsavingaccounts/features",
+    "last_opened_file_path": "/Users/DHM_Pragma/Documents/Mercantil/qa-backend-karate-mercantilbanco/src/test/java/pa/com/bancomercantil/account/karate/runners/statusaccount",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -415,11 +463,11 @@
       <recent name="pa.com.bancomercantil.authentication.karate.requestchallenge.runners" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/account/karate/runners/statusaccount" />
       <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getstatusaccount" />
       <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/overdraftaccount/features" />
       <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/overdraftaccount" />
       <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getsavingaccounts/features" />
-      <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getcurrentaccounts/features" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate" />
@@ -436,8 +484,8 @@
       <recent name="pa.com.bancomercantil.authentication.karate.requestchallenge.runners" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ITManagerPassword.userGet">
-    <configuration name="ITCreateuser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ITGetStatusSavingAccountFailureRunner.getStatusSavingAccountFailureTest">
+    <configuration name="ITGetStatusSavingAccountFailureRunner.getStatusSavingAccountFailureTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -450,7 +498,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pa.com.bancomercantil.authentication.karate.runners.createuser.ITCreateuser&quot;" />
+            <option value="&quot;pa.com.bancomercantil.account.karate.runners.statusaccount.ITGetStatusSavingAccountFailureRunner.getStatusSavingAccountFailureTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -461,7 +509,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ITEventManager" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ITGetStatusSavingAccountSuccessRunner.getStatusSavingAccountSuccessTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -474,55 +522,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pa.com.bancomercantil.account.karate.runners.eventmanager.ITEventManager&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="ITEventManager.getCurrentAccountFailureTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;pa.com.bancomercantil.account.karate.runners.eventmanager.ITEventManager.getCurrentAccountFailureTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="ITManagerPassword.userGet" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;pa.com.bancomercantil.authentication.karate.runners.managerpassword.ITManagerPassword.userGet&quot;" />
+            <option value="&quot;pa.com.bancomercantil.account.karate.runners.statusaccount.ITGetStatusSavingAccountSuccessRunner.getStatusSavingAccountSuccessTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -553,7 +553,21 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="evenmanager.feature" type="karateConfigurationType" temporary="true" lineNumber="1" testName="evenmanager.feature" testDescription="Feature" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/eventmaganer/features/evenmanager.feature" preferredTest="WHOLE_FILE" parallelism="5" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/eventmaganer/features/evenmanager.feature">
+    <configuration name="statussavingsaccountfailure.feature:39 (1)" type="karateConfigurationType" temporary="true" lineNumber="39" testName="statussavingsaccountfailure.feature" testDescription="Scenario:" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getstatusaccount/features/statussavingsaccountfailure.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/getstatusaccount/features/statussavingsaccountfailure.feature">
+      <option name="MAIN_CLASS_NAME" value="com.rankweis.uppercut.testrunner.KarateTestRunner" />
+      <module name="proyecto-base-karate-mercantilbanco.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="statussavingsaccountfailure.feature:39 (2)" type="karateConfigurationType" temporary="true" lineNumber="39" testName="statussavingsaccountfailure.feature" testDescription="Scenario:" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getstatusaccount/features/statussavingsaccountfailure.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/getstatusaccount/features/statussavingsaccountfailure.feature">
+      <option name="MAIN_CLASS_NAME" value="com.rankweis.uppercut.testrunner.KarateTestRunner" />
+      <module name="proyecto-base-karate-mercantilbanco.test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="statussavingsaccountfailure.feature:39" type="karateConfigurationType" temporary="true" lineNumber="39" testName="statussavingsaccountfailure.feature" testDescription="Scenario:" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getstatusaccount/features/statussavingsaccountfailure.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/getstatusaccount/features/statussavingsaccountfailure.feature">
       <option name="MAIN_CLASS_NAME" value="com.rankweis.uppercut.testrunner.KarateTestRunner" />
       <module name="proyecto-base-karate-mercantilbanco.test" />
       <method v="2">
@@ -562,11 +576,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Karate.evenmanager.feature" />
-        <item itemvalue="Gradle.ITManagerPassword.userGet" />
-        <item itemvalue="Gradle.ITEventManager.getCurrentAccountFailureTest" />
-        <item itemvalue="Gradle.ITEventManager" />
-        <item itemvalue="Gradle.ITCreateuser" />
+        <item itemvalue="Gradle.ITGetStatusSavingAccountFailureRunner.getStatusSavingAccountFailureTest" />
+        <item itemvalue="Gradle.ITGetStatusSavingAccountSuccessRunner.getStatusSavingAccountSuccessTest" />
+        <item itemvalue="Karate.statussavingsaccountfailure.feature:39 (2)" />
+        <item itemvalue="Karate.statussavingsaccountfailure.feature:39 (1)" />
+        <item itemvalue="Karate.statussavingsaccountfailure.feature:39" />
       </list>
     </recent_temporary>
   </component>
@@ -699,7 +713,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739981572037</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="update gitignore">
+      <option name="closed" value="true" />
+      <created>1739981752037</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1739981752037</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="UnknownFeatures">
