@@ -49,3 +49,4 @@ bin/
 /target/cucumber-html-reports/
 /target/
 /target/
+/src/test/resources/target/karate-reports/
