@@ -1,0 +1,59 @@
+{
+  "valid_request": {
+    "eventName": "PARTY_AUTHENTICATION_UNLOCK_USER",
+    "eventPayload": {
+      "transactionType": "PartyAuthentication",
+      "status": "COMPLETED",
+      "userId": "01f31c41-084a-4e55-823c-4cd53ac6f195",
+      "serviceName": "PARTY_AUTHENTICATION_UNLOCK_USER",
+      "operationUri": "/v1/party-authentication/{uuid}/password/user-unlock/evaluate",
+      "httpMethod": "POST",
+      "transactionId": "123456",
+      "details": {
+        "unlock": true,
+        "message": "Successful"
+      },
+      "createdAt": "2025-02-13T15:54:07Z",
+      "completedAt": "2025-02-13T15:54:07Z"
+    }
+  },
+  "empty_event_name_request": {
+    "eventName": "",
+    "eventPayload": {
+      "transactionType": "PartyAuthentication",
+      "status": "COMPLETED",
+      "userId": "01f31c41-084a-4e55-823c-4cd53ac6f195",
+      "serviceName": "PARTY_AUTHENTICATION_UNLOCK_USER",
+      "operationUri": "/v1/party-authentication/{uuid}/password/user-unlock/evaluate",
+      "httpMethod": "POST",
+      "transactionId": "123456",
+      "details": {
+        "unlock": true,
+        "message": "Successful"
+      },
+      "createdAt": "2025-02-13T15:54:07Z",
+      "completedAt": "2025-02-13T15:54:07Z"
+    }
+  },
+  "invalid_payload_request": {
+    "eventName": "PARTY_AUTHENTICATION_UNLOCK_USER",
+    "eventPayload": {
+      "invalidField": "invalidValue"
+    }
+  },
+  "invalid_values_request": {
+    "eventName": "PARTY_AUTHENTICATION_UNLOCK_USER",
+    "eventPayload": {
+      "transactionType": null,
+      "status": "",
+      "userId": "",
+      "serviceName": null,
+      "operationUri": "",
+      "httpMethod": "",
+      "transactionId": "",
+      "details": null,
+      "createdAt": "invalid-date",
+      "completedAt": "invalid-date"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{ "error_400_missing_transaction_id": {
+  "statusCode": "400",
+  "status": "ERROR",
+  "data": {
+    "code": "CODE-400",
+    "message": "Falta parámetro transactionId mandatorio."
+  },
+  "timestamp": "#string",
+  "transactionId": "HEADER_NOT_ESPECIFIED"
+},
+"error_400_missing_event_name": {
+"statusCode": "400 Bad Request",
+"status": "ERROR",
+"message": "El campo eventName es obligatorio",
+"timestamp": "#string",
+"transactionId": "#string"
+},
+"error_400_invalid_payload": {
+"statusCode": "400 Bad Request",
+"status": "ERROR",
+"message": "El formato de eventPayload es incorrecto",
+"timestamp": "#string",
+"transactionId": "#string"
+},
+"error_400_invalid_values": {
+"statusCode": "400 Bad Request",
+"status": "ERROR",
+"message": "Valores inválidos en eventPayload",
+"timestamp": "#string",
+"transactionId": "#string"
+}
+}

@@ -1,4 +1,4 @@
-package pa.com.bancomercantil.authentication.karate.runners.userstatus;
+package pa.com.bancomercantil.account.karate.runners.transversalfunctioncache;
 
 import com.intuit.karate.junit5.Karate;
 import pa.com.bancomercantil.authentication.karate.utils.ZipUtil;
@@ -7,16 +7,15 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class ITUserStatus {
 
+public class ITCacheSuccessRunner {
     @Karate.Test
-    Karate userStatus() throws IOException {
+    Karate getSavingAccountSuccessTest() throws IOException {
         String timestamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
         String path = "target/karate-reports-"+timestamp;
-        Karate result = Karate.run("classpath:pa/com/bancomercantil/authentication/karate/userstatus/features/userstatus.feature")
-                .relativeTo(getClass()).reportDir(path).outputCucumberJson(true);
+        Karate result = Karate.run("classpath:pa/com/bancomercantil/account/karate/transversalfunctioncache/features/cachesuccess.feature")
+                .relativeTo(getClass()).backupReportDir(true).outputCucumberJson(true);
         ZipUtil.zipDirectory("target/karate-reports", path + ".zip");
         return result;
     }
 }
-
