@@ -8,10 +8,10 @@ Feature: validar casos success servicios mony
     * def urlBase = config.urlBase
     * def pathget = '/v1/monyaccountdataaccess/data/retrieve'
     * def isoformat = '#regex ^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$'
-    * def readData = karate.read('classpath:pa/com/bancomercantil/mony/jsonResponse/data.json')
+    * def dataJson = karate.read('classpath:pa/com/bancomercantil/mony/jsonResponse/data.json')
 
   @GetSuccessEmail&Account
-    Scenario: Solicitud get query email y account
+    Scenario: Solicitud get a mony account access con query email y account
       Given url urlBase + pathget
       And header transactionId = randomNumber
       And header objectType = 'ENTITY_01'
@@ -22,24 +22,24 @@ Feature: validar casos success servicios mony
       And match response.message == 'Consulta Generada Exitosamente.'
       And match response.timestamp == isoformat
       And match response.transactionId == randomNumber
-      And match response.data == readData.emailandaccount.data
+      And match response.data == dataJson.emailandaccount.data
 
   @GetSuccessAccount
-    Scenario: solicitud get account
+    Scenario: solicitud get a mony account access con query account
       Given url urlBase + pathget
       And header transactionId = randomNumber
       And header objectType = 'ENTITY_01'
-      And header query = "account = '639893050'"
+      And header query = "account = '420166082'"
       When method GET
       Then status 200
       And match response.status == 'SUCCESS'
       And match response.message == 'Consulta Generada Exitosamente.'
       And match response.timestamp == isoformat
       And match response.transactionId == randomNumber
-      And match response.data == readData.emailandaccount.data
+      And match response.data == dataJson.emailandaccount.data
 
   @GetSuccessEmail
-    Scenario: solicitud get email
+    Scenario: solicitud get a mony account access con query email
       Given url urlBase + pathget
       And header transactionId = randomNumber
       And header objectType = 'ENTITY_01'
@@ -50,10 +50,10 @@ Feature: validar casos success servicios mony
       And match response.message == 'Consulta Generada Exitosamente.'
       And match response.timestamp == isoformat
       And match response.transactionId == randomNumber
-      And match response.data == readData.email.data
+      And match response.data == dataJson.email.data
 
   @GetSuccessCustomerType&Account
-    Scenario: solicitud get costumer type y account
+    Scenario: solicitud get a mony account access con query costumer type y account
       Given url urlBase + pathget
       And header transactionId = randomNumber
       And header objectType = 'ENTITY_01'
@@ -64,32 +64,32 @@ Feature: validar casos success servicios mony
       And match response.message == 'Consulta Generada Exitosamente.'
       And match response.timestamp == isoformat
       And match response.transactionId == randomNumber
-      And match response.data == readData.customertypeandaccount.data
+      And match response.data == dataJson.customertypeandaccount.data
 
   @GetSuccessCustomerType&Email
-  Scenario: solicitud get costumer type y email
-    Given url urlBase + pathget
-    And header transactionId = randomNumber
-    And header objectType = 'ENTITY_01'
-    And header query = "customerType = 'Natural' and  email = 'contrato@home.com'"
-    When method GET
-    Then status 200
-    And match response.status == 'SUCCESS'
-    And match response.message == 'Consulta Generada Exitosamente.'
-    And match response.timestamp == isoformat
-    And match response.transactionId == randomNumber
-    And match response.data == readData.customertypeandemail.data
+    Scenario: solicitud get a mony account access con query costumer type y email
+      Given url urlBase + pathget
+      And header transactionId = randomNumber
+      And header objectType = 'ENTITY_01'
+      And header query = "customerType = 'Natural' and  email = 'contrato@home.com'"
+      When method GET
+      Then status 200
+      And match response.status == 'SUCCESS'
+      And match response.message == 'Consulta Generada Exitosamente.'
+      And match response.timestamp == isoformat
+      And match response.transactionId == randomNumber
+      And match response.data == dataJson.customertypeandemail.data
 
   @GetSuccessCustomerType&Account&Email
-  Scenario: solicitud get costumer type, account y email
-    Given url urlBase + pathget
-    And header transactionId = randomNumber
-    And header objectType = 'ENTITY_01'
-    And header query = "customerType = 'Natural' and account = '639764243' and  email = 'vuo@home.com'"
-    When method GET
-    Then status 200
-    And match response.status == 'SUCCESS'
-    And match response.message == 'Consulta Generada Exitosamente.'
-    And match response.timestamp == isoformat
-    And match response.transactionId == randomNumber
-    And match response.data == readData.customertypeandaccountandemail.data
+    Scenario: solicitud get a mony account access con query costumer type, account y email
+      Given url urlBase + pathget
+      And header transactionId = randomNumber
+      And header objectType = 'ENTITY_01'
+      And header query = "customerType = 'Natural' and account = '639764243' and  email = 'vuo@home.com'"
+      When method GET
+      Then status 200
+      And match response.status == 'SUCCESS'
+      And match response.message == 'Consulta Generada Exitosamente.'
+      And match response.timestamp == isoformat
+      And match response.transactionId == randomNumber
+      And match response.data == dataJson.customertypeandaccountandemail.data

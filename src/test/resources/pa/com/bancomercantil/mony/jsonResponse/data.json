@@ -21,7 +21,7 @@
   },
   "email": {
     "data": {
-      "correo": "ccampos@mercantilbanco.com.pa",
+      "email": "ccampos@mercantilbanco.com.pa",
       "account": "520006396",
       "customerType": "JURIDICA",
       "createdOn": "2023-09-04T20:51:56.4066667",
@@ -30,7 +30,7 @@
   },
   "customertypeandaccount": {
     "data": {
-      "correo": "concepcion9545@gmail.com",
+      "email": "concepcion9545@gmail.com",
       "account": "639923170",
       "customerType": "NATURAL",
       "createdOn": "2024-10-14T18:02:03.04",
@@ -39,7 +39,7 @@
   },
   "customertypeandemail": {
     "data": {
-      "correo": "contrato@home.com",
+      "email": "contrato@home.com",
       "account": "639923544",
       "customerType": "NATURAL",
       "createdOn": "2024-10-18T21:24:49.72",
@@ -48,7 +48,7 @@
   },
   "customertypeandaccountandemail": {
     "data": {
-      "correo": "vuo@home.com",
+      "email": "vuo@home.com",
       "account": "639764243",
       "customerType": "NATURAL",
       "createdOn": "2023-07-18T16:59:32.8933333",
