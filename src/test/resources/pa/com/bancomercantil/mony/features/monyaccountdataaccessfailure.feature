@@ -100,7 +100,7 @@ Feature: validar casos failure servicios mony
     And match response.timestamp == isoformat
 
   @GetFailureQueryNotfoud
-  Scenario: Solicitud de consulta fallida con error header query
+  Scenario: Solicitud de consulta sin datos error header query
     Given url urlBase + pathget
     And header objectType = 'ENTITY_01'
     And header transactionId = randomNumber
