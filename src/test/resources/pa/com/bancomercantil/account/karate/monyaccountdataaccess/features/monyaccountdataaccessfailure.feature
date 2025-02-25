@@ -7,7 +7,7 @@ Feature: validar casos failure servicios mony
     * def randomNumber = randomUtils.generateRandomUtil(8,"number")
     * def pathget = '/v1/monyaccountdataaccess/data/retrieve'
     * def isoformat = '#regex ^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$'
-    * def readData = karate.read('classpath:pa/com/bancomercantil/mony/jsonResponse/data.json')
+    * def readData = karate.read('classpath:pa/com/bancomercantil/account/karate/monyaccountdataaccess/jsonResponse/data.json')
     * def isoformat = '#regex ^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$'
     * def messageerror = 'Ocurrió un error inesperado.'
 
