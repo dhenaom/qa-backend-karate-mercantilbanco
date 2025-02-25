@@ -1,4 +1,4 @@
-Feature: validar casos failures servicio movimients TDC
+Feature: validar casos failures servicio movimientos TDC
   Background:
     * def config = call read('classpath:karate-config.js')
     * karate.configure('connectTimeout', config.connectTimeout)
@@ -13,7 +13,7 @@ Feature: validar casos failures servicio movimients TDC
     * def messageerror = 'Ocurrió un error inesperado.'
 
   @FailureTransactionIdNull
-  Scenario: Solicitud fallida transactionId nulo
+  Scenario: Solicitud movimientos de tarjeta credito fallida transactionId nulo
     * def baseBody = readBody.bodyOk
     Given url urlBase + path
     And header transactionId = ''
@@ -26,7 +26,7 @@ Feature: validar casos failures servicio movimients TDC
     And match response.timestamp == isoformat
 
   @FailureWithOutTransactionIdHeader
-  Scenario: Solicitud fallida sin transactionId en header
+  Scenario: Solicitud movimientos de tarjeta credito fallida sin transactionId en header
     * def baseBody = readBody.bodyOk
     Given url urlBase + path
     And request baseBody
@@ -38,7 +38,7 @@ Feature: validar casos failures servicio movimients TDC
     And match response.timestamp == isoformat
 
   @FailureCardNumberLength
-  Scenario: solicitud fallida tamaño
+  Scenario: Solicitud movimientos de tarjeta credito fallida tamaño CardNumber
     * def baseBody = readBody.bodyOk
     * set baseBody.CardTransactionCapture.CardNumber = 44550200031419915
     Given url urlBase + path
@@ -51,8 +51,22 @@ Feature: validar casos failures servicio movimients TDC
     And match response.transactionId == randomNumber
     And match response.timestamp == isoformat
 
+  @FailureCardNumberNotExist
+  Scenario: Solicitud movimientos de tarjeta credito fallida CardNumber no existente
+    * def baseBody = readBody.bodyOk
+    * set baseBody.CardTransactionCapture.CardNumber = 5455020003141991
+    Given url urlBase + path
+    And header transactionId = randomNumber
+    And request baseBody
+    When method POST
+    Then status 404
+    And match response.message == messageerror
+    And match response.status == 'ERROR'
+    And match response.transactionId == randomNumber
+    And match response.timestamp == isoformat
+
   @FailureWithOutCardNumber
-  Scenario: solicitud fallida sin campo numero tarjeta
+  Scenario: Solicitud movimientos de tarjeta credito fallida sin campo numero tarjeta
     * def baseBody = readBody.withOutCard
     Given url urlBase + path
     And header transactionId = randomNumber
@@ -65,7 +79,7 @@ Feature: validar casos failures servicio movimients TDC
     And match response.timestamp == isoformat
 
   @FailureStartDateVsEndDate
-  Scenario: solicitud fecha inicial mayor que la fecha final
+  Scenario: Solicitud movimientos de tarjeta credito fecha inicial mayor que la fecha final
     * def baseBody = readBody.bodyOk
     * set baseBody.CardTransactionCapture.StartDate = '2025-01-02'
     * set baseBody.CardTransactionCapture.EndDate = '2025-01-01'
@@ -80,7 +94,7 @@ Feature: validar casos failures servicio movimients TDC
     And match response.timestamp == isoformat
 
   @FailureEqualDates
-  Scenario: solicitud fecha inicial igual que la fecha final
+  Scenario: Solicitud movimientos de tarjeta credito fecha inicial igual que la fecha final
     * def baseBody = readBody.bodyOk
     * set baseBody.CardTransactionCapture.StartDate = '2025-01-01'
     * set baseBody.CardTransactionCapture.EndDate = '2025-01-01'
@@ -95,7 +109,7 @@ Feature: validar casos failures servicio movimients TDC
     And match response.timestamp == isoformat
 
   @FailureStartDateVsActualDate
-  Scenario: solicitud fecha inicial mayor que la fecha actual
+  Scenario: Solicitud movimientos de tarjeta credito fecha inicial mayor que la fecha actual
     * def getFutureDate =
     """
     function(days) {
@@ -120,7 +134,7 @@ Feature: validar casos failures servicio movimients TDC
     And match response.timestamp == isoformat
 
   @FailureWithOutStartDate
-  Scenario: solicitud fallida sin fecha inicial
+  Scenario: Solicitud movimientos de tarjeta credito fallida sin fecha inicial
     * def baseBody = readBody.withOutStart
     Given url urlBase + path
     And header transactionId = randomNumber
@@ -133,7 +147,7 @@ Feature: validar casos failures servicio movimients TDC
     And match response.timestamp == isoformat
 
   @FailureWithOutEndDate
-  Scenario: solicitud fallida sin fecha final
+  Scenario: Solicitud movimientos de tarjeta credito fallida sin fecha final
     * def baseBody = readBody.withOutEnd
     Given url urlBase + path
     And header transactionId = randomNumber
@@ -146,7 +160,7 @@ Feature: validar casos failures servicio movimients TDC
     And match response.timestamp == isoformat
 
   @FailureWithOutVersion
-  Scenario: solicitud fallida sin campo version
+  Scenario: Solicitud movimientos de tarjeta credito fallida sin campo service version
     * def baseBody = readBody.withOutVersion
     Given url urlBase + path
     And header transactionId = randomNumber
@@ -159,7 +173,7 @@ Feature: validar casos failures servicio movimients TDC
     And match response.timestamp == isoformat
 
   @FailureVersionNull
-  Scenario: solicitud fallida sin campo service version
+  Scenario: Solicitud movimientos de tarjeta credito fallida campo service version null
     * def baseBody = readBody.bodyOk
     * set baseBody.CardTransactionCapture.ServiceVersion = ''
     Given url urlBase + path
