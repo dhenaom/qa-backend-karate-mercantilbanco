@@ -24,6 +24,7 @@ dependencies {
     testImplementation 'io.karatelabs:karate-junit5:1.5.1'
     testImplementation 'io.karatelabs:karate-core:1.5.1'
     testImplementation 'net.masterthought:cucumber-reporting:5.7.5'
+
     implementation 'ch.qos.logback:logback-core:1.4.6' // O la última versión estable
     implementation 'io.netty:netty-common:4.1.115.Final' // O la última versión estable
     implementation 'com.google.guava:guava:32.1.2-jre'
