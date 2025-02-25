@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="ND-48">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/account/karate/runners/getoverdraftaccount/ITGetOverdraftCurrentAccountFailureRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/account/karate/runners/getoverdraftaccount/ITGetOverdraftCurrentAccountSuccessRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/account/karate/runners/getoverdraftaccount/ITGetOverdraftSavingAccountFailureRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/account/karate/runners/getoverdraftaccount/ITGetOverdraftSavingAccountSuccessRunner.java" afterDir="false" />
+    <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="ND-57">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pa/com/bancomercantil/authentication/karate/utils/EncriptUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/account/karate/runners/accountsignators/ITAccountSignatorsFailureRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/account/karate/runners/accountsignators/ITAccountSignatorsSuccessRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/accountsignators/features/accountsignatorsfailure.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/accountsignators/features/accountsignatorssuccess.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/accountsignators/jsonrequest/create.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getoverdraftaccount/features/currentaccountsoverdraftfailure.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getoverdraftaccount/features/currentaccountsoverdraftfailure.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getoverdraftaccount/features/currentaccountsoverdraftsuccess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getoverdraftaccount/features/currentaccountsoverdraftsuccess.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getoverdraftaccount/features/savingsaccountsoverdraftfailure.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getoverdraftaccount/features/savingsaccountsoverdraftfailure.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getoverdraftaccount/features/savingsaccountsoverdraftsuccess.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getoverdraftaccount/features/savingsaccountsoverdraftsuccess.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-summary-json.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-summary-json.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-summary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" afterDir="false" />
@@ -80,52 +81,52 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GitHubPullRequestState"><![CDATA[{
-  "prStates": [
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
     {
-      "id": {
-        "id": "PR_kwDONor4sc6LxQlV",
-        "number": 1
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONor4sc6LxQlV&quot;,
+        &quot;number&quot;: 1
       },
-      "lastSeen": 1739981574353
+      &quot;lastSeen&quot;: 1739981574353
     },
     {
-      "id": {
-        "id": "PR_kwDONor4sc6LxSI2",
-        "number": 2
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONor4sc6LxSI2&quot;,
+        &quot;number&quot;: 2
       },
-      "lastSeen": 1739981599376
+      &quot;lastSeen&quot;: 1739981599376
     },
     {
-      "id": {
-        "id": "PR_kwDONor4sc6LxUDm",
-        "number": 3
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONor4sc6LxUDm&quot;,
+        &quot;number&quot;: 3
       },
-      "lastSeen": 1739981600298
+      &quot;lastSeen&quot;: 1739981600298
     },
     {
-      "id": {
-        "id": "PR_kwDONor4sc6LxkxE",
-        "number": 4
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONor4sc6LxkxE&quot;,
+        &quot;number&quot;: 4
       },
-      "lastSeen": 1740003178805
+      &quot;lastSeen&quot;: 1740003178805
     },
     {
-      "id": {
-        "id": "PR_kwDONor4sc6Lz8BO",
-        "number": 6
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONor4sc6Lz8BO&quot;,
+        &quot;number&quot;: 6
       },
-      "lastSeen": 1740003183500
+      &quot;lastSeen&quot;: 1740003183500
     },
     {
-      "id": {
-        "id": "PR_kwDONor4sc6LxmR0",
-        "number": 5
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONor4sc6LxmR0&quot;,
+        &quot;number&quot;: 5
       },
-      "lastSeen": 1740003191016
+      &quot;lastSeen&quot;: 1740003191016
     }
   ]
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;git@github.com:dhenaom/qa-backend-karate-mercantilbanco.git&quot;,
@@ -167,6 +168,9 @@
     "Gradle.Build qa-backend-karate-mercantil.executor": "Run",
     "Gradle.Build qa-backend-karate-mercantilbanco.executor": "Run",
     "Gradle.Download Sources.executor": "Run",
+    "Gradle.ITAccountSignatorsFailureRunner.executor": "Run",
+    "Gradle.ITAccountSignatorsSuccessRunner.accountSignatorsSuccessTest.executor": "Run",
+    "Gradle.ITAccountSignatorsSuccessRunner.executor": "Run",
     "Gradle.ITAuthenticateTokenEntrust.executor": "Run",
     "Gradle.ITAuthenticationEvaluateFailureRunner.authenticationEvaluateFailureTest.executor": "Run",
     "Gradle.ITAuthenticationEvaluateFailureRunner.executor": "Run",
@@ -181,14 +185,23 @@
     "Gradle.ITEventManager.getCurrentAccountFailureTest.executor": "Run",
     "Gradle.ITGetCurrentAccountFailureRunner.getCurrentAccountFailureTest.executor": "Run",
     "Gradle.ITGetCurrentAccountSuccessRunner.getCurrentAccountSuccessTest.executor": "Run",
+    "Gradle.ITGetOverdraftCurrentAccountFailureRunner.executor": "Run",
     "Gradle.ITGetOverdraftCurrentAccountFailureRunner.getOverdraftCurrentAccountFailureTest.executor": "Run",
+    "Gradle.ITGetOverdraftCurrentAccountSuccessRunner.executor": "Run",
     "Gradle.ITGetOverdraftCurrentAccountSuccessRunner.getStatusCurrentAccountSuccessTest.executor": "Run",
+    "Gradle.ITGetOverdraftSavingAccountFailureRunner.executor": "Run",
     "Gradle.ITGetOverdraftSavingAccountFailureRunner.getStatusSavingAccountFailureTest.executor": "Run",
+    "Gradle.ITGetOverdraftSavingAccountSuccessRunner.executor": "Run",
+    "Gradle.ITGetOverdraftSavingAccountSuccessRunner.getStatusSavingAccountSuccessTest.executor": "Run",
     "Gradle.ITGetSavingAccountFailureRunner.getSavingAccountFailureTest.executor": "Run",
     "Gradle.ITGetSavingAccountSuccessRunner.getSavingAccountSuccessTest.executor": "Run",
+    "Gradle.ITGetStatusCurrentAccountFailureRunner.executor": "Run",
     "Gradle.ITGetStatusCurrentAccountFailureRunner.getStatusCurrentAccountFailureTest.executor": "Run",
+    "Gradle.ITGetStatusCurrentAccountSuccessRunner.executor": "Run",
     "Gradle.ITGetStatusCurrentAccountSuccessRunner.getStatusCurrentAccountSuccessTest.executor": "Run",
+    "Gradle.ITGetStatusSavingAccountFailureRunner.executor": "Run",
     "Gradle.ITGetStatusSavingAccountFailureRunner.getStatusSavingAccountFailureTest.executor": "Run",
+    "Gradle.ITGetStatusSavingAccountSuccessRunner.executor": "Run",
     "Gradle.ITGetStatusSavingAccountSuccessRunner.getStatusSavingAccountSuccessTest.executor": "Run",
     "Gradle.ITKBAGetQuestionFailureRunner.kbaQuestionEvaluateSuccessTest.executor": "Run",
     "Gradle.ITKBAGetQuestionSuccessRunner.kbaQuestionEvaluateSuccessTest.executor": "Run",
@@ -222,6 +235,19 @@
     "Karate.@APIAuthenticate.executor": "Run",
     "Karate.@Consistency.executor": "Run",
     "Karate.@HappyPathKBA.executor": "Run",
+    "Karate.accountsignatorsfailure.feature:20.executor": "Run",
+    "Karate.accountsignatorsfailure.feature:33.executor": "Run",
+    "Karate.accountsignatorsfailure.feature:45 (1).executor": "Run",
+    "Karate.accountsignatorsfailure.feature:45.executor": "Run",
+    "Karate.accountsignatorsfailure.feature:52 (1).executor": "Run",
+    "Karate.accountsignatorsfailure.feature:52.executor": "Run",
+    "Karate.accountsignatorsfailure.feature:56.executor": "Run",
+    "Karate.accountsignatorssuccess.feature:17 (1).executor": "Run",
+    "Karate.accountsignatorssuccess.feature:17 (2).executor": "Run",
+    "Karate.accountsignatorssuccess.feature:17 (3).executor": "Run",
+    "Karate.accountsignatorssuccess.feature:17 (4).executor": "Run",
+    "Karate.accountsignatorssuccess.feature:17 (5).executor": "Run",
+    "Karate.accountsignatorssuccess.feature:17.executor": "Run",
     "Karate.apiaauthenticate.feature.executor": "Run",
     "Karate.apiaauthenticate.feature:11 (1).executor": "Run",
     "Karate.apiaauthenticate.feature:11.executor": "Run",
@@ -250,6 +276,8 @@
     "Karate.currentaccountsoverdraftfailure.feature:83 (2).executor": "Run",
     "Karate.currentaccountsoverdraftfailure.feature:83 (3).executor": "Run",
     "Karate.currentaccountsoverdraftfailure.feature:83.executor": "Run",
+    "Karate.currentaccountsoverdraftfailure.feature:96 (1).executor": "Run",
+    "Karate.currentaccountsoverdraftfailure.feature:96.executor": "Run",
     "Karate.currentaccountsoverdraftsuccess.feature:12 (1).executor": "Run",
     "Karate.currentaccountsoverdraftsuccess.feature:12 (2).executor": "Run",
     "Karate.currentaccountsoverdraftsuccess.feature:12.executor": "Run",
@@ -422,6 +450,8 @@
     "Karate.savingsaccountsoverdraftfailure.feature:79 (1).executor": "Run",
     "Karate.savingsaccountsoverdraftfailure.feature:79.executor": "Run",
     "Karate.savingsaccountsoverdraftfailure.feature:92.executor": "Run",
+    "Karate.savingsaccountsoverdraftfailure.feature:97 (1).executor": "Run",
+    "Karate.savingsaccountsoverdraftfailure.feature:97.executor": "Run",
     "Karate.savingsaccountsoverdraftsuccess.feature:12 (1).executor": "Run",
     "Karate.savingsaccountsoverdraftsuccess.feature:12 (2).executor": "Run",
     "Karate.savingsaccountsoverdraftsuccess.feature:12 (3).executor": "Run",
@@ -515,13 +545,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "#6 on dhenao",
+    "git-widget-placeholder": "dhenao",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/DHM_Pragma/Documents/Mercantil/qa-backend-karate-mercantilbanco/src/test/java/pa/com/bancomercantil/account/karate/runners/getoverdraftaccount",
+    "last_opened_file_path": "/Users/DHM_Pragma/Documents/Mercantil/qa-backend-karate-mercantilbanco/src/test/resources/pa/com/bancomercantil/account/karate/accountsignators",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -529,11 +559,11 @@
       <recent name="pa.com.bancomercantil.authentication.karate.requestchallenge.runners" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/accountsignators" />
+      <recent name="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/account/karate/runners/accountsignators" />
       <recent name="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/account/karate/runners/getoverdraftaccount" />
       <recent name="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/account/karate/runners/statusaccount" />
       <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getstatusaccount" />
-      <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/overdraftaccount/features" />
-      <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/overdraftaccount" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate" />
@@ -550,8 +580,8 @@
       <recent name="pa.com.bancomercantil.authentication.karate.requestchallenge.runners" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ITGetOverdraftSavingAccountFailureRunner.getStatusSavingAccountFailureTest">
-    <configuration name="ITGetOverdraftCurrentAccountFailureRunner.getOverdraftCurrentAccountFailureTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ITAccountSignatorsFailureRunner">
+    <configuration name="ITAccountSignatorsFailureRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -564,7 +594,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pa.com.bancomercantil.account.karate.runners.getoverdraftaccount.ITGetOverdraftCurrentAccountFailureRunner.getOverdraftCurrentAccountFailureTest&quot;" />
+            <option value="&quot;pa.com.bancomercantil.account.karate.runners.accountsignators.ITAccountSignatorsFailureRunner&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -575,7 +605,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ITGetOverdraftCurrentAccountSuccessRunner.getStatusCurrentAccountSuccessTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ITAccountSignatorsSuccessRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -588,7 +618,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pa.com.bancomercantil.account.karate.runners.getoverdraftaccount.ITGetOverdraftCurrentAccountSuccessRunner.getStatusCurrentAccountSuccessTest&quot;" />
+            <option value="&quot;pa.com.bancomercantil.account.karate.runners.accountsignators.ITAccountSignatorsSuccessRunner&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -599,7 +629,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ITGetOverdraftSavingAccountFailureRunner.getStatusSavingAccountFailureTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ITAccountSignatorsSuccessRunner.accountSignatorsSuccessTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -612,7 +642,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;pa.com.bancomercantil.account.karate.runners.getoverdraftaccount.ITGetOverdraftSavingAccountFailureRunner.getStatusSavingAccountFailureTest&quot;" />
+            <option value="&quot;pa.com.bancomercantil.account.karate.runners.accountsignators.ITAccountSignatorsSuccessRunner.accountSignatorsSuccessTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -643,14 +673,14 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="currentaccountsoverdraftfailure.feature:83 (2)" type="karateConfigurationType" temporary="true" lineNumber="83" testName="currentaccountsoverdraftfailure.feature" testDescription="Feature: Solicitud fallidas cuentas corriente&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def randomNumber2 = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def randomNumber3 = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def randomString = randomUtils.generateRandomUtil(8,&quot;s&quot;)&#10;&#10;&#10;  @withoutParamAccountNumber&#10;  Scenario: Solicitud Fallida de sobregiro cuenta corriente sin parametro numero de cuenta&#10;    Given url urlBase + '/v1/current-account/'+''+randomNumber+'' + '/overdraft/retrieve'&#10;    And header page = 1&#10;    And header pageLimit = 10&#10;    And header transactionId = randomNumber2&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;Faltan headers o campos obligatorios&quot;&#10;    And match response.data.errorDetails.code == '400'&#10;    And match response.data.errorDetails.fields.exceptionMessage == &quot;Required request parameter 'accountNumber' for method parameter type String is not present&quot;&#10;    And match response.data.errorDetails.fields.exceptionType == &quot;MissingServletRequestParameterException&quot;&#10;&#10;  @emptyParamAccountNumber&#10;  Scenario: Solicitud Fallida de sobregiro cuenta corriente con parametro numero de cuenta vacio&#10;    Given url urlBase + '/v1/current-account/'+''+randomNumber+'' + '/overdraft/retrieve'&#10;    And header page = 1&#10;    And header pageLimit = 10&#10;    And header transactionId = randomNumber2&#10;    And param accountNumber = ''&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;Ocurrió un error en servicio externo&quot;&#10;    And match response.data.errorDetails.code == '400'&#10;    And match response.data.errorDetails.fields.exceptionMessage == '400 : \&quot;{\&quot;status_code\&quot;:\&quot;400\&quot;,\&quot;status\&quot;:\&quot;BAD_REQUEST\&quot;,\&quot;message\&quot;:\&quot;For input string: \\\&quot;\\\&quot;\&quot;}\&quot;'&#10;    And match response.data.errorDetails.fields.exceptionType == &quot;BadRequest&quot;&#10;&#10;  @unknownAccountNumber&#10;  Scenario: Solicitud Fallida de sobregiro cuenta corriente con numero de cuenta desconocido&#10;    Given url urlBase + '/v1/current-account/'+''+randomNumber+'' + '/overdraft/retrieve'&#10;    And header page = 1&#10;    And header pageLimit = 10&#10;    And header transactionId = randomNumber2&#10;    And param accountNumber = randomNumber3&#10;    When method get&#10;    Then status 404&#10;    And match response.message == &quot;Ocurrió un error en servicio externo&quot;&#10;    And match response.data.errorDetails.code == '404'&#10;    And match response.data.errorDetails.fields.exceptionMessage == '404 : \&quot;{\&quot;status_code\&quot;:\&quot;404\&quot;,\&quot;status\&quot;:\&quot;NOT_FOUND\&quot;,\&quot;message\&quot;:\&quot;0009 : Numero de Referencia no Existe.\&quot;}\&quot;'&#10;    And match response.data.errorDetails.fields.exceptionType == &quot;NotFound&quot;&#10;&#10;  @stringOnParamAccountNumber&#10;  Scenario: Solicitud Fallida de sobregiro cuenta corriente con parametro numero de cuenta tipo string&#10;    Given url urlBase + '/v1/current-account/'+''+randomNumber+'' + '/overdraft/retrieve'&#10;    And header page = 1&#10;    And header pageLimit = 10&#10;    And header transactionId = randomNumber2&#10;    And param accountNumber = randomString&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;Ocurrió un error en servicio externo&quot;&#10;    And match response.data.errorDetails.code == '400'&#10;    And match response.data.errorDetails.fields.exceptionMessage == '400 : \&quot;{\&quot;status_code\&quot;:\&quot;400\&quot;,\&quot;status\&quot;:\&quot;BAD_REQUEST\&quot;,\&quot;message\&quot;:\&quot;For input string: \\\&quot;'+randomString+'\\\&quot;\&quot;}\&quot;'&#10;    And match response.data.errorDetails.fields.exceptionType == &quot;BadRequest&quot;&#10;&#10;  @withoutHeaderTransactionId&#10;  Scenario: Solicitud Fallida de sobregiro cuenta corriente sin header transactionId&#10;    Given url urlBase + '/v1/current-account/'+''+randomNumber+'' + '/overdraft/retrieve'&#10;    And header page = 1&#10;    And header pageLimit = 10&#10;    And param accountNumber = randomNumber3&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;Faltan headers o campos obligatorios&quot;&#10;    And match response.data.errorDetails.code == '400'&#10;    And match response.data.errorDetails.fields.exceptionMessage == &quot;Required request header 'transactionId' for method parameter type String is not present&quot;&#10;    And match response.data.errorDetails.fields.exceptionType == &quot;MissingRequestHeaderException&quot;&#10;&#10;  @emptyHeaderTransactionId&#10;  Scenario: Solicitud Fallida de sobregiro cuenta corriente con header transactionId vacio&#10;    Given url urlBase + '/v1/current-account/'+''+randomNumber+'' + '/overdraft/retrieve'&#10;    And header page = 1&#10;    And header pageLimit = 10&#10;    And header transactionId = ''&#10;    And param accountNumber = randomNumber3&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;El transactionId no puede estar vacio.&quot;&#10;    And match response.data.errorDetails.code == '400 BAD_REQUEST'&#10;    And match response.data.errorDetails.fields.exceptionMessage == &quot;Required request header 'transactionId' for method parameter type String is not present&quot;&#10;    And match response.data.errorDetails.fields.exceptionType == &quot;MissingRequestHeaderException&quot;&#10;" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getoverdraftaccount/features/currentaccountsoverdraftfailure.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/getoverdraftaccount/features/currentaccountsoverdraftfailure.feature">
+    <configuration name="accountsignatorsfailure.feature:45 (1)" type="karateConfigurationType" temporary="true" lineNumber="45" testName="accountsignatorsfailure.feature" testDescription="Feature: Consulta fallida de firmantes de una cuenta&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def randomNumber2 = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def randomNumber3 = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def date = new java.util.Date()&#10;    * def formatter = new java.text.SimpleDateFormat(&quot;yyyy-MM-dd'T'HH:mm:ss&quot;)&#10;    * formatter.setTimeZone(java.util.TimeZone.getTimeZone(&quot;UTC&quot;))&#10;    * def formattedDate = formatter.format(date)&#10;    * def body = karate.read('classpath:pa/com/bancomercantil/account/karate/datapersistence/jsonrequest/create.json')&#10;&#10;&#10;&#10;  @UnknowAccount&#10;  Scenario: Solicitud fallida de firmantes de una cuenta con cuenta invalida&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ randomNumber +'/signatory/retrieve'&#10;    And header transactionId = randomNumber2&#10;    And request body&#10;    When method get&#10;    Then status 404&#10;    And match response.message == 'Ocurrió un error inesperado.'&#10;    And match response.data.errorDetails.code == '404'&#10;    And match response.data.errorDetails.fields.exceptionType == 'NotFound'&#10;    And match response.data.errorDetails.fields.exceptionMessage == '404 : \&quot;{\&quot;status_code\&quot;:\&quot;404\&quot;,\&quot;status\&quot;:\&quot;NOT_FOUND\&quot;,\&quot;message\&quot;:\&quot;0009 : Numero de Referencia no Existe.\&quot;}\&quot;'&#10;&#10;&#10;  @WithoutAccount&#10;  Scenario: Solicitud fallida de firmantes de una cuenta sin numero de cuenta&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ '' +'/signatory/retrieve'&#10;    And header transactionId = randomNumber&#10;    And request body&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;Falta el parámetro requerido 'documenttype' en la solicitud.&quot;&#10;    And match response.data.errorDetails.code == 'ERROR-400'&#10;    And match response.data.errorDetails.fields.exceptionType == 'MissingServletRequestParameterException'&#10;    And match response.data.errorDetails.fields.exceptionMessage == &quot;Falta el parámetro requerido 'documenttype' en la solicitud.&quot;&#10;&#10;  @withoutHeaderTransactionId&#10;  Scenario: Solicitud fallida de firmantes de una cuenta sin header transactionId&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ '300000354' +'/signatory/retrieve'&#10;    And request body&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;Falta el encabezado requerido 'transactionId' en la solicitud.&quot;&#10;    And match response.data.errorDetails.code == 'ERROR-400'&#10;    And match response.data.errorDetails.fields.exceptionType == 'MissingRequestHeaderException'&#10;    And match response.data.errorDetails.fields.exceptionMessage == &quot;Falta el encabezado requerido 'transactionId' en la solicitud.&quot;" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/accountsignators/features/accountsignatorsfailure.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/accountsignators/features/accountsignatorsfailure.feature">
       <option name="MAIN_CLASS_NAME" value="com.rankweis.uppercut.testrunner.KarateTestRunner" />
       <module name="proyecto-base-karate-mercantilbanco.test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="currentaccountsoverdraftfailure.feature:83 (3)" type="karateConfigurationType" temporary="true" lineNumber="83" testName="currentaccountsoverdraftfailure.feature" testDescription="Feature: Solicitud fallidas cuentas corriente&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def randomNumber2 = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def randomNumber3 = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def randomString = randomUtils.generateRandomUtil(8,&quot;s&quot;)&#10;&#10;&#10;  @withoutParamAccountNumber&#10;  Scenario: Solicitud Fallida de sobregiro cuenta corriente sin parametro numero de cuenta&#10;    Given url urlBase + '/v1/current-account/'+''+randomNumber+'' + '/overdraft/retrieve'&#10;    And header page = 1&#10;    And header pageLimit = 10&#10;    And header transactionId = randomNumber2&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;Faltan headers o campos obligatorios&quot;&#10;    And match response.data.errorDetails.code == '400'&#10;    And match response.data.errorDetails.fields.exceptionMessage == &quot;Required request parameter 'accountNumber' for method parameter type String is not present&quot;&#10;    And match response.data.errorDetails.fields.exceptionType == &quot;MissingServletRequestParameterException&quot;&#10;&#10;  @emptyParamAccountNumber&#10;  Scenario: Solicitud Fallida de sobregiro cuenta corriente con parametro numero de cuenta vacio&#10;    Given url urlBase + '/v1/current-account/'+''+randomNumber+'' + '/overdraft/retrieve'&#10;    And header page = 1&#10;    And header pageLimit = 10&#10;    And header transactionId = randomNumber2&#10;    And param accountNumber = ''&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;Ocurrió un error en servicio externo&quot;&#10;    And match response.data.errorDetails.code == '400'&#10;    And match response.data.errorDetails.fields.exceptionMessage == '400 : \&quot;{\&quot;status_code\&quot;:\&quot;400\&quot;,\&quot;status\&quot;:\&quot;BAD_REQUEST\&quot;,\&quot;message\&quot;:\&quot;For input string: \\\&quot;\\\&quot;\&quot;}\&quot;'&#10;    And match response.data.errorDetails.fields.exceptionType == &quot;BadRequest&quot;&#10;&#10;  @unknownAccountNumber&#10;  Scenario: Solicitud Fallida de sobregiro cuenta corriente con numero de cuenta desconocido&#10;    Given url urlBase + '/v1/current-account/'+''+randomNumber+'' + '/overdraft/retrieve'&#10;    And header page = 1&#10;    And header pageLimit = 10&#10;    And header transactionId = randomNumber2&#10;    And param accountNumber = randomNumber3&#10;    When method get&#10;    Then status 404&#10;    And match response.message == &quot;Ocurrió un error en servicio externo&quot;&#10;    And match response.data.errorDetails.code == '404'&#10;    And match response.data.errorDetails.fields.exceptionMessage == '404 : \&quot;{\&quot;status_code\&quot;:\&quot;404\&quot;,\&quot;status\&quot;:\&quot;NOT_FOUND\&quot;,\&quot;message\&quot;:\&quot;0009 : Numero de Referencia no Existe.\&quot;}\&quot;'&#10;    And match response.data.errorDetails.fields.exceptionType == &quot;NotFound&quot;&#10;&#10;  @stringOnParamAccountNumber&#10;  Scenario: Solicitud Fallida de sobregiro cuenta corriente con parametro numero de cuenta tipo string&#10;    Given url urlBase + '/v1/current-account/'+''+randomNumber+'' + '/overdraft/retrieve'&#10;    And header page = 1&#10;    And header pageLimit = 10&#10;    And header transactionId = randomNumber2&#10;    And param accountNumber = randomString&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;Ocurrió un error en servicio externo&quot;&#10;    And match response.data.errorDetails.code == '400'&#10;    And match response.data.errorDetails.fields.exceptionMessage == '400 : \&quot;{\&quot;status_code\&quot;:\&quot;400\&quot;,\&quot;status\&quot;:\&quot;BAD_REQUEST\&quot;,\&quot;message\&quot;:\&quot;For input string: \\\&quot;'+randomString+'\\\&quot;\&quot;}\&quot;'&#10;    And match response.data.errorDetails.fields.exceptionType == &quot;BadRequest&quot;&#10;&#10;  @withoutHeaderTransactionId&#10;  Scenario: Solicitud Fallida de sobregiro cuenta corriente sin header transactionId&#10;    Given url urlBase + '/v1/current-account/'+''+randomNumber+'' + '/overdraft/retrieve'&#10;    And header page = 1&#10;    And header pageLimit = 10&#10;    And param accountNumber = randomNumber3&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;Faltan headers o campos obligatorios&quot;&#10;    And match response.data.errorDetails.code == '400'&#10;    And match response.data.errorDetails.fields.exceptionMessage == &quot;Required request header 'transactionId' for method parameter type String is not present&quot;&#10;    And match response.data.errorDetails.fields.exceptionType == &quot;MissingRequestHeaderException&quot;&#10;&#10;  @emptyHeaderTransactionId&#10;  Scenario: Solicitud Fallida de sobregiro cuenta corriente con header transactionId vacio&#10;    Given url urlBase + '/v1/current-account/'+''+randomNumber+'' + '/overdraft/retrieve'&#10;    And header page = 1&#10;    And header pageLimit = 10&#10;    And header transactionId = ''&#10;    And param accountNumber = randomNumber3&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;El transactionId no puede estar vacio.&quot;&#10;    And match response.data.errorDetails.code == '400 BAD_REQUEST'&#10;    And match response.data.errorDetails.fields.message == &quot;El header transaction id no puede ir vacio&quot;&#10;" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getoverdraftaccount/features/currentaccountsoverdraftfailure.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/getoverdraftaccount/features/currentaccountsoverdraftfailure.feature">
+    <configuration name="accountsignatorsfailure.feature:56" type="karateConfigurationType" temporary="true" lineNumber="56" testName="accountsignatorsfailure.feature" testDescription="Feature: Consulta fallida de firmantes de una cuenta&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def randomNumber2 = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def randomNumber3 = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def date = new java.util.Date()&#10;    * def formatter = new java.text.SimpleDateFormat(&quot;yyyy-MM-dd'T'HH:mm:ss&quot;)&#10;    * formatter.setTimeZone(java.util.TimeZone.getTimeZone(&quot;UTC&quot;))&#10;    * def formattedDate = formatter.format(date)&#10;    * def body = karate.read('classpath:pa/com/bancomercantil/account/karate/datapersistence/jsonrequest/create.json')&#10;&#10;&#10;&#10;  @UnknowAccount&#10;  Scenario: Solicitud fallida de firmantes de una cuenta con cuenta invalida&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ randomNumber +'/signatory/retrieve'&#10;    And header transactionId = randomNumber2&#10;    And request body&#10;    When method get&#10;    Then status 404&#10;    And match response.message == 'Ocurrió un error inesperado.'&#10;    And match response.data.errorDetails.code == '404'&#10;    And match response.data.errorDetails.fields.exceptionType == 'NotFound'&#10;    And match response.data.errorDetails.fields.exceptionMessage == '404 : \&quot;{\&quot;status_code\&quot;:\&quot;404\&quot;,\&quot;status\&quot;:\&quot;NOT_FOUND\&quot;,\&quot;message\&quot;:\&quot;0009 : Numero de Referencia no Existe.\&quot;}\&quot;'&#10;&#10;&#10;  @WithoutAccount&#10;  Scenario: Solicitud fallida de firmantes de una cuenta sin numero de cuenta&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ '' +'/signatory/retrieve'&#10;    And header transactionId = randomNumber&#10;    And request body&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;Falta el parámetro requerido 'documenttype' en la solicitud.&quot;&#10;    And match response.data.errorDetails.code == 'ERROR-400'&#10;    And match response.data.errorDetails.fields.exceptionType == 'MissingServletRequestParameterException'&#10;    And match response.data.errorDetails.fields.exceptionMessage == &quot;Falta el parámetro requerido 'documenttype' en la solicitud.&quot;&#10;&#10;  @withoutHeaderTransactionId&#10;  Scenario: Solicitud fallida de firmantes de una cuenta sin header transactionId&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ '300000354' +'/signatory/retrieve'&#10;    And request body&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;Falta el encabezado requerido 'transactionId' en la solicitud.&quot;&#10;    And match response.data.errorDetails.code == 'ERROR-400'&#10;    And match response.data.errorDetails.fields.exceptionType == 'MissingRequestHeaderException'&#10;    And match response.data.errorDetails.fields.exceptionMessage == &quot;Falta el encabezado requerido 'transactionId' en la solicitud.&quot;&#10;&#10;  @EmptyTransactionId&#10;  Scenario: Solicitud fallida de firmantes de una cuenta con transactionId vacio&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ '300000354' +'/signatory/retrieve'&#10;    And header transactionId = ''&#10;    And request body&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;exception.request.transactionId&quot;&#10;    And match response.data.errorDetails.code == '400 BAD_REQUEST'&#10;    And match response.data.errorDetails.fields.message == 'El header transaction id no puede ir vacio'" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/accountsignators/features/accountsignatorsfailure.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/accountsignators/features/accountsignatorsfailure.feature">
       <option name="MAIN_CLASS_NAME" value="com.rankweis.uppercut.testrunner.KarateTestRunner" />
       <module name="proyecto-base-karate-mercantilbanco.test" />
       <method v="2">
@@ -659,11 +689,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ITGetOverdraftSavingAccountFailureRunner.getStatusSavingAccountFailureTest" />
-        <item itemvalue="Gradle.ITGetOverdraftCurrentAccountSuccessRunner.getStatusCurrentAccountSuccessTest" />
-        <item itemvalue="Gradle.ITGetOverdraftCurrentAccountFailureRunner.getOverdraftCurrentAccountFailureTest" />
-        <item itemvalue="Karate.currentaccountsoverdraftfailure.feature:83 (3)" />
-        <item itemvalue="Karate.currentaccountsoverdraftfailure.feature:83 (2)" />
+        <item itemvalue="Gradle.ITAccountSignatorsFailureRunner" />
+        <item itemvalue="Gradle.ITAccountSignatorsSuccessRunner" />
+        <item itemvalue="Gradle.ITAccountSignatorsSuccessRunner.accountSignatorsSuccessTest" />
+        <item itemvalue="Karate.accountsignatorsfailure.feature:56" />
+        <item itemvalue="Karate.accountsignatorsfailure.feature:45 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -812,7 +842,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740003063317</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="ND-57">
+      <option name="closed" value="true" />
+      <created>1740091223230</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1740091223230</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -855,6 +893,7 @@
     <MESSAGE value="create features ND-48 ans ND-57" />
     <MESSAGE value="update gitignore" />
     <MESSAGE value="ND-48" />
-    <option name="LAST_COMMIT_MESSAGE" value="ND-48" />
+    <MESSAGE value="ND-57" />
+    <option name="LAST_COMMIT_MESSAGE" value="ND-57" />
   </component>
 </project>

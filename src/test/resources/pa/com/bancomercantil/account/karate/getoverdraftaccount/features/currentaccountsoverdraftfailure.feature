@@ -91,3 +91,17 @@ Feature: Solicitud fallidas cuentas corriente
     And match response.message == "El transactionId no puede estar vacio."
     And match response.data.errorDetails.code == '400 BAD_REQUEST'
     And match response.data.errorDetails.fields.message == "El header transaction id no puede ir vacio"
+
+  @savingAccountInCurrentAccount
+  Scenario: Solicitud Fallida de sobregiro cuenta corriente con numero de cuenta de ahorros
+    Given url urlBase + '/v1/current-account/'+''+randomNumber+'' + '/overdraft/retrieve'
+    And header page = 1
+    And header pageLimit = 10
+    And header transactionId = randomNumber2
+    And param accountNumber = '20026160'
+    When method get
+    Then status 409
+    And match response.message == "Ocurrió un error en servicio externo"
+    And match response.data.errorDetails.code == '409'
+    And match response.data.errorDetails.fields.exceptionMessage == '409 : \"{\"status_code\":\"409\",\"status\":\"CONFLICT\",\"message\":\"7193 : El Numero de cuenta No pertenece a este Modulo\"}\"'
+    And match response.data.errorDetails.fields.exceptionType == "Conflict"
