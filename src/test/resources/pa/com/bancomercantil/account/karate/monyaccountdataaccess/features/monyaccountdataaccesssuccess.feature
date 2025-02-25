@@ -8,7 +8,7 @@ Feature: validar casos success servicios mony
     * def urlBase = config.urlBase
     * def pathget = '/v1/monyaccountdataaccess/data/retrieve'
     * def isoformat = '#regex ^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(\\.\\d+)?(Z|[+-]\\d{2}:\\d{2})$'
-    * def dataJson = karate.read('classpath:pa/com/bancomercantil/mony/jsonResponse/data.json')
+    * def dataJson = karate.read('classpath:pa/com/bancomercantil/account/karate/monyaccountdataaccess/jsonResponse/data.json')
 
   @GetSuccessEmail&Account
     Scenario: Solicitud get a mony account access con query email y account
