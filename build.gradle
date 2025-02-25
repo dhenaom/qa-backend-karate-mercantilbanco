@@ -7,12 +7,23 @@ version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+
+    maven {
+        name = "MercantilPackages"
+        url = uri("https://pkgs.dev.azure.com/MercantilBanco/Nova-Digital/_packaging/MercantilPackages/maven/v1")
+        allowInsecureProtocol = true // Si el repositorio no usa HTTPS
+        credentials {
+            username = "MercantilBanco"
+            password = "24wrCYyMqReN06b5mqM7x9gcH75duE3Z5PUPlyDgOVlPLLHqvGEeJQQJ99BBACAAAAAYtO30AAASAZDO5wR7"
+        }
+    }
 }
 
 dependencies {
     testImplementation 'io.karatelabs:karate-junit5:1.5.1'
     testImplementation 'io.karatelabs:karate-core:1.5.1'
     testImplementation 'net.masterthought:cucumber-reporting:5.7.5'
+
     implementation 'ch.qos.logback:logback-core:1.4.6' // O la última versión estable
     implementation 'io.netty:netty-common:4.1.115.Final' // O la última versión estable
     implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.12.0'
@@ -20,7 +31,9 @@ dependencies {
     implementation 'commons-io:commons-io:2.14.0'
     implementation 'org.codehaus.janino:janino:3.1.9'
     implementation 'ch.qos.logback:logback-classic:1.4.12'
+    implementation 'com.mercantil:mercantil-encryption:1.0.4'
 }
+
 tasks.register('karateExecute', JavaExec) {
     mainClass = 'com.intuit.karate.Main' // Cambia a com.intuit.karate.Main
     classpath = sourceSets.test.runtimeClasspath
@@ -31,13 +44,13 @@ tasks.register('karateExecute', JavaExec) {
     ]
 }
 
-
-test{
+test {
     useJUnitPlatform()
     systemProperty 'karate.env', System.getProperty('karate.env', 'dev') // Ajusta el entorno por defecto
     systemProperty 'karate.options', System.getProperty('karate.options', '')
     outputs.upToDateWhen { false }
 }
+
 //serenity {
 //    testRoots = "pa.com.bancomercantil.authentication.karate.runners"
 //    requirementsBaseDir = "src/test/resources/pa/com/bancomercantil.authentication/karate"
@@ -49,7 +62,7 @@ sourceSets {
             srcDir 'src/main/resources'
         }
     }
-    test{
+    test {
         resources {
             srcDir file('src/test/java')
             exclude '**/*.java'
