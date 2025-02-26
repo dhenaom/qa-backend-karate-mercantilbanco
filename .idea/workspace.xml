@@ -66,13 +66,61 @@
   </component>
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;dhenaom&quot;
-  }
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONor4sc6LxQlV&quot;,
+        &quot;number&quot;: 1
+      },
+      &quot;lastSeen&quot;: 1739981574353
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONor4sc6LxSI2&quot;,
+        &quot;number&quot;: 2
+      },
+      &quot;lastSeen&quot;: 1739981599376
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONor4sc6LxUDm&quot;,
+        &quot;number&quot;: 3
+      },
+      &quot;lastSeen&quot;: 1739981600298
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONor4sc6LxkxE&quot;,
+        &quot;number&quot;: 4
+      },
+      &quot;lastSeen&quot;: 1740003178805
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONor4sc6Lz8BO&quot;,
+        &quot;number&quot;: 6
+      },
+      &quot;lastSeen&quot;: 1740003183500
+    },
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONor4sc6LxmR0&quot;,
+        &quot;number&quot;: 5
+      },
+      &quot;lastSeen&quot;: 1740003191016
+    }
+  ]
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
@@ -157,6 +205,19 @@
     "Karate.@APIAuthenticate.executor": "Run",
     "Karate.@Consistency.executor": "Run",
     "Karate.@HappyPathKBA.executor": "Run",
+    "Karate.accountsignatorsfailure.feature:20.executor": "Run",
+    "Karate.accountsignatorsfailure.feature:33.executor": "Run",
+    "Karate.accountsignatorsfailure.feature:45 (1).executor": "Run",
+    "Karate.accountsignatorsfailure.feature:45.executor": "Run",
+    "Karate.accountsignatorsfailure.feature:52 (1).executor": "Run",
+    "Karate.accountsignatorsfailure.feature:52.executor": "Run",
+    "Karate.accountsignatorsfailure.feature:56.executor": "Run",
+    "Karate.accountsignatorssuccess.feature:17 (1).executor": "Run",
+    "Karate.accountsignatorssuccess.feature:17 (2).executor": "Run",
+    "Karate.accountsignatorssuccess.feature:17 (3).executor": "Run",
+    "Karate.accountsignatorssuccess.feature:17 (4).executor": "Run",
+    "Karate.accountsignatorssuccess.feature:17 (5).executor": "Run",
+    "Karate.accountsignatorssuccess.feature:17.executor": "Run",
     "Karate.apiaauthenticate.feature.executor": "Run",
     "Karate.apiaauthenticate.feature:11 (1).executor": "Run",
     "Karate.apiaauthenticate.feature:11.executor": "Run",
@@ -392,11 +453,11 @@
       <recent name="pa.com.bancomercantil.authentication.karate.requestchallenge.runners" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getsavingaccounts/features" />
-      <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getcurrentaccounts/features" />
-      <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate/authentication/features" />
-      <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate" />
-      <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil" />
+      <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/accountsignators" />
+      <recent name="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/account/karate/runners/accountsignators" />
+      <recent name="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/account/karate/runners/getoverdraftaccount" />
+      <recent name="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/account/karate/runners/statusaccount" />
+      <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getstatusaccount" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/authentication/karate" />
@@ -661,7 +722,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/dhenao" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

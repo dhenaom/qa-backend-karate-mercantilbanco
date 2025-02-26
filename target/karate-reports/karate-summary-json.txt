@@ -1,1 +1,3 @@
+
 {"efficiency":0.11155282054987814,"totalTime":2.14453519E8,"threads":5,"resultDate":"2025-02-25 08:36:11 a. m.","env":"DEV","version":"1.5.1","scenariosfailed":10,"featureSummary":[{"failedCount":10,"packageQualifiedName":"pa.com.bancomercantil.client.karate.getnaturalclient.features.getnaturalclien","relativePath":"pa.com.bancomercantil\/client.karate\/getnaturalclient\/features\/getnaturalclien.feature","scenarioCount":20,"name":"Consulta de datos de clientes Panama Venezuela","description":"","durationMillis":2.14453519427289E8,"passedCount":10,"failed":true}],"featuresPassed":0,"featuresFailed":1,"featuresSkipped":0,"scenariosPassed":10,"elapsedTime":3.84487847E8}
+

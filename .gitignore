@@ -45,7 +45,7 @@ bin/
 /eval "$(ssh-agent -s)".pub
 /mine
 /mine.pub
-/target/karate-reports/
 /target/cucumber-html-reports/
 /target/
-/target/
+/src/test/resources/target/karate-reports/
+/target/karate-reports/
