@@ -1,0 +1,39 @@
+{
+    "bodyOk": {
+      "CardTransactionCapture": {
+        "CardNumber": "4455020003141991",
+        "StartDate": "2025-01-01",
+        "EndDate": "2025-02-25",
+        "ServiceVersion": "1.0"
+      }
+    },
+    "withOutCard": {
+      "CardTransactionCapture": {
+        "StartDate": "2025-01-01",
+        "EndDate": "2025-06-31",
+        "ServiceVersion": "1.0"
+      }
+    },
+    "withOutStart": {
+      "CardTransactionCapture": {
+        "CardNumber": "4455020003141991",
+        "EndDate": "2025-06-31",
+        "ServiceVersion": "1.0"
+      }
+    },
+    "withOutEnd": {
+      "CardTransactionCapture": {
+        "CardNumber": "4455020003141991",
+        "StartDate": "2025-01-01",
+        "ServiceVersion": "1.0"
+      }
+    },
+    "withOutVersion": {
+      "CardTransactionCapture": {
+        "CardNumber": "4455020003141991",
+        "StartDate": "2025-01-01",
+        "EndDate": "2025-06-31"
+      }
+    }
+  }
+  
