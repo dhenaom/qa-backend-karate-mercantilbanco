@@ -40,7 +40,7 @@ Feature: validar casos failures servicio movimientos TDC
   @FailureCardNumberLength
   Scenario: Solicitud movimientos de tarjeta credito fallida tamaño CardNumber
     * def baseBody = readBody.bodyOk
-    * set baseBody.CardTransactionCapture.CardNumber = 44550200031419915
+    * set baseBody.CardTransactionCapture.CardNumber = '44550200031419915'
     Given url urlBase + path
     And header transactionId = randomNumber
     And request baseBody
@@ -54,7 +54,7 @@ Feature: validar casos failures servicio movimientos TDC
   @FailureCardNumberNotExist
   Scenario: Solicitud movimientos de tarjeta credito fallida CardNumber no existente
     * def baseBody = readBody.bodyOk
-    * set baseBody.CardTransactionCapture.CardNumber = 5455020003141991
+    * set baseBody.CardTransactionCapture.CardNumber = '5455020003141991'
     Given url urlBase + path
     And header transactionId = randomNumber
     And request baseBody
