@@ -1,5 +1,4 @@
 @party-reference-data-directory
-@consultaClientes
 Feature: Consulta de datos de clientes Panama Venezuela
 
   Background:
