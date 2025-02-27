@@ -1,3 +1,4 @@
+@party-reference-data-directory
 Feature: Consultas exitosa de firmantes de una cuenta y su información
   Background:
     * def config = call read('classpath:karate-config.js')
@@ -13,7 +14,7 @@ Feature: Consultas exitosa de firmantes de una cuenta y su información
     * def body = karate.read('classpath:pa/com/bancomercantil/account/karate/datapersistence/jsonrequest/create.json')
 
 
-  @AccountSignatorsSuccess
+  @AccountSignatorsSuccess @smoke
   Scenario Outline: Solicitud exitosa de firmante de una cuenta
     Given url urlBase + '/v1/party-reference-data-directory/reference/'+'<accountNumber>'+'/signatory/retrieve'
     And header transactionId = randomNumber

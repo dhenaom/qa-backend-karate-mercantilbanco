@@ -1,3 +1,4 @@
+@current-account
 Feature: Solicitud exitosa sobregiro cuenta corriente
   Background:
     * def config = call read('classpath:karate-config.js')

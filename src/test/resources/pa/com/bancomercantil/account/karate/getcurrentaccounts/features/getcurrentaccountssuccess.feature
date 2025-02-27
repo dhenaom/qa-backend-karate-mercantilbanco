@@ -1,3 +1,4 @@
+@current-account
 Feature: Solicitud exitosa cuentas corriente
   Background:
     * def config = call read('classpath:karate-config.js')
