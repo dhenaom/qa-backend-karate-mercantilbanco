@@ -1,3 +1,4 @@
+@party-reference-data-directory
 Feature: Consulta fallida de firmantes de una cuenta
   Background:
     * def config = call read('classpath:karate-config.js')
