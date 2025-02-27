@@ -1,0 +1,141 @@
+{
+  "currentAccountLinked": {
+    "statusCode": "200",
+    "status": "SUCCESS",
+    "message": "La Cuenta se Encuentra Vinculada",
+    "data": {
+      "currentAccount": {
+        "CurrentAccountNumber": {
+          "AccountIdentificationType": "BBAN",
+          "AccountIdentification": {
+            "IdentifierValue": {
+              "Value": "#string"
+            }
+          }
+        }
+      },
+      "LinkedAccounts": {
+        "LinkType": "MONY",
+        "IsLinkedToMony": true
+      }
+    },
+    "timestamp": "#string",
+    "transactionId": "12345"
+  },
+  "currentAccountNotLinked": {
+    "statusCode": "200",
+    "status": "SUCCESS",
+    "message": "La Cuenta se Encuentra Vinculada",
+    "data": {
+      "currentAccount": {
+        "CurrentAccountNumber": {
+          "AccountIdentificationType": "BBAN",
+          "AccountIdentification": {
+            "IdentifierValue": {
+              "Value": "123456789"
+            }
+          }
+        }
+      },
+      "LinkedAccounts": {
+        "LinkType": "MONY",
+        "IsLinkedToMony": true
+      }
+    },
+    "timestamp": "#string",
+    "transactionId": "12345"
+  },
+  "savingsAccountLinked": {
+    "statusCode": "200",
+    "status": "SUCCESS",
+    "message": "La Cuenta se Encuentra Vinculada",
+    "data": {
+      "savingsAccount": {
+        "SavingsAccountNumber": {
+          "AccountIdentificationType": "BBAN",
+          "AccountIdentification": {
+            "IdentifierValue": {
+              "Value": "420166082"
+            }
+          }
+        }
+      },
+      "LinkedAccounts": {
+        "LinkType": "MONY",
+        "IsLinkedToMony": true
+      }
+    },
+    "timestamp": "#string",
+    "transactionId": "1234"
+  },
+  "savingsAccountNotLinked": {
+    "statusCode": "200",
+    "status": "SUCCESS",
+    "message": "La Cuenta No se Encuentra Vinculada",
+    "data": {
+      "savingsAccount": {
+        "SavingsAccountNumber": {
+          "AccountIdentificationType": "BBAN",
+          "AccountIdentification": {
+            "IdentifierValue": {
+              "Value": "123456789"
+            }
+          }
+        }
+      },
+      "LinkedAccounts": {
+        "LinkType": "MONY",
+        "IsLinkedToMony": false
+      }
+    },
+    "timestamp": "#string",
+    "transactionId": "1234"
+  },
+  "accountNotFound": {
+    "statusCode": "404",
+    "status": "ERROR",
+    "message": "Ocurrió un error en servicio externo",
+    "data": {
+      "errorDetails": {
+        "code": "404",
+        "fields": {
+          "exceptionType": "NotFound",
+          "exceptionMessage": "#regex 404 Not Found: .*"
+        }
+      }
+    },
+    "timestamp": "#string",
+    "transactionId": "#string"
+  },
+  "invalidAccountFormat": {
+    "statusCode": "404",
+    "status": "ERROR",
+    "message": "Ocurrió un error en servicio externo",
+    "data": {
+      "errorDetails": {
+        "code": "404",
+        "fields": {
+          "exceptionType": "NotFound",
+          "exceptionMessage": "#regex 404 Not Found: .*"
+        }
+      }
+    },
+    "timestamp": "#string",
+    "transactionId": "12345"
+  },
+  "missingAccountNumber": {
+    "statusCode": "400",
+    "status": "ERROR",
+    "message": "Número de cuenta es requerido",
+    "data": {
+      "errorDetails": {
+        "code": "400",
+        "fields": {
+          "message": "El parámetro accountNumber es obligatorio"
+        }
+      }
+    },
+    "timestamp": "#string",
+    "transactionId": "#string"
+  }
+}
