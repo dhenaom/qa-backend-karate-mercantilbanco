@@ -47,7 +47,6 @@ bin/
 /mine.pub
 /target/cucumber-html-reports/
 /target/
-/target/
 target/karate-reports/
 /src/test/resources/target/karate-reports/
 /target/karate-reports/
@@ -55,4 +54,5 @@ target/karate-reports/
 /target/karate-reports/res/karate-summary-json.txt
 /target/karate-reports/res/karate-tags.html
 /target/karate-reports/res/karate-timeline.html
-
+/.idea/
+.idea/workspace.xml
