@@ -1,0 +1,12 @@
+{
+  "bodyOK": {
+    "CreditCardFacilityOptionSetting": {
+      "PaymentCardArrangementIdentifier": {
+        "IdentifierValue": {
+          "Value": "4455050008044700"
+        }
+      }
+    },
+    "CreditCardFacilityVersion": "1.0"
+  }
+}
