@@ -1,3 +1,4 @@
+@persistence
 Feature: Guardado de registros en tabla de persistencia de datos Exitoso
   Background:
     * def config = call read('classpath:karate-config.js')
@@ -30,9 +31,8 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
 
   @GetSuccess
   Scenario: Solicitud Get exitosa
-    Given url urlBase + '/v1/persistence/data/67acf07891fd942e9faf6ccd/retrieve'
+    Given url urlBase + '/v1/persistence/data/67bf5f29a3c8754c046022ec/retrieve'
     And header transactionId = randomNumber+1
-    And header dataTypeAlias = 'TYPE_BD_01'
     And header objectType = 'ENTITY_01'
     When method get
     Then status 200
@@ -43,7 +43,7 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
   @UpdateSuccess
   Scenario: Solicitud Update exitosa
     * set body.entity.completedAt = formattedDate
-    Given url urlBase + '/v1/persistence/data/67acf07891fd942e9faf6ccd/update'
+    Given url urlBase + '/v1/persistence/data/67bf5f29a3c8754c046022ec/update'
     And header transactionId = randomNumber+2
     And request body
     When method put
@@ -51,9 +51,8 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
     And match response.status == 'SUCCESS'
     And match response.message == 'Registro Actualizado Exitosamente.'
     And match response.data == '#notnull'
-    Given url urlBase + '/v1/persistence/data/67acf07891fd942e9faf6ccd/retrieve'
+    Given url urlBase + '/v1/persistence/data/67bf5f29a3c8754c046022ec/retrieve'
     And header transactionId = randomNumber+1
-    And header dataTypeAlias = 'TYPE_BD_01'
     And header objectType = 'ENTITY_01'
     When method get
     Then status 200

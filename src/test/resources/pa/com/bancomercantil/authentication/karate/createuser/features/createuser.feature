@@ -8,7 +8,7 @@ Feature: Creación de usuario con credenciales iniciales en Entrust
     * def response409 = read('classpath:pa/com/bancomercantil/authentication/karate/createuser/jsonResponse/409.json')
     * header Content-Type = 'application/json'
 
-  @createSuccess
+  @createSuccess @smoke @regression
   Scenario: Creación exitosa de usuario en Entrust
     * def randomNum = Math.floor(Math.random() * 10000)
     * def email = 'testcorreo' + randomNum + '@example.com'
@@ -101,5 +101,3 @@ Feature: Creación de usuario con credenciales iniciales en Entrust
     When method POST
     Then status 400
     And match response == response400.error_400_invalid_language
-
-    #forzar commit

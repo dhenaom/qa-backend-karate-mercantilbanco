@@ -1,5 +1,4 @@
 {
-  "dataTypeAlias": "TYPE_BD_01",
   "objectType": "ENTITY_01",
   "entity": {
     "transactionType": "Prueba de persistencia de datos",
