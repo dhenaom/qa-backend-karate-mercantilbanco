@@ -49,3 +49,8 @@ bin/
 /target/
 /src/test/resources/target/karate-reports/
 /target/karate-reports/
+/target/karate-reports/res/karate-summary.html
+/target/karate-reports/res/karate-summary-json.txt
+/target/karate-reports/res/karate-tags.html
+/target/karate-reports/res/karate-timeline.html
+
