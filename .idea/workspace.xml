@@ -18,6 +18,7 @@
       <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" afterDir="false" />
     </list>
+    <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="Correct failed cases 106 and 114" />
     <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="GetNaturalClient">
       <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/account/karate/runners/getaccountvinculatetoMONY/ITGetAccountVinculateToMONY.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getaccountvinculatetoMONY/DSFS" afterDir="false" />
@@ -152,6 +153,37 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="proyecto-base-karate-mercantilbanco" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="proyecto-base-karate-mercantilbanco" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="proyecto-base-karate-mercantilbanco" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -1381,6 +1413,8 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
     "settings.editor.selected.configurable": "preferences.keymap"
     "settings.editor.selected.configurable": "preferences.keymap"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "#12 on dhenao"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -1562,6 +1596,7 @@
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>false</RunAsTest>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="accountsignatorsfailure.feature:45 (1)" type="karateConfigurationType" temporary="true" lineNumber="45" testName="accountsignatorsfailure.feature" testDescription="Feature: Consulta fallida de firmantes de una cuenta&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def randomNumber2 = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def randomNumber3 = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def date = new java.util.Date()&#10;    * def formatter = new java.text.SimpleDateFormat(&quot;yyyy-MM-dd'T'HH:mm:ss&quot;)&#10;    * formatter.setTimeZone(java.util.TimeZone.getTimeZone(&quot;UTC&quot;))&#10;    * def formattedDate = formatter.format(date)&#10;    * def body = karate.read('classpath:pa/com/bancomercantil/account/karate/datapersistence/jsonrequest/create.json')&#10;&#10;&#10;&#10;  @UnknowAccount&#10;  Scenario: Solicitud fallida de firmantes de una cuenta con cuenta invalida&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ randomNumber +'/signatory/retrieve'&#10;    And header transactionId = randomNumber2&#10;    And request body&#10;    When method get&#10;    Then status 404&#10;    And match response.message == 'Ocurrió un error inesperado.'&#10;    And match response.data.errorDetails.code == '404'&#10;    And match response.data.errorDetails.fields.exceptionType == 'NotFound'&#10;    And match response.data.errorDetails.fields.exceptionMessage == '404 : \&quot;{\&quot;status_code\&quot;:\&quot;404\&quot;,\&quot;status\&quot;:\&quot;NOT_FOUND\&quot;,\&quot;message\&quot;:\&quot;0009 : Numero de Referencia no Existe.\&quot;}\&quot;'&#10;&#10;&#10;  @WithoutAccount&#10;  Scenario: Solicitud fallida de firmantes de una cuenta sin numero de cuenta&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ '' +'/signatory/retrieve'&#10;    And header transactionId = randomNumber&#10;    And request body&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;Falta el parámetro requerido 'documenttype' en la solicitud.&quot;&#10;    And match response.data.errorDetails.code == 'ERROR-400'&#10;    And match response.data.errorDetails.fields.exceptionType == 'MissingServletRequestParameterException'&#10;    And match response.data.errorDetails.fields.exceptionMessage == &quot;Falta el parámetro requerido 'documenttype' en la solicitud.&quot;&#10;&#10;  @withoutHeaderTransactionId&#10;  Scenario: Solicitud fallida de firmantes de una cuenta sin header transactionId&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ '300000354' +'/signatory/retrieve'&#10;    And request body&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;Falta el encabezado requerido 'transactionId' en la solicitud.&quot;&#10;    And match response.data.errorDetails.code == 'ERROR-400'&#10;    And match response.data.errorDetails.fields.exceptionType == 'MissingRequestHeaderException'&#10;    And match response.data.errorDetails.fields.exceptionMessage == &quot;Falta el encabezado requerido 'transactionId' en la solicitud.&quot;" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/accountsignators/features/accountsignatorsfailure.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/accountsignators/features/accountsignatorsfailure.feature">
@@ -1914,6 +1949,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Correct failed cases 106 and 114" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correct failed cases 106 and 114" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add features to validate functionality for HUT 114" />
