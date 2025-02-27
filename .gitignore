@@ -54,4 +54,4 @@ bin/
 /target/karate-reports/res/karate-tags.html
 /target/karate-reports/res/karate-timeline.html
 /.idea/
-.idea/workspace.xml
+/.idea/workspace.xml
