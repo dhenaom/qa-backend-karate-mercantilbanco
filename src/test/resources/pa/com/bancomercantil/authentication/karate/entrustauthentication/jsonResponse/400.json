@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-01-30T10:00:00Z",
+  "status": 400,
+  "error": "Bad Request",
+  "message": "Atributos adicionales no permitidos",
+  "path": "/v1/entrust-authentication/authenticate/provide",
+  "errorCode": "INVALID_REQUEST_PARAMETERS",
+  "details": [
+    "El campo 'extraParam' no está permitido en la solicitud"
+  ]
+}
