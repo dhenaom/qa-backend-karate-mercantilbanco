@@ -19,7 +19,7 @@
       <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" afterDir="false" />
     </list>
     <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="Correct failed cases 106 and 114" />
-    <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="GetNaturalClient">
+    <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="GetNaturalClient"></list>
       <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/account/karate/runners/getaccountvinculatetoMONY/ITGetAccountVinculateToMONY.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getaccountvinculatetoMONY/DSFS" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getaccountvinculatetoMONY/features/getaccountvinculatetoMONY.feature" afterDir="false" />
@@ -43,11 +43,11 @@
       <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-tags.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/karate-reports/karate-timeline.html" afterDir="false" />
     </list>
-    <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="merge test">
+    <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="merge test"></list>
       <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountsfailure.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getsavingaccounts/features/getsavingsaccountsfailure.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getsavingaccounts/features/getsavingsaccountssuccess.feature" afterDir="false" />
-    <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="Corrects karate-config.js and related features">
+    <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="Corrects karate-config.js and related features"></list>
     <list default="true" id="cf27c5b7-7809-40f1-baa2-8d6e2d8b9145" name="Changes" comment="Add zip compression">
       <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/gettokenentrust/ITAuthenticateTokenEntrust.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/pa/com/bancomercantil/authentication/karate/runners/unlockuser/ITUserUnlock.java" afterDir="false" />
@@ -236,16 +236,22 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:dhenaom/qa-backend-karate-mercantilbanco.git&quot;,
-    &quot;accountId&quot;: &quot;78989907-063b-40a3-86ec-1b39f3bd87ad&quot;
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:dhenaom/qa-backend-karate-mercantilbanco.git&quot;,
-    &quot;accountId&quot;: &quot;3490390b-a034-4334-877c-066d15c57cbc&quot;
-  }
-}</component>
+  <component name="GithubPullRequestsUISettings">
+    {
+      &quot;selectedUrlAndAccountId&quot;: {
+        &quot;url&quot;: &quot;git@github.com:dhenaom/qa-backend-karate-mercantilbanco.git&quot;,
+        &quot;accountId&quot;: &quot;78989907-063b-40a3-86ec-1b39f3bd87ad&quot;
+      }
+    }
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    {
+      &quot;selectedUrlAndAccountId&quot;: {
+        &quot;url&quot;: &quot;git@github.com:dhenaom/qa-backend-karate-mercantilbanco.git&quot;,
+        &quot;accountId&quot;: &quot;3490390b-a034-4334-877c-066d15c57cbc&quot;
+      }
+    }
+  </component>
   <component name="GitHubPullRequestState">{
   &quot;prStates&quot;: [
     {
@@ -326,690 +332,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Gradle.Build QA-Karate.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build qa-backend-karate-mercantil.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build qa-backend-karate-mercantilbanco.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITAuthenticateTokenEntrust.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITAuthenticationEvaluateFailureRunner.authenticationEvaluateFailureTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITAuthenticationEvaluateFailureRunner.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITAuthenticationEvaluateRunner.authenticationEvaluateTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITAuthenticationEvaluateRunner.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITAuthenticationEvaluateSuccessRunner.authenticationEvaluateSuccessTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITCreateuser.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITCreateuser.userGet.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITDataPersistenceFailureRunner.dataPersistenceFailureTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITDataPersistenceSuccessRunner.dataPersistenceSuccessTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITEventManager.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITEventManager.getCurrentAccountFailureTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITGetCurrentAccountFailureRunner.getCurrentAccountFailureTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITGetCurrentAccountSuccessRunner.getCurrentAccountSuccessTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITGetSavingAccountFailureRunner.getSavingAccountFailureTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITGetSavingAccountSuccessRunner.getSavingAccountSuccessTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITKBAGetQuestionFailureRunner.kbaQuestionEvaluateSuccessTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITKBAGetQuestionSuccessRunner.kbaQuestionEvaluateSuccessTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITKBAQuestionEvaluateFailureRunner.kbaQuestionEvaluateFailureTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITKBAQuestionEvaluateRunner.kbaQuestionEvaluateTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITKBAQuestionEvaluateSuccessRunner.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITKBAQuestionEvaluateSuccessRunner.kbaQuestionEvaluateSuccessTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITManagerPassword.userGet.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITRequestChallengeFailure.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITRequestChallengeFailureRunner.challengeFailureTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITRequestChallengePost.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITRequestChallengeSuccess.challengeTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITRequestChallengeSuccess.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITRequestChallengeSuccess.succesChalenge.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITRequestChallengeSuccessRunner.challengeSuccessTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITRequestChallengeSuccessRunner.challengeTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITRequestTokenFailureRunner.challengeFailureTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITRequestTokenSuccessRunner.challengeSuccessTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITUserStatus.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITUserUnlock.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RequestChallengePost.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RequestChallengePost.testAll.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.Upgrade Gradle wrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.UserGetRunner.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.UserGetRunner.userGet.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.qa-backend-karate-mercantil [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.qa-backend-karate-mercantil [test].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.qa-backend-karate-mercantilbanco [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.qa-backend-karate-mercantilbanco [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.qa-backend-karate-mercantilbanco [test].executor&quot;: &quot;Run&quot;,
-    &quot;Karate.@APIAuthenticate.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.@Consistency.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.@HappyPathKBA.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.apiaauthenticate.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.apiaauthenticate.feature:11 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.apiaauthenticate.feature:11.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.apiauthenticate.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.apiauthenticate.feature:11.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.createfailure.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.createfailure.feature:18 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.createfailure.feature:18 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.createfailure.feature:18 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.createfailure.feature:18.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:111.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:124.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:137.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:138.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:151.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:164.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:17 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:17.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:177 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:177.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:190 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:190.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:203.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:216 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:216 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:216.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:229.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:243 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:243.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:257.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:271.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:285 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:285 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:285.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:30 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:30 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:30 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:30.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:42 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:42.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:56 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:56 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:56 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:56.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:84.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:98.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:99 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencefailure.feature:99.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencesuccess.feature:33.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencesuccess.feature:34 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencesuccess.feature:34.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencesuccess.feature:45 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencesuccess.feature:45 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencesuccess.feature:45 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.datapersistencesuccess.feature:45.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationfailure.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationfailure.feature:12.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationfailure.feature:13.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationfailure.feature:21 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationfailure.feature:21 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationfailure.feature:21.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationfailure.feature:29 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationfailure.feature:29.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationfailure.feature:39.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationfailure.feature:47.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:11.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:12 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:12 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:12 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:12 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:12 (5).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:12.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:21.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:24 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:24 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:24 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:24 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:24 (5).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:24.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:25 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:25.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:26.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:41 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:41 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:41 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:41 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:41 (5).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:41.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:42 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:42 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:42 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:42 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:42 (5).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.dataproauthenticationsuccess.feature:42.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.evenmanager.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getcurrentaccountsfailure.feature:22.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getcurrentaccountsfailure.feature:31.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getcurrentaccountssuccess.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getcurrentaccountssuccess.feature:104 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getcurrentaccountssuccess.feature:104.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getcurrentaccountssuccess.feature:12 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getcurrentaccountssuccess.feature:12 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getcurrentaccountssuccess.feature:12 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getcurrentaccountssuccess.feature:12 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getcurrentaccountssuccess.feature:12 (5).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getcurrentaccountssuccess.feature:12.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getcurrentaccountssuccess.feature:121.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getcurrentaccountssuccess.feature:137.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getcurrentaccountssuccess.feature:32 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getcurrentaccountssuccess.feature:32 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getcurrentaccountssuccess.feature:32 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getcurrentaccountssuccess.feature:32 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getcurrentaccountssuccess.feature:32 (5).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getcurrentaccountssuccess.feature:32.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getcurrentaccountssuccess.feature:53.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getcurrentaccountssuccess.feature:69.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getcurrentaccountssuccess.feature:72.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getcurrentaccountssuccess.feature:88.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getquestions.feature:16.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getquestions.feature:36.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getquestionsandanswers.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getquestionsandanswers.feature:34.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getsavingaccountssuccess.feature:12 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getsavingaccountssuccess.feature:12 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getsavingaccountssuccess.feature:12.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getsavingaccountssuccess.feature:73 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getsavingaccountssuccess.feature:73.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getsavingsaccountsfailure.feature:12.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getsavingsaccountsfailure.feature:22.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getsavingsaccountssuccess.feature:103.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getsavingsaccountssuccess.feature:120.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getsavingsaccountssuccess.feature:31 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getsavingsaccountssuccess.feature:31.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getsavingsaccountssuccess.feature:66 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getsavingsaccountssuccess.feature:66.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.otpgenerator.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.otpgenerator.feature:11 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.otpgenerator.feature:11 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.otpgenerator.feature:11 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.otpgenerator.feature:11.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallenge_success.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallenge_success.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallenge_success.feature:9 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallenge_success.feature:9.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallenge_success:9.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengefailure.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengefailure.feature:19.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:11 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:11.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:30.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:40 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:40 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:40 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:40.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:47 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:47.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:48.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:50 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:50 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:50 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:50.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:51.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess:11.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbafailure.feature:53.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbafailure.feature:65 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbafailure.feature:65 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbafailure.feature:65 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbafailure.feature:65 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbafailure.feature:65.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:16 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:16 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:16 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:16 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:16 (5).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:16.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:17 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:17 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:17.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:18 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:18 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:18 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:18.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:29 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:29 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:29 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:29 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:29.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:34.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:12 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:12.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:16 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:16 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:16 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:16 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:16 (5).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:16.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:30 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:30 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:30 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:30 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:30 (5).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:30.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:47 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:47.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;#3 on dhenao&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/DHM_Pragma/Documents/Mercantil/qa-backend-karate-mercantilbanco/src/test/resources/pa/com/bancomercantil/account/karate/getsavingaccounts/features&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Gradle.Build qa-backend-karate-mercantil.executor": "Run",
-    "Gradle.Build qa-backend-karate-mercantilbanco.executor": "Run",
-    "Gradle.Download Sources.executor": "Run",
-    "Gradle.ITAuthenticationEvaluateFailureRunner.authenticationEvaluateFailureTest.executor": "Run",
-    "Gradle.ITAuthenticationEvaluateFailureRunner.executor": "Run",
-    "Gradle.ITAuthenticationEvaluateRunner.authenticationEvaluateTest.executor": "Run",
-    "Gradle.ITAuthenticationEvaluateRunner.executor": "Run",
-    "Gradle.ITAuthenticationEvaluateSuccessRunner.authenticationEvaluateSuccessTest.executor": "Run",
-    "Gradle.ITDataPersistenceFailureRunner.dataPersistenceFailureTest.executor": "Run",
-    "Gradle.ITDataPersistenceSuccessRunner.dataPersistenceSuccessTest.executor": "Run",
-    "Gradle.ITGetCurrentAccountFailureRunner.getCurrentAccountFailureTest.executor": "Run",
-    "Gradle.ITGetCurrentAccountSuccessRunner.getCurrentAccountSuccessTest.executor": "Run",
-    "Gradle.ITGetSavingAccountFailureRunner.getSavingAccountFailureTest.executor": "Run",
-    "Gradle.ITGetSavingAccountSuccessRunner.getSavingAccountSuccessTest.executor": "Run",
-    "Gradle.ITKBAGetQuestionFailureRunner.kbaQuestionEvaluateSuccessTest.executor": "Run",
-    "Gradle.ITKBAGetQuestionSuccessRunner.kbaQuestionEvaluateSuccessTest.executor": "Run",
-    "Gradle.ITKBAQuestionEvaluateFailureRunner.kbaQuestionEvaluateFailureTest.executor": "Run",
-    "Gradle.ITKBAQuestionEvaluateRunner.kbaQuestionEvaluateTest.executor": "Run",
-    "Gradle.ITKBAQuestionEvaluateSuccessRunner.executor": "Run",
-    "Gradle.ITKBAQuestionEvaluateSuccessRunner.kbaQuestionEvaluateSuccessTest.executor": "Run",
-    "Gradle.ITRequestChallengeFailure.executor": "Run",
-    "Gradle.ITRequestChallengeFailureRunner.challengeFailureTest.executor": "Run",
-    "Gradle.ITRequestChallengePost.executor": "Run",
-    "Gradle.ITRequestChallengeSuccess.challengeTest.executor": "Run",
-    "Gradle.ITRequestChallengeSuccess.executor": "Run",
-    "Gradle.ITRequestChallengeSuccess.succesChalenge.executor": "Run",
-    "Gradle.ITRequestChallengeSuccessRunner.challengeSuccessTest.executor": "Run",
-    "Gradle.ITRequestChallengeSuccessRunner.challengeTest.executor": "Run",
-    "Gradle.ITRequestTokenFailureRunner.challengeFailureTest.executor": "Run",
-    "Gradle.ITRequestTokenSuccessRunner.challengeSuccessTest.executor": "Run",
-    "Gradle.RequestChallengePost.executor": "Run",
-    "Gradle.RequestChallengePost.testAll.executor": "Debug",
-    "Gradle.Upgrade Gradle wrapper.executor": "Run",
-    "Gradle.UserGetRunner.executor": "Run",
-    "Gradle.UserGetRunner.userGet.executor": "Run",
-    "Gradle.qa-backend-karate-mercantil [clean].executor": "Run",
-    "Gradle.qa-backend-karate-mercantil [test].executor": "Run",
-    "Gradle.qa-backend-karate-mercantilbanco [build].executor": "Run",
-    "Gradle.qa-backend-karate-mercantilbanco [clean].executor": "Run",
-    "Gradle.qa-backend-karate-mercantilbanco [test].executor": "Run",
-    "Karate.@APIAuthenticate.executor": "Run",
-    "Karate.@Consistency.executor": "Run",
-    "Karate.@HappyPathKBA.executor": "Run",
-    "Karate.apiaauthenticate.feature.executor": "Run",
-    "Karate.apiaauthenticate.feature:11 (1).executor": "Run",
-    "Karate.apiaauthenticate.feature:11.executor": "Run",
-    "Karate.apiauthenticate.feature.executor": "Run",
-    "Karate.apiauthenticate.feature:11.executor": "Run",
-    "Karate.createfailure.feature.executor": "Run",
-    "Karate.createfailure.feature:18 (1).executor": "Run",
-    "Karate.createfailure.feature:18 (2).executor": "Run",
-    "Karate.createfailure.feature:18 (3).executor": "Run",
-    "Karate.createfailure.feature:18.executor": "Run",
-    "Karate.datapersistencefailure.feature.executor": "Run",
-    "Karate.datapersistencefailure.feature:111.executor": "Run",
-    "Karate.datapersistencefailure.feature:124.executor": "Run",
-    "Karate.datapersistencefailure.feature:137.executor": "Run",
-    "Karate.datapersistencefailure.feature:138.executor": "Run",
-    "Karate.datapersistencefailure.feature:151.executor": "Run",
-    "Karate.datapersistencefailure.feature:164.executor": "Run",
-    "Karate.datapersistencefailure.feature:17 (1).executor": "Run",
-    "Karate.datapersistencefailure.feature:17.executor": "Run",
-    "Karate.datapersistencefailure.feature:177 (1).executor": "Run",
-    "Karate.datapersistencefailure.feature:177.executor": "Run",
-    "Karate.datapersistencefailure.feature:190 (1).executor": "Run",
-    "Karate.datapersistencefailure.feature:190.executor": "Run",
-    "Karate.datapersistencefailure.feature:203.executor": "Run",
-    "Karate.datapersistencefailure.feature:216 (1).executor": "Run",
-    "Karate.datapersistencefailure.feature:216 (2).executor": "Run",
-    "Karate.datapersistencefailure.feature:216.executor": "Run",
-    "Karate.datapersistencefailure.feature:229.executor": "Run",
-    "Karate.datapersistencefailure.feature:243 (1).executor": "Run",
-    "Karate.datapersistencefailure.feature:243.executor": "Run",
-    "Karate.datapersistencefailure.feature:257.executor": "Run",
-    "Karate.datapersistencefailure.feature:271.executor": "Run",
-    "Karate.datapersistencefailure.feature:285 (1).executor": "Run",
-    "Karate.datapersistencefailure.feature:285 (2).executor": "Run",
-    "Karate.datapersistencefailure.feature:285.executor": "Run",
-    "Karate.datapersistencefailure.feature:30 (1).executor": "Run",
-    "Karate.datapersistencefailure.feature:30 (2).executor": "Run",
-    "Karate.datapersistencefailure.feature:30 (3).executor": "Run",
-    "Karate.datapersistencefailure.feature:30.executor": "Run",
-    "Karate.datapersistencefailure.feature:42 (1).executor": "Run",
-    "Karate.datapersistencefailure.feature:42.executor": "Run",
-    "Karate.datapersistencefailure.feature:56 (1).executor": "Run",
-    "Karate.datapersistencefailure.feature:56 (2).executor": "Run",
-    "Karate.datapersistencefailure.feature:56 (3).executor": "Run",
-    "Karate.datapersistencefailure.feature:56.executor": "Run",
-    "Karate.datapersistencefailure.feature:84.executor": "Run",
-    "Karate.datapersistencefailure.feature:98.executor": "Run",
-    "Karate.datapersistencefailure.feature:99 (1).executor": "Run",
-    "Karate.datapersistencefailure.feature:99.executor": "Run",
-    "Karate.datapersistencesuccess.feature:33.executor": "Run",
-    "Karate.datapersistencesuccess.feature:34 (1).executor": "Run",
-    "Karate.datapersistencesuccess.feature:34.executor": "Run",
-    "Karate.datapersistencesuccess.feature:45 (1).executor": "Run",
-    "Karate.datapersistencesuccess.feature:45 (2).executor": "Run",
-    "Karate.datapersistencesuccess.feature:45 (3).executor": "Run",
-    "Karate.datapersistencesuccess.feature:45.executor": "Run",
-    "Karate.dataproauthenticationfailure.feature.executor": "Run",
-    "Karate.dataproauthenticationfailure.feature:12.executor": "Run",
-    "Karate.dataproauthenticationfailure.feature:13.executor": "Run",
-    "Karate.dataproauthenticationfailure.feature:21 (1).executor": "Run",
-    "Karate.dataproauthenticationfailure.feature:21 (2).executor": "Run",
-    "Karate.dataproauthenticationfailure.feature:21.executor": "Run",
-    "Karate.dataproauthenticationfailure.feature:29 (1).executor": "Run",
-    "Karate.dataproauthenticationfailure.feature:29.executor": "Run",
-    "Karate.dataproauthenticationfailure.feature:39.executor": "Run",
-    "Karate.dataproauthenticationfailure.feature:47.executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:11.executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:12 (1).executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:12 (2).executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:12 (3).executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:12 (4).executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:12 (5).executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:12.executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:21.executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:24 (1).executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:24 (2).executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:24 (3).executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:24 (4).executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:24 (5).executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:24.executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:25 (1).executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:25.executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:26.executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:41 (1).executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:41 (2).executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:41 (3).executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:41 (4).executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:41 (5).executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:41.executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:42 (1).executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:42 (2).executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:42 (3).executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:42 (4).executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:42 (5).executor": "Run",
-    "Karate.dataproauthenticationsuccess.feature:42.executor": "Run",
-    "Karate.getcurrentaccountsfailure.feature:22.executor": "Run",
-    "Karate.getcurrentaccountsfailure.feature:31.executor": "Run",
-    "Karate.getcurrentaccountssuccess.feature.executor": "Run",
-    "Karate.getcurrentaccountssuccess.feature:104 (1).executor": "Run",
-    "Karate.getcurrentaccountssuccess.feature:104.executor": "Run",
-    "Karate.getcurrentaccountssuccess.feature:12 (1).executor": "Run",
-    "Karate.getcurrentaccountssuccess.feature:12 (2).executor": "Run",
-    "Karate.getcurrentaccountssuccess.feature:12 (3).executor": "Run",
-    "Karate.getcurrentaccountssuccess.feature:12 (4).executor": "Run",
-    "Karate.getcurrentaccountssuccess.feature:12 (5).executor": "Run",
-    "Karate.getcurrentaccountssuccess.feature:12.executor": "Run",
-    "Karate.getcurrentaccountssuccess.feature:121.executor": "Run",
-    "Karate.getcurrentaccountssuccess.feature:137.executor": "Run",
-    "Karate.getcurrentaccountssuccess.feature:32 (1).executor": "Run",
-    "Karate.getcurrentaccountssuccess.feature:32 (2).executor": "Run",
-    "Karate.getcurrentaccountssuccess.feature:32 (3).executor": "Run",
-    "Karate.getcurrentaccountssuccess.feature:32 (4).executor": "Run",
-    "Karate.getcurrentaccountssuccess.feature:32 (5).executor": "Run",
-    "Karate.getcurrentaccountssuccess.feature:32.executor": "Run",
-    "Karate.getcurrentaccountssuccess.feature:53.executor": "Run",
-    "Karate.getcurrentaccountssuccess.feature:69.executor": "Run",
-    "Karate.getcurrentaccountssuccess.feature:72.executor": "Run",
-    "Karate.getcurrentaccountssuccess.feature:88.executor": "Run",
-    "Karate.getquestions.feature:16.executor": "Run",
-    "Karate.getquestions.feature:36.executor": "Run",
-    "Karate.getquestionsandanswers.feature.executor": "Run",
-    "Karate.getquestionsandanswers.feature:34.executor": "Run",
-    "Karate.getsavingaccountssuccess.feature:12 (1).executor": "Run",
-    "Karate.getsavingaccountssuccess.feature:12 (2).executor": "Run",
-    "Karate.getsavingaccountssuccess.feature:12.executor": "Run",
-    "Karate.getsavingaccountssuccess.feature:73 (1).executor": "Run",
-    "Karate.getsavingaccountssuccess.feature:73.executor": "Run",
-    "Karate.getsavingsaccountsfailure.feature:12.executor": "Run",
-    "Karate.getsavingsaccountsfailure.feature:22.executor": "Run",
-    "Karate.getsavingsaccountssuccess.feature:103.executor": "Run",
-    "Karate.getsavingsaccountssuccess.feature:120.executor": "Run",
-    "Karate.getsavingsaccountssuccess.feature:31 (1).executor": "Run",
-    "Karate.getsavingsaccountssuccess.feature:31.executor": "Run",
-    "Karate.getsavingsaccountssuccess.feature:66 (1).executor": "Run",
-    "Karate.getsavingsaccountssuccess.feature:66.executor": "Run",
-    "Karate.otpgenerator.feature.executor": "Run",
-    "Karate.otpgenerator.feature:11 (1).executor": "Run",
-    "Karate.otpgenerator.feature:11 (2).executor": "Run",
-    "Karate.otpgenerator.feature:11 (3).executor": "Run",
-    "Karate.otpgenerator.feature:11.executor": "Run",
-    "Karate.requestchallenge_success.executor": "Run",
-    "Karate.requestchallenge_success.feature.executor": "Run",
-    "Karate.requestchallenge_success.feature:9 (1).executor": "Run",
-    "Karate.requestchallenge_success.feature:9.executor": "Run",
-    "Karate.requestchallenge_success:9.executor": "Run",
-    "Karate.requestchallengefailure.feature.executor": "Run",
-    "Karate.requestchallengefailure.feature:19.executor": "Run",
-    "Karate.requestchallengesuccess.executor": "Run",
-    "Karate.requestchallengesuccess.feature.executor": "Run",
-    "Karate.requestchallengesuccess.feature:11 (1).executor": "Run",
-    "Karate.requestchallengesuccess.feature:11.executor": "Run",
-    "Karate.requestchallengesuccess.feature:30.executor": "Run",
-    "Karate.requestchallengesuccess.feature:40 (1).executor": "Run",
-    "Karate.requestchallengesuccess.feature:40 (2).executor": "Run",
-    "Karate.requestchallengesuccess.feature:40 (3).executor": "Run",
-    "Karate.requestchallengesuccess.feature:40.executor": "Run",
-    "Karate.requestchallengesuccess.feature:47 (1).executor": "Run",
-    "Karate.requestchallengesuccess.feature:47.executor": "Run",
-    "Karate.requestchallengesuccess.feature:48.executor": "Run",
-    "Karate.requestchallengesuccess.feature:50 (1).executor": "Run",
-    "Karate.requestchallengesuccess.feature:50 (2).executor": "Run",
-    "Karate.requestchallengesuccess.feature:50 (3).executor": "Run",
-    "Karate.requestchallengesuccess.feature:50.executor": "Run",
-    "Karate.requestchallengesuccess.feature:51.executor": "Run",
-    "Karate.requestchallengesuccess:11.executor": "Run",
-    "Karate.validatechallengekbafailure.feature:53.executor": "Run",
-    "Karate.validatechallengekbafailure.feature:65 (1).executor": "Run",
-    "Karate.validatechallengekbafailure.feature:65 (2).executor": "Run",
-    "Karate.validatechallengekbafailure.feature:65 (3).executor": "Run",
-    "Karate.validatechallengekbafailure.feature:65 (4).executor": "Run",
-    "Karate.validatechallengekbafailure.feature:65.executor": "Run",
-    "Karate.validatechallengekbasuccess.feature.executor": "Run",
-    "Karate.validatechallengekbasuccess.feature:16 (1).executor": "Run",
-    "Karate.validatechallengekbasuccess.feature:16 (2).executor": "Run",
-    "Karate.validatechallengekbasuccess.feature:16 (3).executor": "Run",
-    "Karate.validatechallengekbasuccess.feature:16 (4).executor": "Run",
-    "Karate.validatechallengekbasuccess.feature:16 (5).executor": "Run",
-    "Karate.validatechallengekbasuccess.feature:16.executor": "Run",
-    "Karate.validatechallengekbasuccess.feature:17 (1).executor": "Run",
-    "Karate.validatechallengekbasuccess.feature:17 (2).executor": "Run",
-    "Karate.validatechallengekbasuccess.feature:17.executor": "Run",
-    "Karate.validatechallengekbasuccess.feature:18 (1).executor": "Run",
-    "Karate.validatechallengekbasuccess.feature:18 (2).executor": "Run",
-    "Karate.validatechallengekbasuccess.feature:18 (3).executor": "Run",
-    "Karate.validatechallengekbasuccess.feature:18.executor": "Run",
-    "Karate.validatechallengekbasuccess.feature:29 (1).executor": "Run",
-    "Karate.validatechallengekbasuccess.feature:29 (2).executor": "Run",
-    "Karate.validatechallengekbasuccess.feature:29 (3).executor": "Run",
-    "Karate.validatechallengekbasuccess.feature:29 (4).executor": "Run",
-    "Karate.validatechallengekbasuccess.feature:29.executor": "Run",
-    "Karate.validatechallengekbasuccess.feature:34.executor": "Run",
-    "Karate.validatechallengesuccess.feature.executor": "Run",
-    "Karate.validatechallengesuccess.feature:12 (1).executor": "Run",
-    "Karate.validatechallengesuccess.feature:12.executor": "Run",
-    "Karate.validatechallengesuccess.feature:16 (1).executor": "Run",
-    "Karate.validatechallengesuccess.feature:16 (2).executor": "Run",
-    "Karate.validatechallengesuccess.feature:16 (3).executor": "Run",
-    "Karate.validatechallengesuccess.feature:16 (4).executor": "Run",
-    "Karate.validatechallengesuccess.feature:16 (5).executor": "Run",
-    "Karate.validatechallengesuccess.feature:16.executor": "Run",
-    "Karate.validatechallengesuccess.feature:30 (1).executor": "Run",
-    "Karate.validatechallengesuccess.feature:30 (2).executor": "Run",
-    "Karate.validatechallengesuccess.feature:30 (3).executor": "Run",
-    "Karate.validatechallengesuccess.feature:30 (4).executor": "Run",
-    "Karate.validatechallengesuccess.feature:30 (5).executor": "Run",
-    "Karate.validatechallengesuccess.feature:30.executor": "Run",
-    "Karate.validatechallengesuccess.feature:47 (1).executor": "Run",
-    "Karate.validatechallengesuccess.feature:47.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "teo-features-carryover",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/DHM_Pragma/Documents/Mercantil/qa-backend-karate-mercantilbanco/src/test/resources/pa/com/bancomercantil/account/karate/getsavingaccounts/features",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Gradle.Build qa-backend-karate-mercantil.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build qa-backend-karate-mercantilbanco.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Download Sources.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITAuthenticateTokenEntrust.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITAuthenticationEvaluateFailureRunner.authenticationEvaluateFailureTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITAuthenticationEvaluateFailureRunner.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITAuthenticationEvaluateRunner.authenticationEvaluateTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITAuthenticationEvaluateRunner.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITAuthenticationEvaluateSuccessRunner.authenticationEvaluateSuccessTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITKBAGetQuestionFailureRunner.kbaQuestionEvaluateSuccessTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITKBAQuestionEvaluateFailureRunner.kbaQuestionEvaluateFailureTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITKBAQuestionEvaluateRunner.kbaQuestionEvaluateTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITKBAQuestionEvaluateSuccessRunner.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITKBAQuestionEvaluateSuccessRunner.kbaQuestionEvaluateSuccessTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITRequestChallengeFailure.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITRequestChallengeFailureRunner.challengeFailureTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITRequestChallengePost.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITRequestChallengeSuccess.challengeTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITRequestChallengeSuccess.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITRequestChallengeSuccess.succesChalenge.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITRequestChallengeSuccessRunner.challengeSuccessTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITRequestChallengeSuccessRunner.challengeTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITUserStatus.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITUserStatus.userGet.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITUserStatus.userStatus.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITUserUnlock.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ITUserUnlock.userStatus.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RequestChallengePost.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RequestChallengePost.testAll.executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.Upgrade Gradle wrapper.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.UserGetRunner.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.UserGetRunner.userGet.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.qa-backend-karate-mercantil [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.qa-backend-karate-mercantil [test].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.qa-backend-karate-mercantilbanco [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.qa-backend-karate-mercantilbanco [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.qa-backend-karate-mercantilbanco [test].executor&quot;: &quot;Run&quot;,
-    &quot;Karate.@APIAuthenticate.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.@HappyPathKBA.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.apiaauthenticate.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.apiaauthenticate.feature:11 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.apiaauthenticate.feature:11.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.apiauthenticate.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.apiauthenticate.feature:11.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.authenticateentrust.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getquestions.feature:16.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getquestions.feature:36.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.getquestionsandanswers.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.otpgenerator.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.otpgenerator.feature:11 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.otpgenerator.feature:11 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.otpgenerator.feature:11 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.otpgenerator.feature:11.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallenge_success.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallenge_success.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallenge_success.feature:9 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallenge_success.feature:9.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallenge_success:9.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengefailure.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengefailure.feature:19.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:11 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:11.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:30.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:40 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:40 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:40 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:40.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:48.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:50 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:50 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:50 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:50.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess.feature:51.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.requestchallengesuccess:11.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.unlockuser.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.userstatus.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:16 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:16 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:16 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:16 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:16 (5).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:16.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:17 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:17 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:17.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:18 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:18 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:18 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:18.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:29 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:29 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:29 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:29 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:29.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengekbasuccess.feature:34.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:12 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:12.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:16 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:16 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:16 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:16 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:16 (5).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:16.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:30 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:30 (2).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:30 (3).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:30 (4).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:30 (5).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:30.executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:47 (1).executor&quot;: &quot;Run&quot;,
-    &quot;Karate.validatechallengesuccess.feature:47.executor&quot;: &quot;Run&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/teo/Documents/Mercantil/MainKara/qa-backend-karate-mercantilbanco/src/test/resources/pa/com/bancomercantil.authentication/karate/unlockuser/jsonResponse&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.ChangelistConflict&quot;
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
@@ -1458,15 +780,24 @@
   </component>
   <component name="RunManager" selected="Gradle.ITGetNaturalClient">
     <configuration name="ITGetAccountBalance" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    </configuration>
+  </component>
   <component name="RunManager" selected="Gradle.ITAccountSignatorsFailureRunner">
     <configuration name="ITAccountSignatorsFailureRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    </configuration>
+  </component>
   <component name="RunManager" selected="Gradle.ITGetOverdraftSavingAccountFailureRunner.getStatusSavingAccountFailureTest">
     <configuration name="ITGetOverdraftCurrentAccountFailureRunner.getOverdraftCurrentAccountFailureTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    </configuration>
+  </component>
   <component name="RunManager" selected="Gradle.ITAuthenticateTokenEntrust">
     <configuration name="ITAuthenticateTokenEntrust" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    </configuration>
+  </component>
   <component name="RunManager" selected="Gradle.ITGetStatusSavingAccountFailureRunner.getStatusSavingAccountFailureTest">
     <configuration name="ITGetStatusSavingAccountFailureRunner.getStatusSavingAccountFailureTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-  <component name="RunManager" selected="Gradle.ITAccountSignatorsFailureRunner">
+    </configuration>
+  </component><component name="RunManager" selected="Gradle.ITAccountSignatorsFailureRunner">
     <configuration name="ITAccountSignatorsFailureRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -1494,8 +825,9 @@
       <method v="2" />
     </configuration>
     <configuration name="ITAccountSignatorsSuccessRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    </configuration>
     <configuration name="ITAccountSignatorsSuccessRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-    <configuration name="ITGetAccountBalance.get" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    </configuration><configuration name="ITGetAccountBalance.get" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -1521,7 +853,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="ITAccountSignatorsSuccessRunner.accountSignatorsSuccessTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ITAccountSignatorsSuccessRunner.accountSignatorsSuccessTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true"></configuration>
     <configuration name="ITAccountSignatorsSuccessRunner.accountSignatorsSuccessTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -1548,7 +880,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle"></configuration>
     <configuration name="ITGetNaturalClient.get" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -1606,7 +938,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="accountsignatorsfailure.feature:56" type="karateConfigurationType" temporary="true" lineNumber="56" testName="accountsignatorsfailure.feature" testDescription="Feature: Consulta fallida de firmantes de una cuenta&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def randomNumber2 = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def randomNumber3 = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def date = new java.util.Date()&#10;    * def formatter = new java.text.SimpleDateFormat(&quot;yyyy-MM-dd'T'HH:mm:ss&quot;)&#10;    * formatter.setTimeZone(java.util.TimeZone.getTimeZone(&quot;UTC&quot;))&#10;    * def formattedDate = formatter.format(date)&#10;    * def body = karate.read('classpath:pa/com/bancomercantil/account/karate/datapersistence/jsonrequest/create.json')&#10;&#10;&#10;&#10;  @UnknowAccount&#10;  Scenario: Solicitud fallida de firmantes de una cuenta con cuenta invalida&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ randomNumber +'/signatory/retrieve'&#10;    And header transactionId = randomNumber2&#10;    And request body&#10;    When method get&#10;    Then status 404&#10;    And match response.message == 'Ocurrió un error inesperado.'&#10;    And match response.data.errorDetails.code == '404'&#10;    And match response.data.errorDetails.fields.exceptionType == 'NotFound'&#10;    And match response.data.errorDetails.fields.exceptionMessage == '404 : \&quot;{\&quot;status_code\&quot;:\&quot;404\&quot;,\&quot;status\&quot;:\&quot;NOT_FOUND\&quot;,\&quot;message\&quot;:\&quot;0009 : Numero de Referencia no Existe.\&quot;}\&quot;'&#10;&#10;&#10;  @WithoutAccount&#10;  Scenario: Solicitud fallida de firmantes de una cuenta sin numero de cuenta&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ '' +'/signatory/retrieve'&#10;    And header transactionId = randomNumber&#10;    And request body&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;Falta el parámetro requerido 'documenttype' en la solicitud.&quot;&#10;    And match response.data.errorDetails.code == 'ERROR-400'&#10;    And match response.data.errorDetails.fields.exceptionType == 'MissingServletRequestParameterException'&#10;    And match response.data.errorDetails.fields.exceptionMessage == &quot;Falta el parámetro requerido 'documenttype' en la solicitud.&quot;&#10;&#10;  @withoutHeaderTransactionId&#10;  Scenario: Solicitud fallida de firmantes de una cuenta sin header transactionId&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ '300000354' +'/signatory/retrieve'&#10;    And request body&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;Falta el encabezado requerido 'transactionId' en la solicitud.&quot;&#10;    And match response.data.errorDetails.code == 'ERROR-400'&#10;    And match response.data.errorDetails.fields.exceptionType == 'MissingRequestHeaderException'&#10;    And match response.data.errorDetails.fields.exceptionMessage == &quot;Falta el encabezado requerido 'transactionId' en la solicitud.&quot;&#10;&#10;  @EmptyTransactionId&#10;  Scenario: Solicitud fallida de firmantes de una cuenta con transactionId vacio&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ '300000354' +'/signatory/retrieve'&#10;    And header transactionId = ''&#10;    And request body&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;exception.request.transactionId&quot;&#10;    And match response.data.errorDetails.code == '400 BAD_REQUEST'&#10;    And match response.data.errorDetails.fields.message == 'El header transaction id no puede ir vacio'" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/accountsignators/features/accountsignatorsfailure.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/accountsignators/features/accountsignatorsfailure.feature">
+    <configuration name="accountsignatorsfailure.feature:56" type="karateConfigurationType" temporary="true" lineNumber="56" testName="accountsignatorsfailure.feature" testDescription="Feature: Consulta fallida de firmantes de una cuenta&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def randomNumber2 = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def randomNumber3 = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def date = new java.util.Date()&#10;    * def formatter = new java.text.SimpleDateFormat(&quot;yyyy-MM-dd'T'HH:mm:ss&quot;)&#10;    * formatter.setTimeZone(java.util.TimeZone.getTimeZone(&quot;UTC&quot;))&#10;    * def formattedDate = formatter.format(date)&#10;    * def body = karate.read('classpath:pa/com/bancomercantil/account/karate/datapersistence/jsonrequest/create.json')&#10;&#10;&#10;&#10;  @UnknowAccount&#10;  Scenario: Solicitud fallida de firmantes de una cuenta con cuenta invalida&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ randomNumber +'/signatory/retrieve'&#10;    And header transactionId = randomNumber2&#10;    And request body&#10;    When method get&#10;    Then status 404&#10;    And match response.message == 'Ocurrió un error inesperado.'&#10;    And match response.data.errorDetails.code == '404'&#10;    And match response.data.errorDetails.fields.exceptionType == 'NotFound'&#10;    And match response.data.errorDetails.fields.exceptionMessage == '404 : \&quot;{\&quot;status_code\&quot;:\&quot;404\&quot;,\&quot;status\&quot;:\&quot;NOT_FOUND\&quot;,\&quot;message\&quot;:\&quot;0009 : Numero de Referencia no Existe.\&quot;}\&quot;'&#10;&#10;&#10;  @WithoutAccount&#10;  Scenario: Solicitud fallida de firmantes de una cuenta sin numero de cuenta&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ '' +'/signatory/retrieve'&#10;    And header transactionId = randomNumber&#10;    And request body&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;Falta el parámetro requerido 'documenttype' en la solicitud.&quot;&#10;    And match response.data.errorDetails.code == 'ERROR-400'&#10;    And match response.data.errorDetails.fields.exceptionType == 'MissingServletRequestParameterException'&#10;    And match response.data.errorDetails.fields.exceptionMessage == &quot;Falta el parámetro requerido 'documenttype' en la solicitud.&quot;&#10;&#10;  @withoutHeaderTransactionId&#10;  Scenario: Solicitud fallida de firmantes de una cuenta sin header transactionId&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ '300000354' +'/signatory/retrieve'&#10;    And request body&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;Falta el encabezado requerido 'transactionId' en la solicitud.&quot;&#10;    And match response.data.errorDetails.code == 'ERROR-400'&#10;    And match response.data.errorDetails.fields.exceptionType == 'MissingRequestHeaderException'&#10;    And match response.data.errorDetails.fields.exceptionMessage == &quot;Falta el encabezado requerido 'transactionId' en la solicitud.&quot;&#10;&#10;  @EmptyTransactionId&#10;  Scenario: Solicitud fallida de firmantes de una cuenta con transactionId vacio&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ '300000354' +'/signatory/retrieve'&#10;    And header transactionId = ''&#10;    And request body&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;exception.request.transactionId&quot;&#10;    And match response.data.errorDetails.code == '400 BAD_REQUEST'&#10;    And match response.data.errorDetails.fields.message == 'El header transaction id no puede ir vacio'" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/accountsignators/features/accountsignatorsfailure.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/accountsignators/features/accountsignatorsfailure.feature"></configuration>
     <configuration name="accountsignatorsfailure.feature:45 (1)" type="karateConfigurationType" temporary="true" lineNumber="45" testName="accountsignatorsfailure.feature" testDescription="Feature: Consulta fallida de firmantes de una cuenta&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def randomNumber2 = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def randomNumber3 = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def date = new java.util.Date()&#10;    * def formatter = new java.text.SimpleDateFormat(&quot;yyyy-MM-dd'T'HH:mm:ss&quot;)&#10;    * formatter.setTimeZone(java.util.TimeZone.getTimeZone(&quot;UTC&quot;))&#10;    * def formattedDate = formatter.format(date)&#10;    * def body = karate.read('classpath:pa/com/bancomercantil/account/karate/datapersistence/jsonrequest/create.json')&#10;&#10;&#10;&#10;  @UnknowAccount&#10;  Scenario: Solicitud fallida de firmantes de una cuenta con cuenta invalida&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ randomNumber +'/signatory/retrieve'&#10;    And header transactionId = randomNumber2&#10;    And request body&#10;    When method get&#10;    Then status 404&#10;    And match response.message == 'Ocurrió un error inesperado.'&#10;    And match response.data.errorDetails.code == '404'&#10;    And match response.data.errorDetails.fields.exceptionType == 'NotFound'&#10;    And match response.data.errorDetails.fields.exceptionMessage == '404 : \&quot;{\&quot;status_code\&quot;:\&quot;404\&quot;,\&quot;status\&quot;:\&quot;NOT_FOUND\&quot;,\&quot;message\&quot;:\&quot;0009 : Numero de Referencia no Existe.\&quot;}\&quot;'&#10;&#10;&#10;  @WithoutAccount&#10;  Scenario: Solicitud fallida de firmantes de una cuenta sin numero de cuenta&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ '' +'/signatory/retrieve'&#10;    And header transactionId = randomNumber&#10;    And request body&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;Falta el parámetro requerido 'documenttype' en la solicitud.&quot;&#10;    And match response.data.errorDetails.code == 'ERROR-400'&#10;    And match response.data.errorDetails.fields.exceptionType == 'MissingServletRequestParameterException'&#10;    And match response.data.errorDetails.fields.exceptionMessage == &quot;Falta el parámetro requerido 'documenttype' en la solicitud.&quot;&#10;&#10;  @withoutHeaderTransactionId&#10;  Scenario: Solicitud fallida de firmantes de una cuenta sin header transactionId&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ '300000354' +'/signatory/retrieve'&#10;    And request body&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;Falta el encabezado requerido 'transactionId' en la solicitud.&quot;&#10;    And match response.data.errorDetails.code == 'ERROR-400'&#10;    And match response.data.errorDetails.fields.exceptionType == 'MissingRequestHeaderException'&#10;    And match response.data.errorDetails.fields.exceptionMessage == &quot;Falta el encabezado requerido 'transactionId' en la solicitud.&quot;" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/accountsignators/features/accountsignatorsfailure.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/accountsignators/features/accountsignatorsfailure.feature">
       <option name="MAIN_CLASS_NAME" value="com.rankweis.uppercut.testrunner.KarateTestRunner" />
       <module name="proyecto-base-karate-mercantilbanco.test" />
@@ -1614,10 +946,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="accountsignatorsfailure.feature:56" type="karateConfigurationType" temporary="true" lineNumber="56" testName="accountsignatorsfailure.feature" testDescription="Feature: Consulta fallida de firmantes de una cuenta&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def randomNumber2 = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def randomNumber3 = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def date = new java.util.Date()&#10;    * def formatter = new java.text.SimpleDateFormat(&quot;yyyy-MM-dd'T'HH:mm:ss&quot;)&#10;    * formatter.setTimeZone(java.util.TimeZone.getTimeZone(&quot;UTC&quot;))&#10;    * def formattedDate = formatter.format(date)&#10;    * def body = karate.read('classpath:pa/com/bancomercantil/account/karate/datapersistence/jsonrequest/create.json')&#10;&#10;&#10;&#10;  @UnknowAccount&#10;  Scenario: Solicitud fallida de firmantes de una cuenta con cuenta invalida&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ randomNumber +'/signatory/retrieve'&#10;    And header transactionId = randomNumber2&#10;    And request body&#10;    When method get&#10;    Then status 404&#10;    And match response.message == 'Ocurrió un error inesperado.'&#10;    And match response.data.errorDetails.code == '404'&#10;    And match response.data.errorDetails.fields.exceptionType == 'NotFound'&#10;    And match response.data.errorDetails.fields.exceptionMessage == '404 : \&quot;{\&quot;status_code\&quot;:\&quot;404\&quot;,\&quot;status\&quot;:\&quot;NOT_FOUND\&quot;,\&quot;message\&quot;:\&quot;0009 : Numero de Referencia no Existe.\&quot;}\&quot;'&#10;&#10;&#10;  @WithoutAccount&#10;  Scenario: Solicitud fallida de firmantes de una cuenta sin numero de cuenta&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ '' +'/signatory/retrieve'&#10;    And header transactionId = randomNumber&#10;    And request body&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;Falta el parámetro requerido 'documenttype' en la solicitud.&quot;&#10;    And match response.data.errorDetails.code == 'ERROR-400'&#10;    And match response.data.errorDetails.fields.exceptionType == 'MissingServletRequestParameterException'&#10;    And match response.data.errorDetails.fields.exceptionMessage == &quot;Falta el parámetro requerido 'documenttype' en la solicitud.&quot;&#10;&#10;  @withoutHeaderTransactionId&#10;  Scenario: Solicitud fallida de firmantes de una cuenta sin header transactionId&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ '300000354' +'/signatory/retrieve'&#10;    And request body&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;Falta el encabezado requerido 'transactionId' en la solicitud.&quot;&#10;    And match response.data.errorDetails.code == 'ERROR-400'&#10;    And match response.data.errorDetails.fields.exceptionType == 'MissingRequestHeaderException'&#10;    And match response.data.errorDetails.fields.exceptionMessage == &quot;Falta el encabezado requerido 'transactionId' en la solicitud.&quot;&#10;&#10;  @EmptyTransactionId&#10;  Scenario: Solicitud fallida de firmantes de una cuenta con transactionId vacio&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ '300000354' +'/signatory/retrieve'&#10;    And header transactionId = ''&#10;    And request body&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;exception.request.transactionId&quot;&#10;    And match response.data.errorDetails.code == '400 BAD_REQUEST'&#10;    And match response.data.errorDetails.fields.message == 'El header transaction id no puede ir vacio'" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/accountsignators/features/accountsignatorsfailure.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/accountsignators/features/accountsignatorsfailure.feature">
-    <configuration name="statussavingsaccountfailure.feature:39" type="karateConfigurationType" temporary="true" lineNumber="39" testName="statussavingsaccountfailure.feature" testDescription="Scenario:" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getstatusaccount/features/statussavingsaccountfailure.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/getstatusaccount/features/statussavingsaccountfailure.feature">
-    <configuration name="evenmanager.feature" type="karateConfigurationType" temporary="true" lineNumber="1" testName="evenmanager.feature" testDescription="Feature" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/eventmaganer/features/evenmanager.feature" preferredTest="WHOLE_FILE" parallelism="5" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/eventmaganer/features/evenmanager.feature">
-    <configuration name="getcurrentaccountssuccess.feature:12 (1)" type="karateConfigurationType" temporary="true" lineNumber="12" testName="getcurrentaccountssuccess.feature" testDescription="Feature: Solicitud exitosa cuentas corriente&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;&#10;&#10;  @getcurrentaccountssuccess&#10;    Scenario: Consulta de cuentas corriente exitosa&#10;        Given url urlBase + '/v1/current-account/'+'118067'&#10;        And header page = 1&#10;        And header pageLimit = 10&#10;        And header transactionId = randomNumber&#10;        And params status = 'ALL'&#10;        When method get&#10;        Then status 200&#10;&#10;&#10;&#10;&#10;&#10;" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature">
+    <configuration name="accountsignatorsfailure.feature:56" type="karateConfigurationType" temporary="true" lineNumber="56" testName="accountsignatorsfailure.feature" testDescription="Feature: Consulta fallida de firmantes de una cuenta&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def randomNumber2 = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def randomNumber3 = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;    * def date = new java.util.Date()&#10;    * def formatter = new java.text.SimpleDateFormat(&quot;yyyy-MM-dd'T'HH:mm:ss&quot;)&#10;    * formatter.setTimeZone(java.util.TimeZone.getTimeZone(&quot;UTC&quot;))&#10;    * def formattedDate = formatter.format(date)&#10;    * def body = karate.read('classpath:pa/com/bancomercantil/account/karate/datapersistence/jsonrequest/create.json')&#10;&#10;&#10;&#10;  @UnknowAccount&#10;  Scenario: Solicitud fallida de firmantes de una cuenta con cuenta invalida&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ randomNumber +'/signatory/retrieve'&#10;    And header transactionId = randomNumber2&#10;    And request body&#10;    When method get&#10;    Then status 404&#10;    And match response.message == 'Ocurrió un error inesperado.'&#10;    And match response.data.errorDetails.code == '404'&#10;    And match response.data.errorDetails.fields.exceptionType == 'NotFound'&#10;    And match response.data.errorDetails.fields.exceptionMessage == '404 : \&quot;{\&quot;status_code\&quot;:\&quot;404\&quot;,\&quot;status\&quot;:\&quot;NOT_FOUND\&quot;,\&quot;message\&quot;:\&quot;0009 : Numero de Referencia no Existe.\&quot;}\&quot;'&#10;&#10;&#10;  @WithoutAccount&#10;  Scenario: Solicitud fallida de firmantes de una cuenta sin numero de cuenta&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ '' +'/signatory/retrieve'&#10;    And header transactionId = randomNumber&#10;    And request body&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;Falta el parámetro requerido 'documenttype' en la solicitud.&quot;&#10;    And match response.data.errorDetails.code == 'ERROR-400'&#10;    And match response.data.errorDetails.fields.exceptionType == 'MissingServletRequestParameterException'&#10;    And match response.data.errorDetails.fields.exceptionMessage == &quot;Falta el parámetro requerido 'documenttype' en la solicitud.&quot;&#10;&#10;  @withoutHeaderTransactionId&#10;  Scenario: Solicitud fallida de firmantes de una cuenta sin header transactionId&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ '300000354' +'/signatory/retrieve'&#10;    And request body&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;Falta el encabezado requerido 'transactionId' en la solicitud.&quot;&#10;    And match response.data.errorDetails.code == 'ERROR-400'&#10;    And match response.data.errorDetails.fields.exceptionType == 'MissingRequestHeaderException'&#10;    And match response.data.errorDetails.fields.exceptionMessage == &quot;Falta el encabezado requerido 'transactionId' en la solicitud.&quot;&#10;&#10;  @EmptyTransactionId&#10;  Scenario: Solicitud fallida de firmantes de una cuenta con transactionId vacio&#10;    Given url urlBase + '/v1/party-reference-data-directory/reference/'+ '300000354' +'/signatory/retrieve'&#10;    And header transactionId = ''&#10;    And request body&#10;    When method get&#10;    Then status 400&#10;    And match response.message == &quot;exception.request.transactionId&quot;&#10;    And match response.data.errorDetails.code == '400 BAD_REQUEST'&#10;    And match response.data.errorDetails.fields.message == 'El header transaction id no puede ir vacio'" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/accountsignators/features/accountsignatorsfailure.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/accountsignators/features/accountsignatorsfailure.feature"></configuration>
+    <configuration name="statussavingsaccountfailure.feature:39" type="karateConfigurationType" temporary="true" lineNumber="39" testName="statussavingsaccountfailure.feature" testDescription="Scenario:" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getstatusaccount/features/statussavingsaccountfailure.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/getstatusaccount/features/statussavingsaccountfailure.feature"></configuration>
+    <configuration name="evenmanager.feature" type="karateConfigurationType" temporary="true" lineNumber="1" testName="evenmanager.feature" testDescription="Feature" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/eventmaganer/features/evenmanager.feature" preferredTest="WHOLE_FILE" parallelism="5" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/eventmaganer/features/evenmanager.feature"></configuration>
+    <configuration name="getcurrentaccountssuccess.feature:12 (1)" type="karateConfigurationType" temporary="true" lineNumber="12" testName="getcurrentaccountssuccess.feature" testDescription="Feature: Solicitud exitosa cuentas corriente&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;&#10;&#10;  @getcurrentaccountssuccess&#10;    Scenario: Consulta de cuentas corriente exitosa&#10;        Given url urlBase + '/v1/current-account/'+'118067'&#10;        And header page = 1&#10;        And header pageLimit = 10&#10;        And header transactionId = randomNumber&#10;        And params status = 'ALL'&#10;        When method get&#10;        Then status 200&#10;&#10;&#10;&#10;&#10;&#10;" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature"></configuration>
       <option name="MAIN_CLASS_NAME" value="com.rankweis.uppercut.testrunner.KarateTestRunner" />
       <module name="proyecto-base-karate-mercantilbanco.test" />
       <method v="2">
@@ -1647,7 +979,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="getcurrentaccountssuccess.feature:12 (2)" type="karateConfigurationType" temporary="true" lineNumber="12" testName="getcurrentaccountssuccess.feature" testDescription="Feature: Solicitud exitosa cuentas corriente&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;&#10;&#10;  @getcurrentaccountssuccess&#10;    Scenario: Consulta de cuentas corriente exitosa&#10;        Given url urlBase + '/v1/current-account/'+'118067'&#10;        And header page = 1&#10;        And header pageLimit = 10&#10;        And header transactionId = randomNumber&#10;        And param status = 'ALL'&#10;        When method get&#10;        Then status 200&#10;&#10;&#10;&#10;&#10;&#10;" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature">
+    <configuration name="getcurrentaccountssuccess.feature:12 (2)" type="karateConfigurationType" temporary="true" lineNumber="12" testName="getcurrentaccountssuccess.feature" testDescription="Feature: Solicitud exitosa cuentas corriente&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;&#10;&#10;  @getcurrentaccountssuccess&#10;    Scenario: Consulta de cuentas corriente exitosa&#10;        Given url urlBase + '/v1/current-account/'+'118067'&#10;        And header page = 1&#10;        And header pageLimit = 10&#10;        And header transactionId = randomNumber&#10;        And param status = 'ALL'&#10;        When method get&#10;        Then status 200&#10;&#10;&#10;&#10;&#10;&#10;" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature"></configuration>
     <configuration name="getnaturalclien.feature" type="karateConfigurationType" temporary="true" lineNumber="10" testName="getnaturalclien.feature" testDescription="match response == clientResponses.detailVenezuelaSuccess" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa.com.bancomercantil/client.karate/getnaturalclient/features/getnaturalclien.feature" preferredTest="WHOLE_FILE" parallelism="5" allInFolderAreFeature="false" relPath="pa.com.bancomercantil/client.karate/getnaturalclient/features/getnaturalclien.feature">
       <option name="MAIN_CLASS_NAME" value="com.rankweis.uppercut.testrunner.KarateTestRunner" />
       <module name="proyecto-base-karate-mercantilbanco.test" />
@@ -1655,7 +987,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="getcurrentaccountssuccess.feature:12 (3)" type="karateConfigurationType" temporary="true" lineNumber="12" testName="getcurrentaccountssuccess.feature" testDescription="Feature: Solicitud exitosa cuentas corriente&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;&#10;&#10;  @getcurrentaccountssuccess&#10;    Scenario: Consulta de cuentas corriente exitosa&#10;        Given url urlBase + '/v1/current-account/'+'118067/'&#10;        And header page = 1&#10;        And header pageLimit = 10&#10;        And header transactionId = randomNumber&#10;        And param status = 'ALL'&#10;        When method get&#10;        Then status 200&#10;&#10;&#10;&#10;&#10;&#10;" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature">
+    <configuration name="getcurrentaccountssuccess.feature:12 (3)" type="karateConfigurationType" temporary="true" lineNumber="12" testName="getcurrentaccountssuccess.feature" testDescription="Feature: Solicitud exitosa cuentas corriente&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;&#10;&#10;  @getcurrentaccountssuccess&#10;    Scenario: Consulta de cuentas corriente exitosa&#10;        Given url urlBase + '/v1/current-account/'+'118067/'&#10;        And header page = 1&#10;        And header pageLimit = 10&#10;        And header transactionId = randomNumber&#10;        And param status = 'ALL'&#10;        When method get&#10;        Then status 200&#10;&#10;&#10;&#10;&#10;&#10;" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature"></configuration>
       <option name="MAIN_CLASS_NAME" value="com.rankweis.uppercut.testrunner.KarateTestRunner" />
       <module name="proyecto-base-karate-mercantilbanco.test" />
       <method v="2">
@@ -1692,7 +1024,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="getcurrentaccountssuccess.feature:12" type="karateConfigurationType" temporary="true" lineNumber="12" testName="getcurrentaccountssuccess.feature" testDescription="Feature: Solicitud exitosa cuentas corriente&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;&#10;&#10;  @getcurrentaccountssuccess&#10;    Scenario: Consulta de cuentas corriente exitosa&#10;        Given url urlBase + '/v1/current-account/'+'&lt;cif&gt;'&#10;        And header page = 1&#10;        And header pageLimit = 10&#10;        And header transactionId = randomNumber&#10;        And params status = 'ALL'&#10;        When method get&#10;        Then status 200&#10;&#10;&#10;&#10;&#10;&#10;" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature">
+    <configuration name="getcurrentaccountssuccess.feature:12" type="karateConfigurationType" temporary="true" lineNumber="12" testName="getcurrentaccountssuccess.feature" testDescription="Feature: Solicitud exitosa cuentas corriente&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;&#10;&#10;  @getcurrentaccountssuccess&#10;    Scenario: Consulta de cuentas corriente exitosa&#10;        Given url urlBase + '/v1/current-account/'+'&lt;cif&gt;'&#10;        And header page = 1&#10;        And header pageLimit = 10&#10;        And header transactionId = randomNumber&#10;        And params status = 'ALL'&#10;        When method get&#10;        Then status 200&#10;&#10;&#10;&#10;&#10;&#10;" featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/getcurrentaccounts/features/getcurrentaccountssuccess.feature"></configuration>
     <configuration name="getsavingsaccountssuccess.feature:120" type="karateConfigurationType" temporary="true" lineNumber="120" testName="getsavingsaccountssuccess.feature" testDescription="Feature: Solicitud exitosa cuentas ahorro&#10;  Background:&#10;    * def config = call read('classpath:karate-config.js')&#10;    * karate.configure('connectTimeout', config.connectTimeout)&#10;    * karate.configure('readTimeout', config.readTimeout)&#10;    * def urlBase = config.urlBase&#10;    * def randomUtils = Java.type('pa.com.bancomercantil.authentication.karate.utils.RandomUtils')&#10;    * def randomNumber = randomUtils.generateRandomUtil(8,&quot;number&quot;)&#10;&#10;&#10;  @getAllSavingAccountsSuccess&#10;  Scenario Outline: Solicitud exitosa de todas las cuentas Ahorros del cliente&#10;    Given url urlBase + '/v1/savings-account/'+'&lt;cif&gt;' + '/detail/retrieve'&#10;    And header page = 1&#10;    And header pageLimit = 10&#10;    And header transactionId = randomNumber&#10;    And param status = 'ALL'&#10;    When method get&#10;    Then status 200&#10;    And match response.data.savingsAccounts[&lt;i&gt;].SavingsAccountNumber.AccountIdentification.IdentifierValue.Value == '&lt;accountNumber&gt;'&#10;&#10;    Examples:&#10;      |   cif     |i|accountNumber|&#10;      |  340324   |0| 10116006289 |&#10;      |  340324   |1| 3115019697  |&#10;      |  414122   |0| 1420000973  |&#10;      |  75083    |0| 200025463   |&#10;      |  324418   |0| 10116005841 |&#10;&#10;  @getASavingAccountsSuccess&#10;  Scenario Outline: Solicitud exitosa las cuentas Ahorros habilitadas del cliente&#10;    Given url urlBase + '/v1/savings-account/'+'&lt;cif&gt;' + '/detail/retrieve'&#10;    And header page = 1&#10;    And header pageLimit = 10&#10;    And header transactionId = randomNumber&#10;    And param status = 'ENABLED'&#10;    When method get&#10;    Then status &lt;status&gt;&#10;    And def account = (response.status == 200? response.data.savingsAccounts[&lt;i&gt;].SavingsAccountNumber.AccountIdentification.IdentifierValue.Value:'&lt;accountNumber&gt;')&#10;    And match account == '&lt;accountNumber&gt;'&#10;&#10;    Examples:&#10;      |   cif     |i|accountNumber|  status  |&#10;      |  340324   |0| 10116006289 |   200    |&#10;      |  340324   |1| 3115019697  |   200    |&#10;      |  414122   |0| 1420000973  |   200    |&#10;      |  118067   |0| 639067256   |   204    |&#10;      |   75083   |0| 200025463   |   204    |&#10;      |   324418  |0| 1201004604  |   200    |&#10;&#10;  @getCSavingAccountsSuccess&#10;  Scenario Outline: Solicitud exitosa las cuentas Ahorros CANCELED del cliente&#10;    Given url urlBase + '/v1/savings-account/'+'&lt;cif&gt;' + '/detail/retrieve'&#10;    And header page = 1&#10;    And header pageLimit = 10&#10;    And header transactionId = randomNumber&#10;    And param status = 'CANCELED'&#10;    When method get&#10;    Then status &lt;status&gt;&#10;&#10;    Examples:&#10;      |   cif   |i|accountNumber|  status  |&#10;      |  215687 |0|  30041357   |   204    |&#10;&#10;  @getISavingAccountsSuccess&#10;  Scenario Outline: Solicitud exitosa las cuentas Ahorros inhabilitadas del cliente&#10;    Given url urlBase + '/v1/savings-account/'+'&lt;cif&gt;' + '/detail/retrieve'&#10;    And header page = 1&#10;    And header pageLimit = 10&#10;    And header transactionId = randomNumber&#10;    And param status = 'DISABLED'&#10;    When method get&#10;    Then status &lt;status&gt;&#10;    And def account = (response.status == 200? response.data.savingsAccounts[&lt;i&gt;].SavingsAccountNumber.AccountIdentification.IdentifierValue.Value:'&lt;accountNumber&gt;')&#10;    And match account == '&lt;accountNumber&gt;'&#10;&#10;    Examples:&#10;      |   cif   |i|accountNumber|  status  |&#10;      |  340324 |0| 5370000173  |   204    |&#10;      |  414122 |0| 639844185   |   204    |&#10;      |  75083  |0| 200025463   |   200    |&#10;      |  324418 |0| 1201006649  |   204    |&#10;      |  351732 |0| 10246000091  |   200    |&#10;      |  351732 |0| 10246000091  |   200    |&#10;&#10;  @getDSavingAccountsSuccess&#10;  Scenario Outline: Solicitud exitosa las cuentas Ahorros DELETED del cliente&#10;    Given url urlBase + '/v1/savings-account/'+'&lt;cif&gt;' + '/detail/retrieve'&#10;    And header page = 1&#10;    And header pageLimit = 10&#10;    And header transactionId = randomNumber&#10;    And param status = 'DELETED'&#10;    When method get&#10;    Then status &lt;status&gt;&#10;    And def account = (response.status == 200? response.data.savingsAccounts[&lt;i&gt;].SavingsAccountNumber.AccountIdentification.IdentifierValue.Value:'&lt;accountNumber&gt;')&#10;    And match account == '&lt;accountNumber&gt;'&#10;&#10;    Examples:&#10;      |   cif   |i|accountNumber|  status  |&#10;      |  119017 |0| 639076861   |   204    |&#10;&#10;  @getOSavingAccountsSuccess&#10;  Scenario Outline: Solicitud exitosa las cuentas Ahorros CONTROLLED del cliente&#10;    Given url urlBase + '/v1/savings-account/'+'&lt;cif&gt;' + '/detail/retrieve'&#10;    And header page = 1&#10;    And header pageLimit = 10&#10;    And header transactionId = randomNumber&#10;    And param status = 'CONTROLLED'&#10;    When method get&#10;    Then status &lt;status&gt;&#10;    And def account = (response.status == 200? response.data.savingsAccounts[&lt;i&gt;].SavingsAccountNumber.AccountIdentification.IdentifierValue.Value:'&lt;accountNumber&gt;')&#10;    And match account == '&lt;accountNumber&gt;'&#10;&#10;    Examples:&#10;      |   cif   |i|accountNumber|  status  |&#10;      | 150284  |0|  20028603   |   200    |&#10;&#10;&#10;  @getOSavingAccountsSuccess&#10;  Scenario Outline: Solicitud exitosa las cuentas Ahorros EMBARGOED del cliente&#10;    Given url urlBase + '/v1/savings-account/'+'&lt;cif&gt;' + '/detail/retrieve'&#10;    And header page = 1&#10;    And header pageLimit = 10&#10;    And header transactionId = randomNumber&#10;    And param status = 'EMBARGOED'&#10;    When method get&#10;    Then status &lt;status&gt;&#10;    And def account = (response.status == 200? response.data.savingsAccounts[&lt;i&gt;].SavingsAccountNumber.AccountIdentification.IdentifierValue.Value:'&lt;accountNumber&gt;')&#10;    And match account == '&lt;accountNumber&gt;'&#10;&#10;    Examples:&#10;      |   cif   |i|accountNumber|  status  |&#10;      |  46888  |0| 4200040594  |   200    |&#10;&#10;  @getTSavingAccountsSuccess&#10;  Scenario Outline: Solicitud exitosa las cuentas Ahorros solo depositos del cliente&#10;    Given url urlBase + '/v1/savings-account/'+'&lt;cif&gt;' + '/detail/retrieve'&#10;    And header page = 1&#10;    And header pageLimit = 10&#10;    And header transactionId = randomNumber&#10;    And param status = 'DEPOSIT_ONLY'&#10;    When method get&#10;    Then status &lt;status&gt;&#10;    And def account = (response.status == 200? response.data.savingsAccounts[&lt;i&gt;].SavingsAccountNumber.AccountIdentification.IdentifierValue.Value:'&lt;accountNumber&gt;')&#10;    And match account == '&lt;accountNumber&gt;'&#10;&#10;    Examples:&#10;      |   cif   |i|accountNumber|  status  |&#10;      |  167333 |0|  30041357   |   200    |&#10;    " featureName="" scenarioName="" tag="" path="$PROJECT_DIR$/src/test/resources/pa/com/bancomercantil/account/karate/getsavingaccounts/features/getsavingsaccountssuccess.feature" preferredTest="SINGLE_SCENARIO" parallelism="1" allInFolderAreFeature="false" relPath="pa/com/bancomercantil/account/karate/getsavingaccounts/features/getsavingsaccountssuccess.feature">
       <option name="MAIN_CLASS_NAME" value="com.rankweis.uppercut.testrunner.KarateTestRunner" />
       <module name="proyecto-base-karate-mercantilbanco.test" />
