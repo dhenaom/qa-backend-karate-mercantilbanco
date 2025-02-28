@@ -28,21 +28,3 @@ Feature: validar casos success servicio movimients TDC
       And match response.data.CardTransactionCaptureDetail.CardTransactionStatus contains {Status: "#string", StatusCode: "#string",StatusMessage: "#string"}
       And match response.data.CardTransactionCaptureDetail.TransactionDetails == '#notnull'
       And match each response.data.CardTransactionCaptureDetail.TransactionDetails contains { TransactionMerchant: '#string', TransactionDate: '#string', TransactionTime: '#string', TransactionCurrencyCode: '#string', TransactionAmount: '#string', TransactionType: '#string', TransactionAuthNumber: '#string', TransactionMCCCode: '#string', TransactionMCCCategory: '#string' }
-
-  @WithOutMovementsSuccess
-  Scenario: solicitud tarjeta de credito sin movimientos
-    * def baseBody = readBody.bodyOk
-    * set baseBody.CardTransactionCapture.StartDate = '2025-02-21'
-    * set baseBody.CardTransactionCapture.EndDate = '2025-02-22'
-    Given url urlBase + path
-    And header transactionId = randomNumber
-    And request baseBody
-    When method POST
-    Then status 204
-    And match response.status == 'SUCCESS'
-    And match response.timestamp == isoformat
-    And match response.transactionId == randomNumber
-    And match response.message == 'Successfully processed the card transaction.'
-    And match response.data == '#notnull'
-    And match response.data.CardTransactionCaptureDetail.CardTransactionStatus == '#notnull'
-    And match response.data.CardTransactionCaptureDetail.CardTransactionStatus contains {Status: "#string", StatusCode: "#string",StatusMessage: "#string"}

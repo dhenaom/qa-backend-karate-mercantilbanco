@@ -185,3 +185,18 @@ Feature: validar casos failures servicio movimientos TDC
     And match response.status == 'ERROR'
     And match response.transactionId == randomNumber
     And match response.timestamp == isoformat
+
+  @WithOutMovementsSuccess
+  Scenario: solicitud tarjeta de credito sin movimientos
+    * def baseBody = readBody.bodyOk
+    * set baseBody.CardTransactionCapture.StartDate = '2025-02-21'
+    * set baseBody.CardTransactionCapture.EndDate = '2025-02-22'
+    Given url urlBase + path
+    And header transactionId = randomNumber
+    And request baseBody
+    When method POST
+    Then status 404
+    And match response.message == messageerror
+    And match response.status == 'ERROR'
+    And match response.transactionId == randomNumber
+    And match response.timestamp == isoformat
