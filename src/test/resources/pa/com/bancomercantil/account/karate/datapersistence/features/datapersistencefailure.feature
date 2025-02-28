@@ -1,4 +1,4 @@
-@persistence
+  @persistence
 Feature: Guardado de registros en tabla de persistencia de datos Exitoso
   Background:
     * def config = call read('classpath:karate-config.js')
@@ -18,7 +18,7 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
   @CreateFailureTransactionIdNull
   Scenario: Solicitud Create Fallida transactionId nulo
     * set body.entity.createdAt = formattedDate
-    Given url urlBase + '/v1/persistence/data/create'
+    Given url urlBase + '/v1/operationsengine/data/create'
     And header transactionId = null
     And request body
     When method post
@@ -31,7 +31,7 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
   @CreateFailureWithOutTransactionIdHeader
   Scenario: Solicitud Create Fallida sin header transactionId
     * set body.entity.createdAt = formattedDate
-    Given url urlBase + '/v1/persistence/data/create'
+    Given url urlBase + '/v1/operationsengine/data/create'
     And request body
     When method post
     Then status 400
@@ -44,7 +44,7 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
 #  Scenario: Solicitud Create Fallida dataTypeAlias nulo
 #    * set body.entity.createdAt = formattedDate
 #    * set body.dataTypeAlias = null
-#    Given url urlBase + '/v1/persistence/data/create'
+#    Given url urlBase + '/v1/operationsengine/data/create'
 #    And header transactionId = randomNumber
 #    And request body
 #    When method post
@@ -58,7 +58,7 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
 #  Scenario: Solicitud Create Fallida dataTypeAlias invalido
 #    * set body.entity.createdAt = formattedDate
 #    * set body.dataTypeAlias = ''
-#    Given url urlBase + '/v1/persistence/data/create'
+#    Given url urlBase + '/v1/operationsengine/data/create'
 #    And header transactionId = randomNumber
 #    And request body
 #    When method post
@@ -72,7 +72,7 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
   Scenario: Solicitud Create Fallida objectType nulo
     * set body.entity.createdAt = formattedDate
     * set body.objectType = null
-    Given url urlBase + '/v1/persistence/data/create'
+    Given url urlBase + '/v1/operationsengine/data/create'
     And header transactionId = randomNumber
     And request body
     When method post
@@ -86,7 +86,7 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
   Scenario: Solicitud Create Fallida objectType invalido
     * set body.entity.createdAt = formattedDate
     * set body.objectType = ' '
-    Given url urlBase + '/v1/persistence/data/create'
+    Given url urlBase + '/v1/operationsengine/data/create'
     And header transactionId = randomNumber
     And request body
     When method post
@@ -99,7 +99,7 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
   @CreateFailureNullEntity
   Scenario: Solicitud Create Fallida entity nulo
     * set body.entity = null
-    Given url urlBase + '/v1/persistence/data/create'
+    Given url urlBase + '/v1/operationsengine/data/create'
     And header transactionId = randomNumber
     And request body
     When method post
@@ -111,7 +111,7 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
 
   @GetFailureTransactionIdNull
   Scenario: Solicitud Get fallida con transactionId nulo
-    Given url urlBase + '/v1/persistence/data/67acf07891fd942e9faf6ccd/retrieve'
+    Given url urlBase + '/v1/operationsengine/data/67acf07891fd942e9faf6ccd/retrieve'
     And header transactionId = null
     And header dataTypeAlias = 'TYPE_BD_01'
     And header objectType = 'ENTITY_01'
@@ -124,7 +124,7 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
 
   @GetFailureWithOutHeaderTransactionId
   Scenario: Solicitud Get fallida sin header de transactionId
-    Given url urlBase + '/v1/persistence/data/67acf07891fd942e9faf6ccd/retrieve'
+    Given url urlBase + '/v1/operationsengine/data/67acf07891fd942e9faf6ccd/retrieve'
 #    And header transactionId = null
     And header dataTypeAlias = 'TYPE_BD_01'
     And header objectType = 'ENTITY_01'
@@ -137,7 +137,7 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
 
 #  @GetFailureEmptyDataTypeAlias
 #  Scenario: Solicitud Get fallida con dataTypeAlias vacio
-#    Given url urlBase + '/v1/persistence/data/67acf07891fd942e9faf6ccd/retrieve'
+#    Given url urlBase + '/v1/operationsengine/data/67acf07891fd942e9faf6ccd/retrieve'
 #    And header transactionId = randomNumber
 #    And header dataTypeAlias = ''
 #    And header objectType = 'ENTITY_01'
@@ -150,7 +150,7 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
 
 #  @GetFailureInvalidDataTypeAlias
 #  Scenario: Solicitud Get fallida con dataTypeAlias invalido
-#    Given url urlBase + '/v1/persistence/data/67acf07891fd942e9faf6ccd/retrieve'
+#    Given url urlBase + '/v1/operationsengine/data/67acf07891fd942e9faf6ccd/retrieve'
 #    And header transactionId = randomNumber
 #    And header dataTypeAlias = randomString
 #    And header objectType = 'ENTITY_01'
@@ -163,7 +163,7 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
 
 #  @GetFailureWithOutHeaderDataTypeAlias
 #  Scenario: Solicitud Get fallida  sin header dataTypeAlias
-#    Given url urlBase + '/v1/persistence/data/67acf07891fd942e9faf6ccd/retrieve'
+#    Given url urlBase + '/v1/operationsengine/data/67acf07891fd942e9faf6ccd/retrieve'
 #    And header transactionId = randomNumber
 ##    And header dataTypeAlias = randomString
 #    And header objectType = 'ENTITY_01'
@@ -176,7 +176,7 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
 
   @GetFailureEmptyobjectType
   Scenario: Solicitud Get fallida con objectType vacio
-    Given url urlBase + '/v1/persistence/data/67acf07891fd942e9faf6ccd/retrieve'
+    Given url urlBase + '/v1/operationsengine/data/67acf07891fd942e9faf6ccd/retrieve'
     And header transactionId = randomNumber
     And header objectType = ''
     When method get
@@ -188,7 +188,7 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
 
   @GetFailureInvalidobjectType
   Scenario: Solicitud Get fallida con objectType invalido
-    Given url urlBase + '/v1/persistence/data/67acf07891fd942e9faf6ccd/retrieve'
+    Given url urlBase + '/v1/operationsengine/data/67acf07891fd942e9faf6ccd/retrieve'
     And header transactionId = randomNumber
     And header objectType = randomString
     When method get
@@ -200,7 +200,7 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
 
   @GetFailureWithOutHeaderobjectType
   Scenario: Solicitud Get fallida sin header objectType
-    Given url urlBase + '/v1/persistence/data/67acf07891fd942e9faf6ccd/retrieve'
+    Given url urlBase + '/v1/operationsengine/data/67acf07891fd942e9faf6ccd/retrieve'
     And header transactionId = randomNumber
     When method get
     Then status 400
@@ -212,7 +212,7 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
   @UpdateFailureTransactionIdNull
   Scenario: Solicitud Update fallida con transactionId nulo
     * set body.entity.completedAt = formattedDate
-    Given url urlBase + '/v1/persistence/data/67acf07891fd942e9faf6ccd/update'
+    Given url urlBase + '/v1/operationsengine/data/67acf07891fd942e9faf6ccd/update'
     And header transactionId = null
     And request body
     When method put
@@ -225,7 +225,7 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
   @UpdateFailureWithOutHeaderTransactionId
   Scenario: Solicitud Update fallida sin header transactionId
     * set body.entity.completedAt = formattedDate
-    Given url urlBase + '/v1/persistence/data/67acf07891fd942e9faf6ccd/update'
+    Given url urlBase + '/v1/operationsengine/data/67acf07891fd942e9faf6ccd/update'
 #    And header transactionId = null
     And request body
     When method put
@@ -239,7 +239,7 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
 #  Scenario: Solicitud Update fallida con dataTypeAlias invalido
 #    * set body.entity.completedAt = formattedDate
 #    * set body.dataTypeAlias = ''
-#    Given url urlBase + '/v1/persistence/data/67acf07891fd942e9faf6ccd/update'
+#    Given url urlBase + '/v1/operationsengine/data/67acf07891fd942e9faf6ccd/update'
 #    And header transactionId = randomNumber
 #    And request body
 #    When method put
@@ -253,7 +253,7 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
 #  Scenario: Solicitud Update fallida con dataTypeAlias nulo
 #    * set body.entity.completedAt = formattedDate
 #    * set body.dataTypeAlias = null
-#    Given url urlBase + '/v1/persistence/data/67acf07891fd942e9faf6ccd/update'
+#    Given url urlBase + '/v1/operationsengine/data/67acf07891fd942e9faf6ccd/update'
 #    And header transactionId = randomNumber
 #    And request body
 #    When method put
@@ -267,7 +267,7 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
   Scenario: Solicitud Update fallida con objectType invalido
     * set body.entity.completedAt = formattedDate
     * set body.objectType = randomString
-    Given url urlBase + '/v1/persistence/data/67acf07891fd942e9faf6ccd/update'
+    Given url urlBase + '/v1/operationsengine/data/67acf07891fd942e9faf6ccd/update'
     And header transactionId = randomNumber
     And request body
     When method put
@@ -281,7 +281,7 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
   Scenario: Solicitud Update fallida con objectType nulo
     * set body.entity.completedAt = formattedDate
     * set body.objectType = null
-    Given url urlBase + '/v1/persistence/data/67acf07891fd942e9faf6ccd/update'
+    Given url urlBase + '/v1/operationsengine/data/67acf07891fd942e9faf6ccd/update'
     And header transactionId = randomNumber
     And request body
     When method put
@@ -294,7 +294,7 @@ Feature: Guardado de registros en tabla de persistencia de datos Exitoso
   @UpdateFailureNullEntity
   Scenario: Solicitud Update fallida con entity nulo
     * set body.entity = null
-    Given url urlBase + '/v1/persistence/data/67acf07891fd942e9faf6ccd/update'
+    Given url urlBase + '/v1/operationsengine/data/67acf07891fd942e9faf6ccd/update'
     And header transactionId = randomNumber
     And request body
     When method put

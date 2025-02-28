@@ -36,11 +36,10 @@ Feature: Consulta fallida de firmantes de una cuenta
     And header transactionId = randomNumber
     And request body
     When method get
-    Then status 400
-    And match response.message == "Falta el parámetro requerido 'documenttype' en la solicitud."
-    And match response.data.errorDetails.code == 'ERROR-400'
-    And match response.data.errorDetails.fields.exceptionType == 'MissingServletRequestParameterException'
-    And match response.data.errorDetails.fields.exceptionMessage == "Falta el parámetro requerido 'documenttype' en la solicitud."
+    Then status 404
+    And match response.message == "exception.request.country"
+    And match response.data.errorDetails.code == '404 NOT_FOUND'
+    And match response.data.errorDetails.fields.message == 'Ruta no encontrada'
 
   @withoutHeaderTransactionId
   Scenario: Solicitud fallida de firmantes de una cuenta sin header transactionId
